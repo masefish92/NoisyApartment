@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import NewsletterForm from "@/components/NewsletterForm";
 import { getFeaturedArticles } from "@/lib/content";
-import { getCategoriesByGroup } from "@/lib/categories";
+import { getCategoriesByGroup, getCategory } from "@/lib/categories";
 
 const HERO_CHIPS = getCategoriesByGroup("source");
 const SOURCE_CATEGORIES = getCategoriesByGroup("source");
@@ -187,7 +187,7 @@ export default function HomePage() {
                   className="group flex flex-col border border-outline-variant bg-white hover:border-primary transition-all duration-300 p-8"
                 >
                   <p className="font-label-sm text-label-sm text-secondary uppercase tracking-widest mb-4">
-                    {article.category}
+                    {getCategory(article.category)?.label ?? article.category}
                   </p>
                   <h3 className="font-headline-md text-headline-md text-primary mb-4">
                     {article.title}
