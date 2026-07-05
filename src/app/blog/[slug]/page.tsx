@@ -33,10 +33,13 @@ export async function generateMetadata({
 }
 
 function formatDate(date: string) {
+  // Dates are stored as plain "YYYY-MM-DD" strings; force UTC so the
+  // displayed date doesn't shift by a day depending on server/viewer timezone.
   return new Date(date).toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
     day: "numeric",
+    timeZone: "UTC",
   });
 }
 

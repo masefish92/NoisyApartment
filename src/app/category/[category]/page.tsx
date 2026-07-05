@@ -1,8 +1,14 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { CATEGORIES, getCategory } from "@/lib/categories";
+import { CATEGORIES, getCategory, type CategoryGroup } from "@/lib/categories";
 import { getArticlesByCategory } from "@/lib/content";
+
+const GROUP_LABELS: Record<CategoryGroup, string> = {
+  source: "By Noise Source",
+  room: "By Room",
+  resource: "Tools & Resources",
+};
 
 export async function generateStaticParams() {
   return CATEGORIES.map((category) => ({ category: category.slug }));
@@ -36,7 +42,7 @@ export default async function CategoryPage({
   return (
     <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-section-gap">
       <p className="font-label-sm text-label-sm uppercase tracking-widest text-secondary mb-4">
-        {category.group === "source" ? "By Noise Source" : "By Room"}
+        {GROUP_LABELS[category.group]}
       </p>
       <h1 className="font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-6">
         {category.label}

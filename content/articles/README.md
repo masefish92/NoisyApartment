@@ -27,10 +27,11 @@ table of contents.
 
 - `slug` — must be unique; becomes the URL at `/blog/<slug>` (except the pillar article,
   see below).
-- `category` — must exactly match one of the 9 slugs in `src/lib/categories.ts`
+- `category` — must exactly match one of the slugs in `src/lib/categories.ts`
   (`upstairs-neighbors`, `wall-neighbors`, `street-traffic`, `barking-dog`, `doors`,
-  `walls`, `windows`, `floors`, `home-office`). Used for category pages and the
-  related-articles block.
+  `walls`, `windows`, `floors`, `home-office`, or `resources` for cross-cutting
+  legal/template/product-roundup content that isn't tied to one noise source or
+  room). Used for category pages and the related-articles block.
 - `featured` — set `true` to surface the article in the homepage "Popular Guides" section.
 - `affiliateDisclosure` — set `true` if the article contains affiliate links; renders the
   disclosure notice near the top automatically.

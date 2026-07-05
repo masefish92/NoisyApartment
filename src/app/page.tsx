@@ -8,6 +8,7 @@ import { getCategoriesByGroup, getCategory } from "@/lib/categories";
 const HERO_CHIPS = getCategoriesByGroup("source");
 const SOURCE_CATEGORIES = getCategoriesByGroup("source");
 const ROOM_CATEGORIES = getCategoriesByGroup("room");
+const RESOURCE_CATEGORIES = getCategoriesByGroup("resource");
 
 export default function HomePage() {
   const featuredArticles = getFeaturedArticles(3);
@@ -156,6 +157,35 @@ export default function HomePage() {
               ))}
             </div>
           </div>
+
+          {RESOURCE_CATEGORIES.length > 0 && (
+            <div className="mt-16">
+              <h3 className="font-label-sm text-label-sm uppercase tracking-widest text-secondary mb-6">
+                Tools &amp; Resources
+              </h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {RESOURCE_CATEGORIES.map((category) => (
+                  <Link
+                    key={category.slug}
+                    href={`/category/${category.slug}`}
+                    className="group flex flex-col justify-between border border-outline-variant bg-background p-6 hover:border-primary transition-colors"
+                  >
+                    <div>
+                      <h4 className="font-headline-md text-headline-md text-[18px] text-primary mb-2">
+                        {category.label}
+                      </h4>
+                      <p className="font-body-md text-sm text-on-surface-variant">
+                        {category.description}
+                      </p>
+                    </div>
+                    <span className="mt-4 inline-flex items-center gap-2 font-label-sm text-label-sm text-secondary group-hover:text-primary transition-colors">
+                      See Guides <ArrowRight size={14} />
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </section>
 

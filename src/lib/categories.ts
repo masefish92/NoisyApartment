@@ -1,4 +1,4 @@
-export type CategoryGroup = "source" | "room";
+export type CategoryGroup = "source" | "room" | "resource";
 
 export type Category = {
   slug: string;
@@ -68,6 +68,13 @@ export const CATEGORIES: Category[] = [
     label: "Home Office",
     group: "room",
     description: "Creating a quiet, focus-friendly workspace in a shared living space.",
+  },
+  // Cross-cutting content that isn't tied to one noise source or room
+  {
+    slug: "resources",
+    label: "Tools & Resources",
+    group: "resource",
+    description: "Product roundups, templates, and tenant-rights help that apply no matter what's causing the noise.",
   },
 ];
 
