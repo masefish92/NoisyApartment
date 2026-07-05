@@ -191,7 +191,7 @@ export default function CommunityPage() {
           Quiet in your inbox.
         </h2>
         <p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-8">
-          Subscribe to our monthly newsletter for curated legal tips and the
+          Subscribe to our monthly newsletter for practical legal tips and the
           latest in domestic acoustic tech.
         </p>
         <NewsletterForm variant="light" />

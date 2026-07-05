@@ -9,15 +9,15 @@ export default function Footer() {
           NoisyApartment
         </span>
         <p className="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">
-          © 1954 NoisyApartment. Form Follows Function.
+          © {new Date().getFullYear()} NoisyApartment
         </p>
       </div>
       <div className="flex flex-wrap justify-center gap-8">
         <Link
           className="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors"
-          href="/solutions"
+          href="/guides/apartment-noise"
         >
-          About Us
+          Guides
         </Link>
         <Link
           className="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors"
@@ -29,13 +29,13 @@ export default function Footer() {
           className="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors"
           href="/community#rights"
         >
-          Privacy
+          Tenant Rights
         </Link>
         <Link
           className="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors"
           href="/community"
         >
-          Contact
+          Community
         </Link>
       </div>
       <div className="flex gap-4">

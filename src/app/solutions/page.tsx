@@ -1,14 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { AudioLines, ArrowRight, Layers, TrendingDown } from "lucide-react";
-import GetCalmButton from "@/components/GetCalmButton";
 import SolutionsParallax from "@/components/SolutionsParallax";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Noise Solutions Guide | NoisyApartment",
   description:
-    "Bridging 1950s architectural wisdom and modern acoustic science to help you build a sanctuary.",
+    "Bridging 1950s architectural wisdom and modern acoustic science to help you build a quieter home.",
 };
 
 export default function SolutionsPage() {
@@ -27,7 +26,7 @@ export default function SolutionsPage() {
             <p className="font-body-lg text-body-lg text-on-surface-variant mb-10 max-w-xl">
               Urban living doesn&apos;t have to be loud. We bridge the gap
               between 1950s architectural wisdom and modern acoustic science
-              to help you build a sanctuary.
+              to help you build a quieter home.
             </p>
             <div className="flex flex-wrap gap-4">
               {["01. Science", "02. Architecture", "03. Design"].map((label) => (
@@ -208,12 +207,17 @@ export default function SolutionsPage() {
             <div className="absolute inset-0 bg-tertiary opacity-80" />
             <div className="relative z-10 p-8 border border-white/20 m-4 w-full h-full flex flex-col justify-center items-center text-center">
               <p className="font-label-sm text-label-sm uppercase tracking-[0.2em] mb-4">
-                Expert Consultation
+                Free Resource
               </p>
               <h3 className="font-display-lg text-display-lg-mobile md:text-headline-md mb-6">
-                Need a custom plan for your layout?
+                Want the full room-by-room breakdown?
               </h3>
-              <GetCalmButton className="border-2 border-white text-white px-8 py-3 font-label-sm text-label-sm uppercase hover:bg-white hover:text-tertiary transition-all" />
+              <Link
+                href="/guides/apartment-noise"
+                className="inline-block border-2 border-white text-white px-8 py-3 font-label-sm text-label-sm uppercase hover:bg-white hover:text-tertiary transition-all"
+              >
+                Read the Complete Guide
+              </Link>
             </div>
           </div>
         </div>

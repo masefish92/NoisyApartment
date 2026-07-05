@@ -19,9 +19,9 @@ const merriweather = Merriweather({
 });
 
 export const metadata: Metadata = {
-  title: "NoisyApartment | Find Silence in the City",
+  title: "NoisyApartment | Solve Your Apartment Noise Problem",
   description:
-    "Mid-century elegance meets modern acoustic science. Curated architectural solutions, tools, and community wisdom for quieter urban living.",
+    "Free, practical guides for renters and condo owners dealing with noisy neighbors, thin walls, and street noise — organized by noise source and by room.",
 };
 
 export default function RootLayout({

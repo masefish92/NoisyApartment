@@ -6,11 +6,9 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import HeaderSearch from "@/components/HeaderSearch";
 import CartButton from "@/components/CartButton";
-import GetCalmButton from "@/components/GetCalmButton";
 
 const NAV_LINKS = [
-  { href: "/solutions", label: "Solutions" },
-  { href: "/shop", label: "Shop" },
+  { href: "/guides/apartment-noise", label: "Guides" },
   { href: "/community", label: "Community" },
   { href: "/community#rights", label: "Legal" },
 ];
@@ -55,9 +53,6 @@ export default function Header() {
             <HeaderSearch />
           </div>
           <CartButton />
-          <div className="hidden sm:block">
-            <GetCalmButton />
-          </div>
           <button
             onClick={() => setMenuOpen((v) => !v)}
             aria-label="Toggle menu"
@@ -84,9 +79,6 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
-          <div className="pt-2 sm:hidden">
-            <GetCalmButton className="w-full bg-primary text-on-primary px-6 py-2 rounded-lg font-label-sm text-label-sm uppercase tracking-widest text-center" />
-          </div>
         </div>
       )}
     </header>
