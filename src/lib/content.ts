@@ -38,7 +38,9 @@ export type TocItem = {
 
 function readArticleFiles(): string[] {
   if (!fs.existsSync(ARTICLES_DIR)) return [];
-  return fs.readdirSync(ARTICLES_DIR).filter((file) => file.endsWith(".md"));
+  return fs
+    .readdirSync(ARTICLES_DIR)
+    .filter((file) => file.endsWith(".md") && file.toLowerCase() !== "readme.md");
 }
 
 /** All articles (including the pillar), sorted newest publishDate first. */
@@ -113,4 +115,20 @@ export async function renderMarkdown(markdown: string): Promise<{ html: string; 
   }
 
   return { html, toc };
+}
+
+/**
+ * Splits rendered article HTML at the paragraph nearest the midpoint, so the
+ * template can insert a mid-article ad slot without needing authors to place
+ * it by hand. Falls back to returning the whole thing as the first half when
+ * there are too few paragraphs to split meaningfully.
+ */
+export function splitHtmlAtMidpoint(html: string): [string, string] {
+  const parts = html.split("</p>");
+  if (parts.length <= 2) return [html, ""];
+
+  const mid = Math.ceil(parts.length / 2);
+  const first = parts.slice(0, mid).join("</p>") + "</p>";
+  const second = parts.slice(mid).join("</p>");
+  return [first, second];
 }
