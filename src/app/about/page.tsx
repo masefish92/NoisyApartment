@@ -35,9 +35,19 @@ export default function AboutPage() {
           background is in finance and audit, not acoustics — this site
           started because his own apartment had a noise problem he couldn&apos;t
           afford to ignore, and the research he did to fix it became the
-          foundation for what&apos;s published here. Every guide is written from
-          that same practical angle: what actually works, what&apos;s a waste of
-          money, and what to try first.
+          foundation for what&apos;s published here.
+        </p>
+        <p className="font-body-md text-body-md text-on-surface-variant mt-4">
+          These guides are written from firsthand experience, not just
+          research. Marcus has lived in apartments for over 14 years, across
+          major markets including California and Seattle, so he&apos;s dealt
+          with nearly every kind of shared-wall noise problem this site
+          covers, and he currently owns an apartment in Hawaii near Ward
+          Village. That combination of long-term renting and ownership
+          experience across very different building types and cities is
+          what shapes the practical, renter-safe advice in these guides:
+          what actually works, what&apos;s a waste of money, and what to try
+          first.
         </p>
       </section>
 
@@ -46,12 +56,12 @@ export default function AboutPage() {
           How We Research &amp; Test
         </h2>
         <p className="font-body-md text-body-md text-on-surface-variant">
-          {/* TODO: describe the actual research/testing process — e.g. hands-on
-              product testing, decibel measurements, cited acoustics research,
-              interviews with tenants/contractors/lawyers. Be specific and
-              truthful; do not invent a process that isn't real. */}
-          [TODO: Describe how guides are researched, fact-checked, and (if
-          applicable) how products are tested before being recommended.]
+          Our recommendations come from more than product research.
+          We&apos;ve spoken directly with other apartment neighbors dealing
+          with the same noise problems to understand what actually worked
+          for them, and we&apos;ve personally used many of the products we
+          recommend ourselves before including them here. If something
+          didn&apos;t work in practice, it doesn&apos;t make the list.
         </p>
       </section>
 
