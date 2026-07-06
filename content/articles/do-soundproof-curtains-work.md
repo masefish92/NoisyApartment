@@ -22,7 +22,9 @@ Cheap curtains marketed as fully soundproof are almost always just thick blackou
 
 Curtains that genuinely reduce noise are heavy, and usually lined with an industrial material like mass-loaded vinyl or dense felt layers, similar to the products used in professional studio treatment. Brands built specifically for acoustic use, rather than blackout use, are the ones worth considering if you want a curtain to do real work.
 
-> **[TODO: affiliate link]** Recommended: MLV-lined or felt-lined acoustic curtain.
+![MLV-lined acoustic curtain](/images/affiliate/15-mlv-acoustic-curtain.png)
+
+Recommended: [MLV-lined or felt-lined acoustic curtain](https://amzn.to/4vMSMSx).
 
 ## The DIY hack that actually works
 

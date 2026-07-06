@@ -38,7 +38,9 @@ Pink noise sits between the two: deeper and softer than white noise, but crisper
 
 To mask heavy bass or stomping specifically, play brown noise through a dedicated Bluetooth speaker with a real subwoofer, placed close to the shared wall or ceiling where the noise is entering. A phone's built-in speaker can't reproduce the low frequencies that make brown noise effective, so the speaker choice matters as much as the noise type itself.
 
-> **[TODO: affiliate link]** Recommended: Bluetooth speaker with subwoofer for brown noise masking.
+![Bluetooth speaker with subwoofer](/images/affiliate/14-bluetooth-speaker-subwoofer.png)
+
+Recommended: [Bluetooth speaker with subwoofer](https://amzn.to/4eMYQ7R) for brown noise masking.
 
 If you'd rather not run a speaker all night, see our [best white noise machines guide](/blog/best-white-noise-machines-apartment) for dedicated devices built for continuous overnight use.
 

@@ -18,7 +18,9 @@ Once you've sealed the gaps and added the mass you reasonably can, some noise wi
 
 For side sleepers who find headphones and earbuds too bulky, soft fabric sleep masks with built-in flat speakers, like Musicozy, let you stream continuous rain or masking sound right next to your ears without anything pressing painfully into a pillow.
 
-> **[TODO: affiliate link]** Recommended: Bluetooth sleep mask with flat speakers.
+![Bluetooth sleep mask with flat speakers](/images/affiliate/16-bluetooth-sleep-mask.png)
+
+Recommended: [Bluetooth sleep mask with flat speakers](https://amzn.to/4vagVkZ).
 
 ## 2. The heavy pillow method
 

@@ -46,7 +46,7 @@ You will not eliminate impact noise as a renter. Your realistic goal is to make 
 - **Brown noise** in particular tends to mask low-frequency thumps better than white noise for most people — it's weighted toward the lower frequencies where footsteps live.
 - Place the sound source *between you and the noise* when possible.
 
-> **[TODO: affiliate link]** Recommended: a white or brown noise machine (roughly $40–60). See our [full white noise machine guide](/blog/best-white-noise-machines-apartment) for how to choose one.
+Recommended: [a real-fan white noise machine](https://amzn.to/4b7RmK8), or for heavier bass, [a Bluetooth speaker with subwoofer](https://amzn.to/4eMYQ7R) playing brown noise. See our [full white noise machine guide](/blog/best-white-noise-machines-apartment) for how to choose between them.
 
 ## Step 3: Renter-friendly ceiling treatments (manage expectations)
 
