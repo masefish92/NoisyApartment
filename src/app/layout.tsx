@@ -19,6 +19,7 @@ const merriweather = Merriweather({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://noisyapartment.org"),
   title: "NoisyApartment | Solve Your Apartment Noise Problem",
   description:
     "Free, practical guides for renters and condo owners dealing with noisy neighbors, thin walls, and street noise — organized by noise source and by room.",
