@@ -26,7 +26,9 @@ Lightweight foam panels absorb reflected sound bouncing around inside a room, re
 
 Blocking sound requires mass and density, not just surface texture. Thick, heavy fiberglass or rockwool panels, wrapped in fabric, or dense wood slat panels backed with felt, add real weight and absorb a meaningfully wider range of frequencies than thin foam.
 
-> **[TODO: affiliate link]** Recommended: fabric-wrapped rockwool acoustic panel.
+![Fabric-wrapped rockwool acoustic panel](/images/affiliate/01-acoustic-panel.jpg)
+
+Recommended: [fabric-wrapped rockwool acoustic panel](https://amzn.to/4pf6Dib).
 
 ## Renter-friendly ways to use real acoustic panels
 
