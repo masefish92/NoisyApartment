@@ -35,13 +35,31 @@ This guide is built around *how to choose*, not just a list — because the righ
 
 ## Recommended picks
 
-> **[TODO: add specific product picks and affiliate links once selected. Do not publish this section live with placeholder picks — replace each one below with a real, honestly-endorsed product first.]**
+### Best overall (real fan)
 
-- **Best overall (real fan):** [pick] — natural sound, high volume ceiling, no loop.
-- **Best for footsteps/bass (brown noise):** [pick] — strong low end, good for upstairs neighbors.
-- **Best budget:** [pick] — under $30, does the core job.
-- **Best portable / for travel:** [pick] — small, rechargeable.
-- **Best for couples / two sleepers:** [pick] — wide, even sound field.
+![Best overall real-fan white noise machine](/images/affiliate/09-fan.jpg)
+
+Natural, non-looping sound with a high volume ceiling. Recommended: [this real-fan white noise machine](https://amzn.to/4b7RmK8).
+
+### Best for footsteps/bass (brown noise)
+
+Brown noise's low-frequency emphasis is what actually masks heavy footsteps and bass, more so than a device's brand or price. [This brown noise track](https://www.youtube.com/watch?v=whjTbzpfWys) is a free option worth trying before buying a dedicated machine — see our [brown vs. white vs. pink noise guide](/blog/brown-white-pink-noise) for why the color matters more than the device here.
+
+### Best budget
+
+Our best-overall pick above is also inexpensive enough to double as the budget option — you don't have to trade sound quality for price here. Recommended: [this real-fan white noise machine](https://amzn.to/4b7RmK8).
+
+### Best portable / for travel
+
+![Best portable travel white noise machine](/images/affiliate/12-portable-white-noise-machine.png)
+
+Small and rechargeable, built for a nightstand or a suitcase. Recommended: [this portable white noise machine](https://amzn.to/3T2Qwbn).
+
+### Best for couples / two sleepers
+
+![Best white noise machine for couples and families](/images/affiliate/13-family-white-noise-machine.png)
+
+A wider, more even sound field for two people sharing a bed. Recommended: [this white noise machine for couples and families](https://amzn.to/4p2tg9o).
 
 ## Honest limitations
 
