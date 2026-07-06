@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState, type ChangeEvent } from "react";
+import { useEffect, useMemo, useState, type ChangeEvent } from "react";
+import Link from "next/link";
 
 /**
  * Client-side letter assembler. No backend — all text is composed in-browser
@@ -69,6 +70,7 @@ type ComposeParams = {
   building: string;
   quietHours: boolean;
   logAttached: boolean;
+  logSummary: string;
 };
 
 function composeLetter({
@@ -82,6 +84,7 @@ function composeLetter({
   building,
   quietHours,
   logAttached,
+  logSummary,
 }: ComposeParams): string {
   const today = new Date().toLocaleDateString("en-US", {
     year: "numeric",
@@ -92,7 +95,7 @@ function composeLetter({
   const timePhrase = TIMES[time];
   const unit = senderUnit ? ` in Unit ${senderUnit}` : "";
   const logLine = logAttached
-    ? "\n\nI have kept a dated log of these disturbances, which I have attached for your reference."
+    ? `\n\nI have kept a dated log of these disturbances${logSummary ? ` (${logSummary})` : ""}, which I have attached for your reference.`
     : "";
   const quietLine =
     quietHours && (stage === "landlord" || stage === "demand")
@@ -178,7 +181,23 @@ export default function LetterGenerator() {
   const [building, setBuilding] = useState("");
   const [quietHours, setQuietHours] = useState(false);
   const [logAttached, setLogAttached] = useState(false);
+  const [logSummary, setLogSummary] = useState("");
   const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    // Handoff from the Noise Log tool (src/components/NoiseLog.tsx): a
+    // ?logSummary=... param pre-fills the "log attached" checkbox with the
+    // specific incident summary rather than a generic sentence. Read via
+    // window.location rather than useSearchParams() so this client component
+    // doesn't force /community out of static rendering.
+    const params = new URLSearchParams(window.location.search);
+    const summary = params.get("logSummary");
+    if (summary) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time read of a URL param unavailable during SSR, matches CartContext.tsx's pattern.
+      setLogAttached(true);
+      setLogSummary(summary);
+    }
+  }, []);
 
   const letter = useMemo(
     () =>
@@ -193,6 +212,7 @@ export default function LetterGenerator() {
         building,
         quietHours,
         logAttached,
+        logSummary,
       }),
     [
       stage,
@@ -205,6 +225,7 @@ export default function LetterGenerator() {
       building,
       quietHours,
       logAttached,
+      logSummary,
     ]
   );
 
@@ -367,6 +388,12 @@ export default function LetterGenerator() {
             />
             <span>I&apos;m attaching a dated noise log</span>
           </label>
+          <Link
+            href="/noise-log"
+            className="font-label-sm text-xs uppercase tracking-widest text-secondary underline hover:text-primary transition-colors"
+          >
+            Don&apos;t have one yet? Build a log first →
+          </Link>
         </div>
 
         <div className="flex flex-col border border-outline-variant min-h-[320px]">

@@ -23,7 +23,7 @@ const GUIDE_LINKS: Record<string, GuideLink> = {
   },
   documentation: {
     label: "Documenting noise & building a paper trail",
-    href: "/community#noise-log",
+    href: "/noise-log",
   },
   tenantRights: {
     label: "Tenant rights & quiet enjoyment",

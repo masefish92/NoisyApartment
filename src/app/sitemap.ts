@@ -15,6 +15,7 @@ const STATIC_ROUTES = [
   "/community",
   "/solutions",
   "/noise-laws",
+  "/noise-log",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -36,8 +36,8 @@ const LEGAL_ITEMS = [
     title: "Effective Documentation",
     description:
       'Recording sound on a phone isn\'t always enough. Learn how to keep a legally-admissible "Noise Log" that identifies frequency, duration, and impact.',
-    cta: "Download Log Sheet →",
-    href: "/noise-log.html",
+    cta: "Start Your Noise Log →",
+    href: "/noise-log",
   },
 ];
 
@@ -127,7 +127,7 @@ export default function CommunityPage() {
                   <a
                     className="text-secondary font-bold font-label-sm uppercase hover:text-primary transition-colors"
                     href={href}
-                    {...(href.startsWith("/noise-log")
+                    {...(href.endsWith(".html")
                       ? { target: "_blank", rel: "noopener noreferrer" }
                       : {})}
                   >
@@ -194,26 +194,38 @@ export default function CommunityPage() {
         <LetterGenerator />
       </section>
 
-      {/* Printable Noise Log */}
+      {/* Noise Log Tool */}
       <section className="mb-section-gap" id="noise-log">
         <div className="mb-8 max-w-2xl">
+          <p className="font-label-sm text-label-sm uppercase tracking-widest text-secondary mb-4">
+            Free Tool
+          </p>
           <h2 className="font-headline-md text-headline-md text-primary mb-4">
-            Printable Noise Log
+            Noise Incident Log
           </h2>
           <p className="font-body-md text-body-md text-on-surface-variant">
             A dated record is the single most useful thing you can bring to a
-            landlord or mediator. Download the log, fill it in as incidents
-            happen, and keep a copy.
+            landlord, a mediator, or small claims court. Log incidents as
+            they happen and export a clean PDF or CSV whenever you need one
+            — everything stays on your device.
           </p>
         </div>
-        <a
-          href="/noise-log.html"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 bg-primary text-on-primary px-6 py-3 rounded-lg font-label-sm text-label-sm uppercase tracking-widest hover:bg-primary-container transition-all"
-        >
-          Open the Printable Noise Log <ArrowRight size={16} />
-        </a>
+        <div className="flex flex-wrap items-center gap-4">
+          <Link
+            href="/noise-log"
+            className="inline-flex items-center gap-2 bg-primary text-on-primary px-6 py-3 rounded-lg font-label-sm text-label-sm uppercase tracking-widest hover:bg-primary-container transition-all"
+          >
+            Open the Noise Log Tool <ArrowRight size={16} />
+          </Link>
+          <a
+            href="/noise-log.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-label-sm text-sm text-on-surface-variant underline hover:text-primary transition-colors"
+          >
+            Prefer pen and paper? Download the printable sheet
+          </a>
+        </div>
       </section>
     </div>
   );
