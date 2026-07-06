@@ -22,19 +22,25 @@ Standard foam plugs go inside the ear canal, which can cause pressure and discom
 
 Silicone putty plugs, like Mack's Pillow Soft, mold over the ear opening rather than going inside the canal. They create an airtight seal against high-frequency sound and reduce the infection risk that comes from pushing foam deep into the ear daily.
 
-> **[TODO: affiliate link]** Recommended: silicone putty earplugs.
+![Silicone putty earplugs](/images/affiliate/04-silicone-putty-earplugs.png)
+
+Recommended: [silicone putty earplugs](https://amzn.to/4vOfsSs).
 
 ### 2. Wax earplugs
 
 Wax plugs, like Quies, are highly rated among side sleepers specifically. They soften with body heat and contour to the exact shape of your ear, giving a comfortable seal even when you're lying directly on that side.
 
-> **[TODO: affiliate link]** Recommended: natural wax earplugs.
+![Natural wax earplugs](/images/affiliate/05-wax-earplugs.png)
+
+Recommended: [natural wax earplugs](https://amzn.to/4buae6f).
 
 ### 3. Loop Quiet
 
 Loop Quiet is a reusable soft silicone plug that sits close to the ear rather than protruding, which makes it more comfortable for side sleeping than a bulkier foam or putty option, though it typically blocks somewhat less noise than a full airtight seal.
 
-> **[TODO: affiliate link]** Recommended: Loop Quiet reusable earplugs.
+![Loop Quiet reusable earplugs](/images/affiliate/06-loop-quiet-earplugs.jpg)
+
+Recommended: [Loop Quiet reusable earplugs](https://amzn.to/4gWe7V1).
 
 ## Comparison table
 
