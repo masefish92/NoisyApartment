@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import NewsletterForm from "@/components/NewsletterForm";
 import { getFeaturedArticles } from "@/lib/content";
 import { getCategoriesByGroup, getCategory } from "@/lib/categories";
 
@@ -235,23 +234,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Newsletter CTA */}
-      <section className="py-section-gap relative overflow-hidden">
-        <div className="absolute inset-0 bg-primary opacity-5" />
-        <div className="absolute -right-20 -bottom-20 w-80 h-80 border-2 border-secondary rounded-full opacity-10" />
-        <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center relative z-10">
-          <h2 className="font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-8">
-            Get free noise-fighting tips
-          </h2>
-          <p className="font-body-lg text-body-lg text-on-surface-variant mb-12 max-w-2xl mx-auto">
-            One email a month: new guides, tenant-rights updates, and the
-            fixes that actually worked for other renters.
-          </p>
-          <div className="flex justify-center">
-            <NewsletterForm variant="light" />
-          </div>
-        </div>
-      </section>
     </>
   );
 }
