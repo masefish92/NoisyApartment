@@ -46,9 +46,13 @@ export default function NoiseLawsHubPage() {
       </div>
 
       <section>
-        <h2 className="font-headline-md text-headline-md text-primary mb-6">
-          Browse by state
+        <h2 className="font-headline-md text-headline-md text-primary mb-2">
+          Major States &amp; Cities
         </h2>
+        <p className="font-body-md text-sm text-on-surface-variant mb-6">
+          We&apos;re starting with a handful of well-researched jurisdictions
+          and expanding from here.
+        </p>
         {states.length === 0 ? (
           <p className="font-body-md text-on-surface-variant border border-outline-variant p-8 text-center max-w-xl">
             State data is being added — check back soon.
