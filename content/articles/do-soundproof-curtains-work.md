@@ -6,7 +6,7 @@ keyword: "do soundproof curtains work"
 category: "windows"
 publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
-author: "NoisyApartment Editorial Team"
+author: "Marcus M."
 featured: false
 affiliateDisclosure: true
 pillar: false

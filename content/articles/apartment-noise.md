@@ -6,7 +6,7 @@ keyword: "how to deal with apartment noise"
 category: "apartment-noise"
 publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
-author: "NoisyApartment Editorial Team"
+author: "Marcus M."
 featured: false
 affiliateDisclosure: false
 pillar: true

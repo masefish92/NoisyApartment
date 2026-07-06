@@ -6,7 +6,7 @@ keyword: "noisy upstairs neighbors stomping"
 category: "upstairs-neighbors"
 publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
-author: "NoisyApartment Editorial Team"
+author: "Marcus M."
 featured: true
 affiliateDisclosure: true
 pillar: false

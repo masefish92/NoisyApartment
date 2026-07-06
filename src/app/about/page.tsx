@@ -31,12 +31,13 @@ export default function AboutPage() {
           Who Writes These Guides
         </h2>
         <p className="font-body-md text-body-md text-on-surface-variant">
-          {/* TODO: replace with the real author bio — name, relevant
-              background/credentials (e.g. acoustics, construction, tenant
-              law, journalism), and how long they've covered this topic. Do
-              not publish this page without real, verifiable information. */}
-          [TODO: Author bio goes here. Name, background, and relevant
-          experience or credentials.]
+          Marcus M. writes and researches the guides on NoisyApartment. His
+          background is in finance and audit, not acoustics — this site
+          started because his own apartment had a noise problem he couldn&apos;t
+          afford to ignore, and the research he did to fix it became the
+          foundation for what&apos;s published here. Every guide is written from
+          that same practical angle: what actually works, what&apos;s a waste of
+          money, and what to try first.
         </p>
       </section>
 

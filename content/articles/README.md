@@ -12,7 +12,7 @@ keyword: "soundproof shared wall apartment"
 category: "wall-neighbors"
 publishDate: "2026-01-15"
 updatedDate: "2026-01-15"
-author: "Jane Doe"
+author: "Marcus M."
 featured: true
 affiliateDisclosure: true
 pillar: false
