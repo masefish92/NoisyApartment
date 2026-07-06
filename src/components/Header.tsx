@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import HeaderSearch from "@/components/HeaderSearch";
-import CartButton from "@/components/CartButton";
 
 const NAV_LINKS = [
   { href: "/guides/apartment-noise", label: "Guides" },
@@ -51,7 +50,6 @@ export default function Header() {
           <div className="hidden md:block">
             <HeaderSearch />
           </div>
-          <CartButton />
           <button
             onClick={() => setMenuOpen((v) => !v)}
             aria-label="Toggle menu"
