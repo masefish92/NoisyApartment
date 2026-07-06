@@ -11,7 +11,6 @@ import {
 import { getCategory } from "@/lib/categories";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import TableOfContents from "@/components/TableOfContents";
-import AdSlot from "@/components/AdSlot";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export async function generateStaticParams() {
@@ -58,7 +57,7 @@ export default async function ArticlePage({
   const category = getCategory(article.category);
 
   return (
-    <article className="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop py-section-gap">
+    <article className="max-w-5xl mx-auto px-margin-mobile md:px-margin-desktop py-section-gap">
       {category && (
         <Link
           href={`/category/${category.slug}`}
@@ -89,19 +88,20 @@ export default async function ArticlePage({
 
       {article.affiliateDisclosure && <AffiliateDisclosure />}
 
-      <TableOfContents items={toc} />
+      <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_260px] lg:gap-12 lg:items-start">
+        <div className="lg:order-2 lg:sticky lg:top-24 lg:self-start">
+          <TableOfContents items={toc} />
+        </div>
 
-      <AdSlot slot="article-top" />
+        <div className="lg:order-1">
+          <div className="prose-article" dangerouslySetInnerHTML={{ __html: firstHalf }} />
+          {secondHalf && (
+            <div className="prose-article" dangerouslySetInnerHTML={{ __html: secondHalf }} />
+          )}
 
-      <div className="prose-article" dangerouslySetInnerHTML={{ __html: firstHalf }} />
-      {secondHalf && <AdSlot slot="article-mid" />}
-      {secondHalf && (
-        <div className="prose-article" dangerouslySetInnerHTML={{ __html: secondHalf }} />
-      )}
-
-      <AdSlot slot="article-bottom" />
-
-      <RelatedArticles articles={related} />
+          <RelatedArticles articles={related} />
+        </div>
+      </div>
     </article>
   );
 }

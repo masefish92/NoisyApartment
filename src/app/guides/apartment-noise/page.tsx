@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import { getPillarArticle, getClusterArticles, renderMarkdown } from "@/lib/content";
 import { CATEGORIES } from "@/lib/categories";
 import TableOfContents from "@/components/TableOfContents";
-import AdSlot from "@/components/AdSlot";
 
 export const metadata: Metadata = {
   title: "The Complete Guide to Apartment Noise | NoisyApartment",
@@ -45,7 +44,6 @@ export default async function ApartmentNoisePillarPage() {
       </p>
 
       <TableOfContents items={toc} />
-      <AdSlot slot="article-top" />
       <div className="prose-article" dangerouslySetInnerHTML={{ __html: html }} />
 
       {articlesByCategory.length > 0 && (
