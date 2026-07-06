@@ -34,23 +34,23 @@ Diagnose yours first. The rest of your strategy flows from it.
 **Room-by-room soundproofing (renter-friendly)**
 
 - [Soundproof an apartment door](/blog/soundproof-apartment-door-renters)
-- Soundproof a bedroom wall (no damage) — coming soon
-- Soundproof windows / window inserts — coming soon
-- Reduce floor noise / best rugs & pads — coming soon
-- Soundproof a home office for calls — coming soon
+- [Soundproof a bedroom wall (no damage)](/blog/soundproof-bedroom-wall-no-damage)
+- [Soundproof windows / window inserts](/blog/soundproof-windows-inserts)
+- [Reduce floor noise / best rugs & pads](/blog/best-rugs-pads-floor-noise)
+- [Soundproof a home office for calls](/blog/soundproof-home-office-calls)
 
 **Products that actually help**
 
 - [Best white noise machines](/blog/best-white-noise-machines-apartment)
-- Best earplugs for sleeping — coming soon
-- Best door draft stoppers — coming soon
-- Best soundproof curtains — coming soon
-- Acoustic panels: what works, what's hype — coming soon
+- [Best earplugs for sleeping](/blog/best-earplugs-for-sleeping)
+- [Best door draft stoppers](/blog/best-door-draft-stoppers)
+- [Best soundproof curtains](/blog/do-soundproof-curtains-work)
+- [Acoustic panels: what works, what's hype](/blog/acoustic-panels-what-works)
 
 **Sleep & coping**
 
-- How to sleep through noise — coming soon
-- Brown vs. white vs. pink noise — coming soon
+- [How to sleep through noise](/blog/how-to-sleep-through-noise)
+- [Brown vs. white vs. pink noise](/blog/brown-white-pink-noise)
 
 ## The renter's hierarchy of fixes (cheapest to most involved)
 
