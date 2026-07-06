@@ -1,8 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { getFeaturedArticles } from "@/lib/content";
 import { getCategoriesByGroup, getCategory } from "@/lib/categories";
+import HeroVideo from "@/components/HeroVideo";
 
 const HERO_CHIPS = getCategoriesByGroup("source");
 const SOURCE_CATEGORIES = getCategoriesByGroup("source");
@@ -15,59 +15,44 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full overflow-hidden">
-        <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pt-16 pb-section-gap flex flex-col md:flex-row items-center gap-gutter">
-          <div className="flex-1 space-y-8 z-10">
-            <h1 className="font-display-lg text-display-lg-mobile md:text-display-lg text-primary max-w-xl">
-              Solve Your Apartment Noise Problem — Free
-            </h1>
-            <p className="font-body-lg text-body-lg text-on-surface-variant max-w-md">
-              Practical, research-backed guides for renters and condo owners
-              dealing with noisy neighbors, thin walls, and street noise. No
-              products to buy — just fixes that work.
+      <HeroVideo>
+        <div className="max-w-xl space-y-8 py-16">
+          <h1 className="font-display-lg text-display-lg-mobile md:text-display-lg text-background max-w-xl">
+            Solve Your Apartment Noise Problem — Free
+          </h1>
+          <p className="font-body-lg text-body-lg text-background/85 max-w-md">
+            Practical, research-backed guides for renters and condo owners
+            dealing with noisy neighbors, thin walls, and street noise. No
+            products to buy — just fixes that work.
+          </p>
+
+          <div>
+            <p className="font-label-sm text-label-sm uppercase tracking-widest text-background/70 mb-3">
+              What noise problem are you dealing with?
             </p>
-
-            <div>
-              <p className="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant mb-3">
-                What noise problem are you dealing with?
-              </p>
-              <div className="flex flex-wrap gap-3">
-                {HERO_CHIPS.map((category) => (
-                  <Link
-                    key={category.slug}
-                    href={`/category/${category.slug}`}
-                    className="rounded-full border border-outline px-4 py-2 font-label-sm text-label-sm uppercase tracking-widest text-primary hover:bg-primary hover:text-on-primary transition-colors"
-                  >
-                    {category.label}
-                  </Link>
-                ))}
-              </div>
-            </div>
-
-            <div className="pt-2">
-              <Link
-                href="/guides/apartment-noise"
-                className="inline-block bg-primary text-on-primary px-10 py-4 rounded-lg font-label-sm text-label-sm uppercase tracking-widest hard-shadow hover:translate-y-[-2px] transition-all"
-              >
-                Read the Complete Guide
-              </Link>
+            <div className="flex flex-wrap gap-3">
+              {HERO_CHIPS.map((category) => (
+                <Link
+                  key={category.slug}
+                  href={`/category/${category.slug}`}
+                  className="rounded-full border border-background/40 bg-background/10 backdrop-blur-sm px-4 py-2 font-label-sm text-label-sm uppercase tracking-widest text-background hover:bg-background hover:text-primary transition-colors"
+                >
+                  {category.label}
+                </Link>
+              ))}
             </div>
           </div>
-          <div className="flex-1 w-full relative">
-            <div className="aspect-[4/5] rounded-xl overflow-hidden hard-shadow border border-outline opacity-90">
-              <Image
-                className="w-full h-full object-cover"
-                width={800}
-                height={1000}
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBvVt2qMOVqT_UkY9GZbJnvVyx5Jhbpfevt9pNkbocAX6j2PEB9lnjdnrGeWHhB4nDgJabLEtXl8dQvvGnZapmuQn8nDrIquklQ55tIPr9moIYuC21t3Ll3lByDZbrTNgvGqoecn9xfGaQ_uCnrC41-V5KdFpxyMR5rLbHsv-vk9mMylJgFee3l54vrXKy-qRYHEVrrw0MPo3Sf3EWU9pb4oaKoRhbAPtV5TdVO_T_oXLlDMrkagjA"
-                alt="A serene mid-century modern living room with a walnut lounge chair, teak coffee table, and acoustic wall panels."
-                priority
-              />
-            </div>
-            <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-secondary-container rounded-lg -z-10 opacity-30" />
+
+          <div className="pt-2">
+            <Link
+              href="/guides/apartment-noise"
+              className="inline-block bg-secondary-container text-on-secondary-container px-10 py-4 rounded-lg font-label-sm text-label-sm uppercase tracking-widest hard-shadow hover:translate-y-[-2px] transition-all"
+            >
+              Read the Complete Guide
+            </Link>
           </div>
         </div>
-      </section>
+      </HeroVideo>
 
       <div className="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
         <div className="section-divider" />
