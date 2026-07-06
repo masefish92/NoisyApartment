@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Montserrat, Merriweather } from "next/font/google";
 import { CartProvider } from "@/components/CartContext";
 import Header from "@/components/Header";
@@ -6,6 +7,8 @@ import Footer from "@/components/Footer";
 import OrganizationSchema from "@/components/schema/OrganizationSchema";
 import WebSiteSchema from "@/components/schema/WebSiteSchema";
 import "./globals.css";
+
+const adClientId = process.env.NEXT_PUBLIC_AD_CLIENT_ID;
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -38,6 +41,14 @@ export default function RootLayout({
       className={`${montserrat.variable} ${merriweather.variable} scroll-smooth`}
     >
       <body className="min-h-screen bg-background text-on-surface font-body-md antialiased flex flex-col">
+        {adClientId && (
+          <Script
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adClientId}`}
+            crossOrigin="anonymous"
+            strategy="afterInteractive"
+          />
+        )}
         <OrganizationSchema />
         <WebSiteSchema />
         <CartProvider>
