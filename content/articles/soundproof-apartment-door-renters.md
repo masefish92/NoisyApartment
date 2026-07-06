@@ -29,7 +29,9 @@ The gap under the door is usually the loudest leak. Two renter-safe options:
 
 Start here. This one move often produces the most noticeable difference for the least money.
 
-> **[TODO: affiliate link]** Recommended: a weighted door draft stopper — no installation required, and usually the highest-converting product for renters.
+![Weighted door draft stopper](/images/affiliate/19-weighted-door-draft-stopper.png)
+
+Recommended: [a weighted door draft stopper](https://amzn.to/3T5esuN) — no installation required, and usually the highest-converting product for renters.
 
 ### 2. Seal the perimeter gaps
 
@@ -38,14 +40,21 @@ Run your hand around the door frame with the door closed. Feel air? That's sound
 - **Adhesive foam weatherstripping tape** around the frame closes the side and top gaps.
 - It peels off cleanly at move-out, so it's lease-friendly.
 
-### 3. Add mass to the door panel
+### 3. Add mass to the door panel (the "ugly but it works" option)
 
-Once the gaps are sealed, the thin panel becomes the limiting factor.
+Let's be honest up front: acoustic door blankets work, but they're not pretty. These are thick, quilted panels—often mass-loaded vinyl wrapped in fiberglass—that hang over your door on grommets or a rod. Acoustically, they do the job. The extra mass blocks a real chunk of airborne noise, especially if you're dealing with a cheap hollow-core door or sound leaking around the frame.
 
-- **A soundproofing door blanket / moving blanket** hung over the door adds mass and absorption. There are purpose-made ones with grommets; a heavy moving blanket on a tension rod works on a budget.
-- This is more effective on hollow-core doors, which is most apartments.
+The problem is how they look. There's no getting around it—a door blanket gives your entryway the vibe of a freight elevator padded for a furniture move. In a bedroom, home office, or any space you actually live in, that industrial look is a lot to stomach. For most renters, it's a dealbreaker.
 
-> **[TODO: affiliate link]** Recommended: an acoustic door blanket.
+So here's our take: a door blanket makes sense when function truly beats form—a nursery, a temporary setup, a work-from-home corner nobody sees on video calls. If that's you, it's a cheap, effective fix.
+
+But if you care how the room looks (and most of us do), you'll get most of the benefit with better-looking options:
+
+- **Seal the gaps first.** A door sweep and weatherstripping cost a few dollars, install in minutes, and are completely invisible. Most door noise sneaks through the gaps, not the door itself—so this is the highest-ROI move you can make.
+- **Layer a heavy curtain over the door.** A thick, floor-length curtain on a rod above the frame adds mass like a blanket does, but reads as an intentional design choice instead of moving-day gear.
+- **Upgrade the door itself (if you own, or your landlord's flexible).** Swapping a hollow-core door for solid-core is the real fix, and it looks like nothing changed at all.
+
+Bottom line: door blankets earn their place in the "ugly but it works" category. We'd reach for the gap-sealing and curtain route first, and save the blanket for spaces where looks genuinely don't matter.
 
 ### 4. Absorb echo in the entryway (optional finish)
 

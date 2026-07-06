@@ -65,7 +65,7 @@ Sometimes the fastest win isn't the room — it's you.
 - **Ear protection built for sleep** (soft silicone or moldable foam, or ear-shaped sleep earbuds) can drop the perceived intensity dramatically.
 - Combined with masking sound, this is often the difference between a 3am rage and actually sleeping.
 
-> **[TODO: affiliate link]** Recommended: sleep-specific earbuds or high-comfort earplugs.
+Recommended: see our [best earplugs for sleeping guide](/blog/best-earplugs-for-sleeping) for picks by seal type and sleeping position.
 
 ## When it's not just annoying — when it's a violation
 
