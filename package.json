@@ -9,7 +9,8 @@
     "lint": "eslint",
     "seo:audit": "node scripts/seo-audit/crawl-audit.mjs && node scripts/seo-audit/repo-audit.mjs",
     "seo:fix": "node scripts/seo-audit/auto-fix.mjs",
-    "seo:fix:apply": "node scripts/seo-audit/auto-fix.mjs --apply"
+    "seo:fix:apply": "node scripts/seo-audit/auto-fix.mjs --apply",
+    "schema:validate": "node scripts/validate-schema.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

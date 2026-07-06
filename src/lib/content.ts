@@ -24,6 +24,12 @@ export type ArticleFrontmatter = {
   affiliateDisclosure?: boolean;
   /** Marks the single hub article served at /guides/apartment-noise. */
   pillar?: boolean;
+  /**
+   * Optional explicit hero image (site-relative path, e.g. "/images/affiliate/01-x.jpg").
+   * Falls back to extractFirstImage(article.content) when unset — see
+   * ArticleSchema wiring in src/app/blog/[slug]/page.tsx.
+   */
+  heroImage?: string;
 };
 
 export type Article = ArticleFrontmatter & {
@@ -131,4 +137,75 @@ export function splitHtmlAtMidpoint(html: string): [string, string] {
   const first = parts.slice(0, mid).join("</p>") + "</p>";
   const second = parts.slice(mid).join("</p>");
   return [first, second];
+}
+
+// Minimal mdast node shape — just enough of the tree to walk it below,
+// without pulling in @types/mdast for two small extractors.
+type MdastNode = {
+  type: string;
+  depth?: number;
+  value?: string;
+  url?: string;
+  children?: MdastNode[];
+};
+
+function nodeText(node: MdastNode): string {
+  if (typeof node.value === "string") return node.value;
+  if (!node.children) return "";
+  return node.children.map(nodeText).join("");
+}
+
+export type FaqItem = { question: string; answer: string };
+
+/**
+ * Parses a real, visible "## FAQ" section (bold-question paragraph followed
+ * by its answer text, our standard article FAQ format) directly from the
+ * markdown AST. Extracting from the same source that gets rendered
+ * guarantees FAQSchema text always matches the visible page — never
+ * hand-duplicate this list separately from the article body.
+ */
+export function extractFaqItems(markdown: string): FaqItem[] {
+  const tree = unified().use(remarkParse).parse(markdown) as MdastNode;
+  const children = tree.children ?? [];
+
+  const faqHeadingIndex = children.findIndex(
+    (node) => node.type === "heading" && /^faq$/i.test(nodeText(node).trim())
+  );
+  if (faqHeadingIndex === -1) return [];
+
+  const items: FaqItem[] = [];
+  for (let i = faqHeadingIndex + 1; i < children.length; i++) {
+    const node = children[i];
+    if (node.type === "heading") break; // end of the FAQ section
+    if (node.type !== "paragraph" || !node.children || node.children.length === 0) continue;
+
+    const [first, ...rest] = node.children;
+    if (first.type !== "strong") continue; // not a "**Question?** answer" paragraph
+
+    const question = nodeText(first).trim();
+    const answer = rest.map(nodeText).join("").trim();
+    if (question && answer) items.push({ question, answer });
+  }
+  return items;
+}
+
+/**
+ * First image referenced in the article body (site-relative path, e.g.
+ * "/images/affiliate/01-x.jpg"), used as the ArticleSchema image fallback
+ * when no explicit heroImage frontmatter is set. Never invents a path —
+ * returns undefined if the article has no images at all.
+ */
+export function extractFirstImage(markdown: string): string | undefined {
+  const tree = unified().use(remarkParse).parse(markdown) as MdastNode;
+
+  function findImage(node: MdastNode): string | undefined {
+    if (node.type === "image" && node.url) return node.url;
+    for (const child of node.children ?? []) {
+      const found = findImage(child);
+      if (found) return found;
+    }
+    return undefined;
+  }
+
+  return findImage(tree);
 }

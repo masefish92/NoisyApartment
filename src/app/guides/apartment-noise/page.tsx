@@ -1,8 +1,16 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getPillarArticle, getClusterArticles, renderMarkdown } from "@/lib/content";
+import {
+  getPillarArticle,
+  getClusterArticles,
+  renderMarkdown,
+  extractFirstImage,
+} from "@/lib/content";
 import { CATEGORIES } from "@/lib/categories";
+import { SITE_CONFIG } from "@/config/site";
 import TableOfContents from "@/components/TableOfContents";
+import ArticleSchema from "@/components/schema/ArticleSchema";
+import BreadcrumbListSchema from "@/components/schema/BreadcrumbListSchema";
 
 export const metadata: Metadata = {
   title: "The Complete Guide to Apartment Noise | NoisyApartment",
@@ -33,9 +41,28 @@ export default async function ApartmentNoisePillarPage() {
   }
 
   const { html, toc } = await renderMarkdown(pillar.content);
+  const pageUrl = `${SITE_CONFIG.siteUrl}/guides/apartment-noise`;
+  const image = pillar.heroImage ?? extractFirstImage(pillar.content);
 
   return (
     <article className="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop py-section-gap">
+      <BreadcrumbListSchema
+        items={[
+          { name: "Home", url: SITE_CONFIG.siteUrl },
+          { name: pillar.title, url: pageUrl },
+        ]}
+      />
+      <ArticleSchema
+        headline={pillar.title}
+        description={pillar.description}
+        url={pageUrl}
+        image={image}
+        datePublished={pillar.publishDate}
+        dateModified={pillar.updatedDate ?? pillar.publishDate}
+        author={{ name: pillar.author, url: `${SITE_CONFIG.siteUrl}/about` }}
+        keywords={pillar.keyword}
+      />
+
       <h1 className="font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-6">
         {pillar.title}
       </h1>

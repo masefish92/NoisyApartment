@@ -7,11 +7,17 @@ import {
   getRelatedArticles,
   renderMarkdown,
   splitHtmlAtMidpoint,
+  extractFaqItems,
+  extractFirstImage,
 } from "@/lib/content";
 import { getCategory } from "@/lib/categories";
+import { SITE_CONFIG } from "@/config/site";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import TableOfContents from "@/components/TableOfContents";
 import RelatedArticles from "@/components/RelatedArticles";
+import ArticleSchema from "@/components/schema/ArticleSchema";
+import BreadcrumbListSchema from "@/components/schema/BreadcrumbListSchema";
+import FAQSchema from "@/components/schema/FAQSchema";
 
 export async function generateStaticParams() {
   return getClusterArticles().map((article) => ({ slug: article.slug }));
@@ -56,8 +62,34 @@ export default async function ArticlePage({
   const related = getRelatedArticles(article);
   const category = getCategory(article.category);
 
+  const pageUrl = `${SITE_CONFIG.siteUrl}/blog/${article.slug}`;
+  const image = article.heroImage ?? extractFirstImage(article.content);
+  const faqItems = extractFaqItems(article.content);
+
   return (
     <article className="max-w-5xl mx-auto px-margin-mobile md:px-margin-desktop py-section-gap">
+      <BreadcrumbListSchema
+        items={[
+          { name: "Home", url: SITE_CONFIG.siteUrl },
+          ...(category
+            ? [{ name: category.label, url: `${SITE_CONFIG.siteUrl}/category/${category.slug}` }]
+            : []),
+          { name: article.title, url: pageUrl },
+        ]}
+      />
+      <ArticleSchema
+        headline={article.title}
+        description={article.description}
+        url={pageUrl}
+        image={image}
+        datePublished={article.publishDate}
+        dateModified={article.updatedDate ?? article.publishDate}
+        author={{ name: article.author, url: `${SITE_CONFIG.siteUrl}/about` }}
+        section={category?.label}
+        keywords={article.keyword}
+      />
+      <FAQSchema items={faqItems} />
+
       {category && (
         <Link
           href={`/category/${category.slug}`}

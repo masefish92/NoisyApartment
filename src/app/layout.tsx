@@ -3,6 +3,8 @@ import { Montserrat, Merriweather } from "next/font/google";
 import { CartProvider } from "@/components/CartContext";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import OrganizationSchema from "@/components/schema/OrganizationSchema";
+import WebSiteSchema from "@/components/schema/WebSiteSchema";
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -36,6 +38,8 @@ export default function RootLayout({
       className={`${montserrat.variable} ${merriweather.variable} scroll-smooth`}
     >
       <body className="min-h-screen bg-background text-on-surface font-body-md antialiased flex flex-col">
+        <OrganizationSchema />
+        <WebSiteSchema />
         <CartProvider>
           <Header />
           <main className="flex-1">{children}</main>

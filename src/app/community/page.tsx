@@ -3,6 +3,9 @@ import NoiseDiagnoser from "@/components/NoiseDiagnoser";
 import StateRightsLookup from "@/components/StateRightsLookup";
 import DecibelReference from "@/components/DecibelReference";
 import LetterGenerator from "@/components/LetterGenerator";
+import BreadcrumbListSchema from "@/components/schema/BreadcrumbListSchema";
+import SoftwareApplicationSchema from "@/components/schema/SoftwareApplicationSchema";
+import { SITE_CONFIG } from "@/config/site";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -39,8 +42,32 @@ const LEGAL_ITEMS = [
 ];
 
 export default function CommunityPage() {
+  const pageUrl = `${SITE_CONFIG.siteUrl}/community`;
+
   return (
     <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+      <BreadcrumbListSchema
+        items={[
+          { name: "Home", url: SITE_CONFIG.siteUrl },
+          { name: "Community", url: pageUrl },
+        ]}
+      />
+      <SoftwareApplicationSchema
+        name="Noise Diagnoser"
+        description="A short decision tree that routes visitors to the right noise-fighting guide based on where their noise problem is coming from."
+        url={`${pageUrl}#diagnose`}
+      />
+      <SoftwareApplicationSchema
+        name="Noise Complaint Letter Generator"
+        description="Builds a ready-to-send noise complaint letter — a friendly neighbor note, a formal landlord complaint, or a written demand — entirely in the browser."
+        url={`${pageUrl}#letter`}
+      />
+      <SoftwareApplicationSchema
+        name="Tenant Noise Rights by State Lookup"
+        description="A plain-English reference for tenant quiet-enjoyment rights, quiet hours, and how to report noise, by U.S. state."
+        url={`${pageUrl}#state-rights`}
+      />
+
       {/* Hero */}
       <section className="py-section-gap">
         <div className="max-w-3xl">
