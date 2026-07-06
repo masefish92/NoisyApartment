@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Noise Log Sheet — NoisyApartment</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #555;
+    --line: #cfcfcf;
+    --accent: #124346;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Georgia", "Times New Roman", serif;
+    color: var(--ink);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px 24px;
+    line-height: 1.4;
+  }
+  header { border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin-bottom: 16px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--muted); font-size: 13px; margin: 0; }
+  .meta { display: flex; flex-wrap: wrap; gap: 16px; margin: 16px 0 20px; font-size: 14px; }
+  .meta .cell { flex: 1 1 220px; }
+  .meta .fill { border-bottom: 1px solid var(--line); min-height: 22px; margin-top: 2px; }
+  table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  th, td { border: 1px solid var(--line); padding: 8px 6px; text-align: left; vertical-align: top; }
+  th { background: #f2f5f6; font-weight: 700; font-size: 12px; }
+  td { height: 42px; }
+  .col-date { width: 15%; }
+  .col-time { width: 12%; }
+  .col-dur { width: 12%; }
+  .col-type { width: 24%; }
+  .col-desc { width: 37%; }
+  .tips { margin-top: 20px; font-size: 12px; color: var(--muted); }
+  .tips h2 { font-size: 13px; color: var(--ink); margin-bottom: 4px; }
+  .tips ul { margin: 0; padding-left: 18px; }
+  .actions { text-align: center; margin: 24px 0; }
+  button {
+    font: inherit; font-size: 14px; padding: 10px 20px;
+    background: var(--accent); color: #fff; border: 0; border-radius: 6px; cursor: pointer;
+  }
+  footer { margin-top: 24px; font-size: 11px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 8px; }
+  @media print {
+    .actions { display: none; }
+    body { padding: 0; max-width: none; }
+    tbody tr { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Noise Disturbance Log</h1>
+    <p class="sub">A dated record strengthens any complaint to a neighbor, landlord, or local authority.</p>
+  </header>
+
+  <div class="meta">
+    <div class="cell"><strong>Your name &amp; unit</strong><div class="fill"></div></div>
+    <div class="cell"><strong>Building / address</strong><div class="fill"></div></div>
+    <div class="cell"><strong>Source unit (if known)</strong><div class="fill"></div></div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th class="col-date">Date</th>
+        <th class="col-time">Start time</th>
+        <th class="col-dur">Duration</th>
+        <th class="col-type">Type of noise</th>
+        <th class="col-desc">Description / impact / witnesses</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- 14 blank rows -->
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    </tbody>
+  </table>
+
+  <div class="tips">
+    <h2>How to use this log</h2>
+    <ul>
+      <li>Record each incident as close to when it happens as possible — contemporaneous notes carry more weight.</li>
+      <li>Be specific: "heavy stomping and dragging furniture, woke me at 1:15 AM" beats "loud again."</li>
+      <li>Note anyone else who heard it, and any calls or messages you sent in response.</li>
+      <li>Keep it factual and unemotional. This may be read by a landlord, mediator, or court.</li>
+    </ul>
+  </div>
+
+  <div class="actions">
+    <button onclick="window.print()">Print or save as PDF</button>
+  </div>
+
+  <footer>
+    Provided by NoisyApartment for informational use. This log is a self-help
+    tool, not legal advice. Tenant rights and evidence standards vary by state
+    and city.
+  </footer>
+</body>
+</html>
