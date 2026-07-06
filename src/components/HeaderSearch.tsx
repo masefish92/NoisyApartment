@@ -12,7 +12,7 @@ export default function HeaderSearch() {
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (!query.trim()) return;
-    router.push(`/shop?q=${encodeURIComponent(query.trim())}`);
+    router.push(`/search?q=${encodeURIComponent(query.trim())}`);
     setOpen(false);
     setQuery("");
   };
@@ -21,7 +21,7 @@ export default function HeaderSearch() {
     return (
       <button
         onClick={() => setOpen(true)}
-        aria-label="Search products"
+        aria-label="Search your noise problem"
         className="p-2 rounded-full hover:bg-surface-container-low transition-all text-primary"
       >
         <Search size={20} />
@@ -39,8 +39,8 @@ export default function HeaderSearch() {
         autoFocus
         value={query}
         onChange={(event) => setQuery(event.target.value)}
-        placeholder="Search products…"
-        className="bg-transparent outline-none font-body-md text-sm w-40"
+        placeholder="Search your noise problem…"
+        className="bg-transparent outline-none font-body-md text-sm w-48"
       />
       <button
         type="button"
