@@ -26,13 +26,21 @@ A small area rug in the middle of the room does almost nothing. You want a rug c
 
 Skip cheap plastic-grid pads, they're designed for slip resistance, not sound. The better choice is a thick felt or dense open-cell rubber pad, ideally made from recycled felt. This spongy layer absorbs impact energy before it transfers into the floor structure below.
 
-> **[TODO: affiliate link]** Recommended: dense felt rug pad, cut to size.
+![Dense felt rug pad, cut to size](/images/affiliate/07-felt-rug-pad.png)
+
+Recommended: [dense felt rug pad, cut to size](https://amzn.to/4bqziuO).
 
 ### 3. Isolate your furniture
 
 Swap hollow or lightweight furniture for solid, heavier pieces where you can, since heavy items transmit less vibration when bumped or dragged. For chairs on hard floors, replace plastic caster wheels with rubber "rollerblade style" wheels, or add slip-on rubber or felt caps to chair legs to stop the skipping and scraping that sends sharp noise downstairs.
 
-> **[TODO: affiliate link]** Recommended: rubber caster wheels and felt furniture pads.
+![Rubber caster wheels](/images/affiliate/08-rubber-caster-wheels.png)
+
+Recommended: [rubber caster wheels](https://amzn.to/4gnRQPP).
+
+![Felt furniture pads](/images/affiliate/08b-felt-furniture-pads.png)
+
+Recommended: [felt furniture pads](https://amzn.to/4gnRUPz).
 
 ## What not to waste money on
 
