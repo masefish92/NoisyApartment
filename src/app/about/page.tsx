@@ -61,9 +61,12 @@ export default function AboutPage() {
         </h2>
         <p className="font-body-md text-body-md text-on-surface-variant">
           We update guides when we learn something new or when a reader spots
-          an error. If something on this site is inaccurate or out of date,{" "}
-          {/* TODO: replace with a real contact method */}
-          [TODO: add a contact email or form] and we&apos;ll look into it.
+          an error. If something on this site is inaccurate or out of date,
+          email{" "}
+          <a href="mailto:marcus@noisyapartment.org" className="text-primary underline">
+            marcus@noisyapartment.org
+          </a>{" "}
+          and we&apos;ll look into it.
         </p>
       </section>
     </div>

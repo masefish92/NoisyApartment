@@ -19,10 +19,7 @@ export default function DisclosurePage() {
         </h2>
         <p className="font-body-md text-body-md text-on-surface-variant">
           NoisyApartment is supported in part by display advertising served on
-          this site.{" "}
-          {/* TODO: name the ad network(s) once selected, e.g. "ads are served
-              via Google AdSense." See src/lib/ads-config.ts. */}
-          [TODO: name the ad network(s) once one is selected and configured.]
+          this site.
         </p>
       </section>
 
@@ -55,9 +52,11 @@ export default function DisclosurePage() {
           Contact
         </h2>
         <p className="font-body-md text-body-md text-on-surface-variant">
-          {/* TODO: add the legal entity name (if any) and a real contact
-              method for FTC/legal correspondence. */}
-          [TODO: add business/legal entity name and contact information.]
+          Questions about this policy or anything else on the site? Email{" "}
+          <a href="mailto:marcus@noisyapartment.org" className="text-primary underline">
+            marcus@noisyapartment.org
+          </a>
+          .
         </p>
       </section>
     </div>
