@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "seo:audit": "node scripts/seo-audit/crawl-audit.mjs && node scripts/seo-audit/repo-audit.mjs",
+    "seo:fix": "node scripts/seo-audit/auto-fix.mjs",
+    "seo:fix:apply": "node scripts/seo-audit/auto-fix.mjs --apply"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
@@ -26,8 +29,10 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "cheerio": "^1.2.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.10",
+    "fast-xml-parser": "^5.9.3",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

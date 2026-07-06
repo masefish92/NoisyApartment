@@ -43,3 +43,7 @@ next-env.d.ts
 
 .vercel
 .env*
+
+# seo-audit: generated, point-in-time reports — the .mjs scripts stay tracked
+scripts/seo-audit/*.md
+scripts/seo-audit/*.json
