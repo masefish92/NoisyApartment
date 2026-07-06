@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   title: "NoisyApartment | Solve Your Apartment Noise Problem",
   description:
     "Free, practical guides for renters and condo owners dealing with noisy neighbors, thin walls, and street noise — organized by noise source and by room.",
+  ...(adClientId && {
+    other: { "google-adsense-account": adClientId },
+  }),
 };
 
 export default function RootLayout({
