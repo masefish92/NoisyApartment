@@ -1,0 +1,30 @@
+{
+  "type": "state",
+  "state": "California",
+  "stateSlug": "ca",
+  "abbr": "CA",
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "California Civil Code Section 1941.1 lists the specific minimum conditions a rental unit must meet to be considered habitable (weatherproofing, working plumbing/gas/electrical, heat, sanitation, and more). A tenant must generally show an uninhabitable condition, the landlord's knowledge of it, and resulting damages to prevail on a habitability claim.",
+    "statuteName": "California Civil Code",
+    "statuteCitation": "Cal. Civ. Code §§ 1941, 1941.1",
+    "sourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1941.1"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Civil Code Section 1927 provides that a landlord's agreement to let a property binds them to secure the tenant's \"quiet possession\" of it during the lease term. Courts have read this as a right to use the unit without substantial interference from the landlord."
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Tenants generally must give the landlord notice of a habitability problem and a reasonable opportunity to repair it before pursuing remedies such as repair-and-deduct or rent withholding. TODO_VERIFY: exact statutory notice period, which can vary by remedy sought."
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "California allows a limited repair-and-deduct remedy under specific statutory conditions, and habitability breaches can support a rent-abatement or damages claim. TODO_VERIFY: current dollar/frequency caps on repair-and-deduct, which are periodically adjusted."
+  },
+  "lastVerified": "2026-07-06",
+  "sources": [
+    { "label": "Cal. Civ. Code § 1927 — Quiet possession", "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1927" },
+    { "label": "Cal. Civ. Code § 1941.1 — Habitability conditions", "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1941.1" }
+  ]
+}

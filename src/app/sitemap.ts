@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getClusterArticles } from "@/lib/content";
 import { CATEGORIES } from "@/lib/categories";
+import { getAllStates, getAllCities } from "@/lib/noise-law";
 
 const BASE_URL = "https://noisyapartment.org";
 
@@ -13,12 +14,23 @@ const STATIC_ROUTES = [
   "/disclosure",
   "/community",
   "/solutions",
+  "/noise-laws",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const articleRoutes = getClusterArticles().map((article) => `/blog/${article.slug}`);
   const categoryRoutes = CATEGORIES.map((category) => `/category/${category.slug}`);
-  const allRoutes = [...STATIC_ROUTES, ...articleRoutes, ...categoryRoutes];
+  const stateRoutes = getAllStates().map((state) => `/noise-laws/${state.stateSlug}`);
+  const cityRoutes = getAllCities().map(
+    (city) => `/noise-laws/${city.stateSlug}/${city.citySlug}`
+  );
+  const allRoutes = [
+    ...STATIC_ROUTES,
+    ...articleRoutes,
+    ...categoryRoutes,
+    ...stateRoutes,
+    ...cityRoutes,
+  ];
 
   return allRoutes.map((route) => ({
     url: `${BASE_URL}${route}`,

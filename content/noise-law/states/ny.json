@@ -1,0 +1,29 @@
+{
+  "type": "state",
+  "state": "New York",
+  "stateSlug": "ny",
+  "abbr": "NY",
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Every written or oral residential lease in New York includes an implied warranty that the premises are fit for human habitation and that occupants won't be subjected to conditions dangerous, hazardous, or detrimental to life, health, or safety. This warranty cannot be waived by agreement.",
+    "statuteName": "New York Real Property Law",
+    "statuteCitation": "N.Y. Real Prop. Law § 235-b",
+    "sourceUrl": "https://www.nysenate.gov/legislation/laws/RPP/235-B"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "New York separately recognizes an implied covenant of quiet enjoyment. Its duty is narrower than the warranty of habitability — a tenant generally must show the landlord (or someone the landlord authorized) substantially interfered with their use of the unit, not just that a condition existed."
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Tenants are generally expected to notify the landlord of a habitability problem, including a persistent noise disturbance the landlord could address, before pursuing remedies through housing court. TODO_VERIFY: whether any specific statutory notice period (versus a case-law reasonableness standard) applies outside New York City's own housing court practice."
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "New York tenants can raise breach of the warranty of habitability as a defense in a nonpayment proceeding or affirmatively seek rent abatement and repair orders through housing court. TODO_VERIFY: current mechanics outside NYC housing court for other municipalities in the state."
+  },
+  "lastVerified": "2026-07-06",
+  "sources": [
+    { "label": "N.Y. Real Prop. Law § 235-b — Warranty of habitability", "url": "https://www.nysenate.gov/legislation/laws/RPP/235-B" }
+  ]
+}

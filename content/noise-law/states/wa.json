@@ -1,0 +1,31 @@
+{
+  "type": "state",
+  "state": "Washington",
+  "stateSlug": "wa",
+  "abbr": "WA",
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "The Residential Landlord-Tenant Act requires landlords to keep rental premises fit for human habitation and to substantially comply with applicable codes, statutes, and ordinances governing their maintenance. A persistent, unaddressed noise problem the landlord has the power to fix can implicate this duty.",
+    "statuteName": "Residential Landlord-Tenant Act",
+    "statuteCitation": "RCW 59.18",
+    "sourceUrl": "https://app.leg.wa.gov/rcw/default.aspx?cite=59.18"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Washington tenants are entitled to privacy and quiet enjoyment of their rental unit. RCW 59.18.150 separately requires landlords to give at least 48 hours' written notice before entering, which is the clearest codified expression of this right."
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "RCW 59.18.070 sets specific landlord repair deadlines after written tenant notice (24 hours for no heat/water/electricity, 72 hours for a major plumbing fixture or appliance, 10 days for other conditions). TODO_VERIFY: whether a comparably specific deadline applies to a nuisance-noise complaint as opposed to a physical repair, or whether that falls under the Act's more general remedy provisions."
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "RCW 59.18 provides tenant remedies including repair-and-deduct for qualifying conditions, subject to notice requirements and dollar/frequency limits set out in the statute."
+  },
+  "lastVerified": "2026-07-06",
+  "sources": [
+    { "label": "RCW 59.18 — Residential Landlord-Tenant Act", "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=59.18" },
+    { "label": "RCW 59.18.070 — Landlord duty to repair, notice", "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=59.18.070" },
+    { "label": "RCW 59.18.150 — Landlord access, 48-hour notice", "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=59.18.150" }
+  ]
+}

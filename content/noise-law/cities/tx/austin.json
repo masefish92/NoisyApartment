@@ -1,0 +1,30 @@
+{
+  "type": "city",
+  "city": "Austin",
+  "citySlug": "austin",
+  "state": "Texas",
+  "stateSlug": "tx",
+  "quietHours": {
+    "weekday": "10:30 PM – 7:00 AM",
+    "weekend": "10:30 PM – 7:00 AM",
+    "notes": "Austin's noise code generally prohibits \"unreasonable noise\" during this window rather than setting one flat residential decibel ceiling for ordinary neighbor-to-neighbor noise."
+  },
+  "decibelLimits": {
+    "hasNumericLimit": false,
+    "measurementNotes": "Austin City Code Chapter 9-2 sets specific dBA figures for particular sources — for example, amplified/outdoor sound on residential property is capped around 75 dBA between 10 AM and 10 PM — but ordinary indoor neighbor noise (TVs, voices, footsteps) is governed by the general \"unreasonable noise\" standard, not a flat number. TODO_VERIFY: confirm directly against Ch. 9-2 text whether any numeric threshold applies to ordinary residential-to-residential noise specifically."
+  },
+  "ordinance": {
+    "name": "Austin City Code — Noise and Amplified Sound",
+    "citation": "Austin City Code Ch. 9-2",
+    "sourceUrl": "https://library.municode.com/tx/austin/codes/code_of_ordinances?nodeId=TIT9PRAC"
+  },
+  "enforcement": {
+    "primary": "Austin Police Department non-emergency line",
+    "secondary": "Austin Code Department",
+    "howToReport": "Call APD's non-emergency line for an in-progress disturbance; chronic issues can be reported to Austin Code for enforcement."
+  },
+  "lastVerified": "2026-07-06",
+  "sources": [
+    { "label": "Austin City Code, Title 9 — Chapter 9-2 Noise and Amplified Sound", "url": "https://library.municode.com/tx/austin/codes/code_of_ordinances?nodeId=TIT9PRAC" }
+  ]
+}

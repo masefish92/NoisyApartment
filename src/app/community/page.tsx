@@ -1,6 +1,6 @@
+import Link from "next/link";
 import { ArrowRight, FileText, Gavel, Volume2 } from "lucide-react";
 import NoiseDiagnoser from "@/components/NoiseDiagnoser";
-import StateRightsLookup from "@/components/StateRightsLookup";
 import DecibelReference from "@/components/DecibelReference";
 import LetterGenerator from "@/components/LetterGenerator";
 import BreadcrumbListSchema from "@/components/schema/BreadcrumbListSchema";
@@ -20,8 +20,8 @@ const LEGAL_ITEMS = [
     title: "The Covenant of Quiet Enjoyment",
     description:
       'Almost every lease includes this implied promise. It doesn\'t mean "silence"—it means you have the right to use your property without unreasonable interference.',
-    cta: "Check Your State →",
-    href: "#state-rights",
+    cta: "Look Up Your State & City →",
+    href: "/noise-laws",
   },
   {
     icon: Volume2,
@@ -62,12 +62,6 @@ export default function CommunityPage() {
         description="Builds a ready-to-send noise complaint letter — a friendly neighbor note, a formal landlord complaint, or a written demand — entirely in the browser."
         url={`${pageUrl}#letter`}
       />
-      <SoftwareApplicationSchema
-        name="Tenant Noise Rights by State Lookup"
-        description="A plain-English reference for tenant quiet-enjoyment rights, quiet hours, and how to report noise, by U.S. state."
-        url={`${pageUrl}#state-rights`}
-      />
-
       {/* Hero */}
       <section className="py-section-gap">
         <div className="max-w-3xl">
@@ -146,20 +140,27 @@ export default function CommunityPage() {
         </div>
       </section>
 
-      {/* State Rights Lookup */}
+      {/* Noise Laws by State & City */}
       <section className="mb-section-gap" id="state-rights">
-        <div className="mb-8 max-w-2xl">
+        <div className="bg-surface-container-low border border-outline-variant p-8 max-w-2xl">
           <p className="font-label-sm text-label-sm uppercase tracking-widest text-secondary mb-4">
             Free Tool
           </p>
           <h2 className="font-headline-md text-headline-md text-primary mb-4">
-            Tenant Noise Rights by State
+            Noise Laws by State &amp; City
           </h2>
-          <p className="font-body-md text-body-md text-on-surface-variant">
-            A plain-English starting point for the rules where you live.
+          <p className="font-body-md text-body-md text-on-surface-variant mb-6">
+            Quiet hours, decibel limits where they&apos;re actually defined,
+            and the governing statute or ordinance — with a citation and
+            source link for every claim.
           </p>
+          <Link
+            href="/noise-laws"
+            className="inline-flex items-center gap-2 bg-primary text-on-primary px-6 py-3 rounded-lg font-label-sm text-label-sm uppercase tracking-widest hover:bg-primary-container transition-all"
+          >
+            Look Up Your State &amp; City <ArrowRight size={16} />
+          </Link>
         </div>
-        <StateRightsLookup />
       </section>
 
       {/* Decibel Reference */}

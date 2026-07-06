@@ -35,6 +35,12 @@ export default function Footer() {
           </Link>
           <Link
             className="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors"
+            href="/noise-laws"
+          >
+            Noise Laws
+          </Link>
+          <Link
+            className="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors"
             href="/community"
           >
             Community

@@ -1,0 +1,32 @@
+{
+  "type": "city",
+  "city": "Miami",
+  "citySlug": "miami",
+  "state": "Florida",
+  "stateSlug": "fl",
+  "quietHours": {
+    "weekday": "11:00 PM – 7:00 AM",
+    "weekend": "11:00 PM – 7:00 AM",
+    "notes": "During these hours, operating a radio, musical instrument, or other sound-making device is generally unlawful if \"plainly audible\" at a distance of 100 feet from the source."
+  },
+  "decibelLimits": {
+    "hasNumericLimit": true,
+    "residentialDaytimeDb": 60,
+    "residentialNighttimeDb": 55,
+    "measurementNotes": "Figures shown are for single-family residential zoning (60 dBA day / 55 dBA night); multifamily and other noise-sensitive zoning generally allow up to 65 dBA day / 60 dBA night. Any sound at 110 dBA or above is prohibited outright. TODO_VERIFY: whether the applicable text for a given address is the City of Miami Code (Ch. 36) or Miami-Dade County Code (Sec. 21-28) — sourcing for these figures blended references to both, and the City and County codes are not identical documents."
+  },
+  "ordinance": {
+    "name": "City of Miami Code of Ordinances — Noise",
+    "citation": "Miami City Code Ch. 36 (see also Miami-Dade County Code § 21-28)",
+    "sourceUrl": "https://library.municode.com/fl/miami/codes/code_of_ordinances?nodeId=PTIITHCO_CH36NO"
+  },
+  "enforcement": {
+    "primary": "Miami Police Department non-emergency line",
+    "secondary": "City of Miami code enforcement",
+    "howToReport": "Call the police non-emergency line for an in-progress disturbance; chronic issues can be reported to City of Miami code enforcement."
+  },
+  "lastVerified": "2026-07-06",
+  "sources": [
+    { "label": "Miami City Code Ch. 36 — Noise", "url": "https://library.municode.com/fl/miami/codes/code_of_ordinances?nodeId=PTIITHCO_CH36NO" }
+  ]
+}

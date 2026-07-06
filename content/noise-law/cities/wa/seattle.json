@@ -1,0 +1,33 @@
+{
+  "type": "city",
+  "city": "Seattle",
+  "citySlug": "seattle",
+  "state": "Washington",
+  "stateSlug": "wa",
+  "quietHours": {
+    "weekday": "10:00 PM – 7:00 AM",
+    "weekend": "10:00 PM – 9:00 AM (weekends and holidays)",
+    "notes": "Sound level limits drop by 10 dB(A) during these hours where the receiving property is in a residential district."
+  },
+  "decibelLimits": {
+    "hasNumericLimit": true,
+    "residentialDaytimeDb": 55,
+    "residentialNighttimeDb": 45,
+    "measurementNotes": "Base residential limit is 55 dBA; nighttime/quiet-hours limits are reduced by 10 dB(A) from the daytime baseline, measured at the receiving property line. TODO_VERIFY: exact measurement methodology and any recent amendment to these figures directly against SMC 25.08 text."
+  },
+  "ordinance": {
+    "name": "Seattle Municipal Code — Noise Control",
+    "citation": "SMC 25.08",
+    "sourceUrl": "https://www.seattle.gov/sdci/codes/codes-we-enforce-(a-z)/noise-code"
+  },
+  "enforcement": {
+    "primary": "Seattle Department of Construction & Inspections (SDCI) Noise Code enforcement",
+    "secondary": "Police non-emergency line for in-progress disturbances",
+    "howToReport": "For an in-progress disturbance, call the non-emergency police line. For a chronic issue, file with SDCI, which enforces the Noise Code."
+  },
+  "lastVerified": "2026-07-06",
+  "sources": [
+    { "label": "SDCI — Noise Code", "url": "https://www.seattle.gov/sdci/codes/codes-we-enforce-(a-z)/noise-code" },
+    { "label": "SMC Chapter 25.08 — Noise Control (full text)", "url": "https://library.municode.com/wa/seattle/codes/municipal_code?nodeId=TIT25ENPRHIPR_CH25.08NOCO" }
+  ]
+}

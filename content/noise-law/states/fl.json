@@ -1,0 +1,31 @@
+{
+  "type": "state",
+  "state": "Florida",
+  "stateSlug": "fl",
+  "abbr": "FL",
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Florida Statute 83.51 requires landlords to comply with applicable building, housing, and health codes, or, where none apply, to maintain structural components, plumbing, and required facilities in good working condition, for the duration of the tenancy.",
+    "statuteName": "Florida Residential Landlord and Tenant Act",
+    "statuteCitation": "Fla. Stat. § 83.51",
+    "sourceUrl": "https://www.flsenate.gov/Laws/Statutes/2023/0083.51"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Florida tenants have a right to quiet enjoyment — reasonable use of the unit without substantial interference. Case law treats a landlord's entry at unreasonable hours or without required notice as one way this right can be violated, and a chronic, landlord-tolerated noise disturbance can raise a similar claim."
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before withholding rent for a habitability breach, Florida law requires the tenant to give the landlord 7 days' written notice of the problem so it can be corrected.",
+    "statuteCitation": "Fla. Stat. § 83.201 (rent withholding notice)"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Florida allows rent withholding only under aggravated circumstances after the required 7-day written notice, and only for the landlord's failure to comply with a material habitability obligation. TODO_VERIFY: exact current procedural detail and any local (county-level) variations."
+  },
+  "lastVerified": "2026-07-06",
+  "sources": [
+    { "label": "Fla. Stat. § 83.51 — Landlord's obligation to maintain premises", "url": "https://www.flsenate.gov/Laws/Statutes/2023/0083.51" },
+    { "label": "Fla. Stat. Ch. 83 — Landlord and Tenant", "url": "https://www.flsenate.gov/Laws/Statutes/2023/Chapter83" }
+  ]
+}
