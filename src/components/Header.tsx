@@ -10,7 +10,6 @@ import CartButton from "@/components/CartButton";
 const NAV_LINKS = [
   { href: "/guides/apartment-noise", label: "Guides" },
   { href: "/community", label: "Community" },
-  { href: "/community#rights", label: "Legal" },
 ];
 
 export default function Header() {

@@ -1,5 +1,4 @@
 import { ArrowRight, FileText, Gavel, Volume2 } from "lucide-react";
-import NewsletterForm from "@/components/NewsletterForm";
 import NoiseDiagnoser from "@/components/NoiseDiagnoser";
 import StateRightsLookup from "@/components/StateRightsLookup";
 import DecibelReference from "@/components/DecibelReference";
@@ -187,19 +186,6 @@ export default function CommunityPage() {
         >
           Open the Printable Noise Log <ArrowRight size={16} />
         </a>
-      </section>
-
-      {/* Newsletter / CTA */}
-      <section className="mb-section-gap flex flex-col items-center text-center">
-        <div className="w-24 h-1 bg-secondary mb-8" />
-        <h2 className="font-display-lg text-display-lg text-primary mb-4">
-          Quiet in your inbox.
-        </h2>
-        <p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-8">
-          Subscribe to our monthly newsletter for practical legal tips and the
-          latest in domestic acoustic tech.
-        </p>
-        <NewsletterForm variant="light" />
       </section>
     </div>
   );
