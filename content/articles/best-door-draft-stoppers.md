@@ -22,13 +22,17 @@ The golden rule of door noise: if air can pass through, sound can pass through. 
 
 The most popular renter option is a double-sided fabric tube filled with foam that slides under the bottom of the door. Because it moves with the door as it opens and closes, you're not stuck constantly repositioning it, which is the main complaint with cheaper stick-on versions.
 
-> **[TODO: affiliate link]** Recommended: double-sided foam slide-on door draft stopper.
+![Double-sided foam slide-on door draft stopper](/images/affiliate/02-door-draft-stopper.jpg)
+
+Recommended: [double-sided foam slide-on door draft stopper](https://amzn.to/4f4MJBP).
 
 ### 2. Heavy-duty adhesive rubber sweeps
 
 If your lease allows a basic adhesive strip, a multi-layered silicone door sweep creates a tighter seal against the floor than a fabric tube does. It's a slightly more permanent option (it attaches to the door itself) but it typically peels off cleanly at move-out.
 
-> **[TODO: affiliate link]** Recommended: adhesive silicone door sweep.
+![Adhesive silicone door sweep](/images/affiliate/03-door-sweep.png)
+
+Recommended: [adhesive silicone door sweep](https://amzn.to/4y2wspG).
 
 ## What to avoid
 
