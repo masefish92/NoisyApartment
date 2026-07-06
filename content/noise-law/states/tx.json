@@ -21,10 +21,13 @@
   },
   "rentEscrowOrRepairDeduct": {
     "available": true,
-    "summary": "Chapter 92 provides a repair-and-deduct style remedy and, for repairs up to $10,000, tenants can seek an order from a justice of the peace compelling the landlord to fix conditions affecting health or safety. TODO_VERIFY: current procedural requirements and any recent amendments to the dollar threshold."
+    "summary": "Chapter 92 provides a repair-and-deduct style remedy and, for repairs up to $10,000, tenants can seek an order from a justice of the peace compelling the landlord to fix conditions affecting health or safety."
   },
   "lastVerified": "2026-07-06",
   "sources": [
     { "label": "Tex. Prop. Code Ch. 92 — Residential Tenancies", "url": "https://statutes.capitol.texas.gov/Docs/PR/htm/PR.92.htm" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: current procedural requirements and any recent amendments to the $10,000 repair-and-deduct dollar threshold."
   ]
 }

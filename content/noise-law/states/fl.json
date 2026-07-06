@@ -21,11 +21,14 @@
   },
   "rentEscrowOrRepairDeduct": {
     "available": true,
-    "summary": "Florida allows rent withholding only under aggravated circumstances after the required 7-day written notice, and only for the landlord's failure to comply with a material habitability obligation. TODO_VERIFY: exact current procedural detail and any local (county-level) variations."
+    "summary": "Florida allows rent withholding only under aggravated circumstances after the required 7-day written notice, and only for the landlord's failure to comply with a material habitability obligation."
   },
   "lastVerified": "2026-07-06",
   "sources": [
     { "label": "Fla. Stat. § 83.51 — Landlord's obligation to maintain premises", "url": "https://www.flsenate.gov/Laws/Statutes/2023/0083.51" },
     { "label": "Fla. Stat. Ch. 83 — Landlord and Tenant", "url": "https://www.flsenate.gov/Laws/Statutes/2023/Chapter83" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: exact current procedural detail for rent withholding and any local (county-level) variations."
   ]
 }

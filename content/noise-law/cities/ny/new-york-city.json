@@ -11,7 +11,7 @@
   },
   "decibelLimits": {
     "hasNumericLimit": false,
-    "measurementNotes": "The NYC Noise Code sets specific numeric limits for particular equipment and venues — for example, a single air conditioner or similar device is capped around 42 dBA, and commercial music must not exceed roughly 42 dBA measured inside a nearby residence — but ordinary residential neighbor noise (voices, footsteps, TVs) is governed by whether it is \"plainly audible\" beyond the source unit or otherwise unreasonable, not a specific dB figure. TODO_VERIFY: confirm current numeric figures for specific equipment/venue categories directly against the NYC Noise Code (Title 24, Ch. 2 of the NYC Administrative Code) before citing them individually."
+    "measurementNotes": "The NYC Noise Code sets specific numeric limits for particular equipment and venues — for example, a single air conditioner or similar device is capped around 42 dBA, and commercial music must not exceed roughly 42 dBA measured inside a nearby residence — but ordinary residential neighbor noise (voices, footsteps, TVs) is governed by whether it is \"plainly audible\" beyond the source unit or otherwise unreasonable, not a specific dB figure."
   },
   "ordinance": {
     "name": "New York City Noise Code",
@@ -27,5 +27,8 @@
   "sources": [
     { "label": "NYC Noise Code (full text, NYC DEP)", "url": "https://www.nyc.gov/assets/dep/downloads/pdf/air/noise/noise-code-full-version.pdf" },
     { "label": "NYC Noise Code guide (NYC DEP summary)", "url": "https://www.nyc.gov/assets/dep/downloads/pdf/air/noise/noise-code-guide-summary.pdf" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: confirm current numeric figures for specific equipment/venue categories (e.g. the ~42 dBA AC and commercial-music figures) directly against the NYC Noise Code (Title 24, Ch. 2 of the NYC Administrative Code) before citing them individually."
   ]
 }

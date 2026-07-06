@@ -13,7 +13,7 @@
     "hasNumericLimit": true,
     "residentialDaytimeDb": 60,
     "residentialNighttimeDb": 55,
-    "measurementNotes": "Figures shown are for single-family residential zoning (60 dBA day / 55 dBA night); multifamily and other noise-sensitive zoning generally allow up to 65 dBA day / 60 dBA night. Any sound at 110 dBA or above is prohibited outright. TODO_VERIFY: whether the applicable text for a given address is the City of Miami Code (Ch. 36) or Miami-Dade County Code (Sec. 21-28) — sourcing for these figures blended references to both, and the City and County codes are not identical documents."
+    "measurementNotes": "Figures shown are for single-family residential zoning (60 dBA day / 55 dBA night); multifamily and other noise-sensitive zoning generally allow up to 65 dBA day / 60 dBA night. Any sound at 110 dBA or above is prohibited outright."
   },
   "ordinance": {
     "name": "City of Miami Code of Ordinances — Noise",
@@ -28,5 +28,8 @@
   "lastVerified": "2026-07-06",
   "sources": [
     { "label": "Miami City Code Ch. 36 — Noise", "url": "https://library.municode.com/fl/miami/codes/code_of_ordinances?nodeId=PTIITHCO_CH36NO" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: whether the applicable text for a given address is the City of Miami Code (Ch. 36) or Miami-Dade County Code (Sec. 21-28) — sourcing for these figures blended references to both, and the City and County codes are not identical documents."
   ]
 }

@@ -16,14 +16,18 @@
   },
   "noticeToRemedy": {
     "required": true,
-    "summary": "Tenants are generally expected to notify the landlord of a habitability problem, including a persistent noise disturbance the landlord could address, before pursuing remedies through housing court. TODO_VERIFY: whether any specific statutory notice period (versus a case-law reasonableness standard) applies outside New York City's own housing court practice."
+    "summary": "Tenants are generally expected to notify the landlord of a habitability problem, including a persistent noise disturbance the landlord could address, before pursuing remedies through housing court."
   },
   "rentEscrowOrRepairDeduct": {
     "available": true,
-    "summary": "New York tenants can raise breach of the warranty of habitability as a defense in a nonpayment proceeding or affirmatively seek rent abatement and repair orders through housing court. TODO_VERIFY: current mechanics outside NYC housing court for other municipalities in the state."
+    "summary": "New York tenants can raise breach of the warranty of habitability as a defense in a nonpayment proceeding or affirmatively seek rent abatement and repair orders through housing court."
   },
   "lastVerified": "2026-07-06",
   "sources": [
     { "label": "N.Y. Real Prop. Law § 235-b — Warranty of habitability", "url": "https://www.nysenate.gov/legislation/laws/RPP/235-B" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: whether any specific statutory notice period (versus a case-law reasonableness standard) applies outside New York City's own housing court practice.",
+    "TODO_VERIFY: current rent-abatement/repair-order mechanics outside NYC housing court for other municipalities in the state."
   ]
 }

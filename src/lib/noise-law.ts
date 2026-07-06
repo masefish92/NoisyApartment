@@ -35,6 +35,8 @@ export type StateNoiseLaw = {
   };
   lastVerified: string;
   sources: Source[];
+  /** Research-team-only TODO_VERIFY flags — never rendered on the public page. */
+  internalNotes?: string[];
 };
 
 export type CityNoiseLaw = {
@@ -66,6 +68,8 @@ export type CityNoiseLaw = {
   };
   lastVerified: string;
   sources: Source[];
+  /** Research-team-only TODO_VERIFY flags — never rendered on the public page. */
+  internalNotes?: string[];
 };
 
 function readJsonFiles<T>(dir: string): T[] {

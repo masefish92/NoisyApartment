@@ -7,11 +7,11 @@
   "quietHours": {
     "weekday": "10:00 PM – 7:00 AM",
     "weekend": "10:00 PM – 7:00 AM",
-    "notes": "Los Angeles's noise code is built around an ambient-plus-offset standard rather than a single flat quiet-hours rule — see decibelLimits.measurementNotes. TODO_VERIFY: whether a distinct weekend quiet-hours window exists separate from the weekday one."
+    "notes": "Los Angeles's noise code is built around an ambient-plus-offset standard rather than a single flat quiet-hours rule — see decibelLimits.measurementNotes."
   },
   "decibelLimits": {
     "hasNumericLimit": false,
-    "measurementNotes": "LAMC does not set one flat residential number. Instead, under LAMC Sec. 111.03 and related sections, sound from a source generally may not exceed the presumed ambient noise level by more than 5 dBA on adjacent residential property, with a lower presumed ambient at night than during the day. TODO_VERIFY: the exact presumed-ambient dBA figures and the offset rule, confirmed directly against the LAMC text rather than secondary summaries, before quoting a specific number."
+    "measurementNotes": "LAMC does not set one flat residential number. Instead, under LAMC Sec. 111.03 and related sections, sound from a source generally may not exceed the presumed ambient noise level by more than 5 dBA on adjacent residential property, with a lower presumed ambient at night than during the day."
   },
   "ordinance": {
     "name": "Los Angeles Municipal Code — Noise Regulation (Chapter XI)",
@@ -27,5 +27,9 @@
   "sources": [
     { "label": "LAMC Sec. 111.03 — Minimum ambient noise level", "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-193850" },
     { "label": "LAPD Noise Enforcement Team", "url": "https://www.lapdonline.org/police-commission/cid/noise-enforcement-team/" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: whether a distinct weekend quiet-hours window exists separate from the weekday one.",
+    "TODO_VERIFY: the exact presumed-ambient dBA figures and the 5 dBA offset rule, confirmed directly against the LAMC text rather than secondary summaries, before quoting a specific number."
   ]
 }

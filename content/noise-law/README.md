@@ -15,10 +15,12 @@ number (e.g. "ambient + 5 dBA") rather than actually stating one, that is
 `hasNumericLimit: false` with the formula explained in `measurementNotes` —
 do not back-calculate and present a derived number as if it were the quoted
 figure. Never invent a citation, statute section, or URL. Any fact you
-can't confirm gets a `TODO_VERIFY: ...` string inside the relevant field's
-text (each seeded file already has a few — grep for `TODO_VERIFY` to find
-every open item) so it stays greppable rather than silently treated as
-settled.
+can't confirm gets a `TODO_VERIFY: ...` string appended to the top-level
+`internalNotes` array — **never inside a `summary`/`notes`/`measurementNotes`
+field**, since those render directly on the public page and a visitor
+should never see raw research-tracking text. `internalNotes` is not
+rendered anywhere; grep for `TODO_VERIFY` across `content/noise-law/` to
+find every open item.
 
 ## Schema
 

@@ -16,7 +16,7 @@
   },
   "noticeToRemedy": {
     "required": true,
-    "summary": "RCW 59.18.070 sets specific landlord repair deadlines after written tenant notice (24 hours for no heat/water/electricity, 72 hours for a major plumbing fixture or appliance, 10 days for other conditions). TODO_VERIFY: whether a comparably specific deadline applies to a nuisance-noise complaint as opposed to a physical repair, or whether that falls under the Act's more general remedy provisions."
+    "summary": "RCW 59.18.070 sets specific landlord repair deadlines after written tenant notice (24 hours for no heat/water/electricity, 72 hours for a major plumbing fixture or appliance, 10 days for other conditions)."
   },
   "rentEscrowOrRepairDeduct": {
     "available": true,
@@ -27,5 +27,8 @@
     { "label": "RCW 59.18 — Residential Landlord-Tenant Act", "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=59.18" },
     { "label": "RCW 59.18.070 — Landlord duty to repair, notice", "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=59.18.070" },
     { "label": "RCW 59.18.150 — Landlord access, 48-hour notice", "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=59.18.150" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: whether a comparably specific deadline applies to a nuisance-noise complaint as opposed to a physical repair, or whether that falls under the Act's more general remedy provisions."
   ]
 }

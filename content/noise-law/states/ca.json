@@ -16,15 +16,19 @@
   },
   "noticeToRemedy": {
     "required": true,
-    "summary": "Tenants generally must give the landlord notice of a habitability problem and a reasonable opportunity to repair it before pursuing remedies such as repair-and-deduct or rent withholding. TODO_VERIFY: exact statutory notice period, which can vary by remedy sought."
+    "summary": "Tenants generally must give the landlord notice of a habitability problem and a reasonable opportunity to repair it before pursuing remedies such as repair-and-deduct or rent withholding."
   },
   "rentEscrowOrRepairDeduct": {
     "available": true,
-    "summary": "California allows a limited repair-and-deduct remedy under specific statutory conditions, and habitability breaches can support a rent-abatement or damages claim. TODO_VERIFY: current dollar/frequency caps on repair-and-deduct, which are periodically adjusted."
+    "summary": "California allows a limited repair-and-deduct remedy under specific statutory conditions, and habitability breaches can support a rent-abatement or damages claim."
   },
   "lastVerified": "2026-07-06",
   "sources": [
     { "label": "Cal. Civ. Code § 1927 — Quiet possession", "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1927" },
     { "label": "Cal. Civ. Code § 1941.1 — Habitability conditions", "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1941.1" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: exact statutory notice period for habitability notice-to-remedy, which can vary by remedy sought.",
+    "TODO_VERIFY: current dollar/frequency caps on repair-and-deduct, which are periodically adjusted."
   ]
 }

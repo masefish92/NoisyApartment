@@ -11,7 +11,7 @@
   },
   "decibelLimits": {
     "hasNumericLimit": false,
-    "measurementNotes": "Austin City Code Chapter 9-2 sets specific dBA figures for particular sources — for example, amplified/outdoor sound on residential property is capped around 75 dBA between 10 AM and 10 PM — but ordinary indoor neighbor noise (TVs, voices, footsteps) is governed by the general \"unreasonable noise\" standard, not a flat number. TODO_VERIFY: confirm directly against Ch. 9-2 text whether any numeric threshold applies to ordinary residential-to-residential noise specifically."
+    "measurementNotes": "Austin City Code Chapter 9-2 sets specific dBA figures for particular sources — for example, amplified/outdoor sound on residential property is capped around 75 dBA between 10 AM and 10 PM — but ordinary indoor neighbor noise (TVs, voices, footsteps) is governed by the general \"unreasonable noise\" standard, not a flat number."
   },
   "ordinance": {
     "name": "Austin City Code — Noise and Amplified Sound",
@@ -26,5 +26,8 @@
   "lastVerified": "2026-07-06",
   "sources": [
     { "label": "Austin City Code, Title 9 — Chapter 9-2 Noise and Amplified Sound", "url": "https://library.municode.com/tx/austin/codes/code_of_ordinances?nodeId=TIT9PRAC" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: confirm directly against Ch. 9-2 text whether any numeric threshold applies to ordinary residential-to-residential noise specifically."
   ]
 }
