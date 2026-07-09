@@ -3,6 +3,35 @@
   "state": "Pennsylvania",
   "stateSlug": "pa",
   "abbr": "PA",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Pennsylvania recognizes an implied warranty of habitability as a matter of case law, not statute. In Pugh v. Holmes (1979), the Pennsylvania Supreme Court held that every residential lease carries an implied promise the unit is fit to live in. To breach it, a defect has to be serious enough that it prevents use of the dwelling for its intended purpose as a home — minor annoyances don't qualify.",
+    "statuteName": "Common law doctrine — Pugh v. Holmes; related procedures in the Landlord and Tenant Act of 1951",
+    "statuteCitation": "Pugh v. Holmes, 486 Pa. 272 (1979)",
+    "sourceUrl": "https://law.justia.com/cases/pennsylvania/supreme-court/1979/486-pa-272-0.html"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Pennsylvania recognizes the covenant of quiet enjoyment separately from habitability, also as a matter of common law dating to Minnich v. Kauffman (1919). It's an implied promise the landlord won't unreasonably interfere with the tenant's possession of the unit — it protects against things like the landlord cutting off utilities or unlawfully entering, not literal silence."
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "For ordinary habitability breaches, case law generally expects a tenant to notify the landlord of the defect and give a reasonable opportunity to fix it before withholding rent. Separately, the state's Rent Withholding Act works through government certification: a city or county health/licensing agency must inspect and certify the dwelling as unfit before the rent-escrow mechanism kicks in, rather than tenant notice alone triggering it."
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "The Rent Withholding Act suspends the tenant's duty to pay rent once the relevant city or county agency certifies a dwelling unfit for habitation; the tenant deposits rent into escrow instead. If the unit is recertified as fit within 6 months, escrowed rent goes to the landlord; if not, it becomes payable to the tenant. This certification mechanism runs through cities of the first, second, second-A, and third class (e.g. Philadelphia, Pittsburgh) or a county health department — it is not a simple self-help repair-and-deduct statute available statewide without that step."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "35 P.S. § 1700-1 — Rent Withholding Act", "url": "https://codes.findlaw.com/pa/title-35-ps-health-and-safety/pa-st-sect-35-1700-1/" },
+    { "label": "Pugh v. Holmes, 486 Pa. 272 (1979) — Justia case mirror", "url": "https://law.justia.com/cases/pennsylvania/supreme-court/1979/486-pa-272-0.html" },
+    { "label": "Covenant of Quiet Enjoyment — PA Law Help (cites Minnich v. Kauffman, 1919)", "url": "https://www.palawhelp.org/resource/covenant-of-quiet-enjoyment" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: exact geographic reach of the Rent Withholding Act's certification mechanism today — some PA municipalities without an equivalent certifying agency may functionally lack this remedy despite the doctrine existing on the books.",
+    "TODO_VERIFY: no statewide fixed notice-period statute (like Illinois's 14 days) found for ordinary, non-certified PA habitability breaches — the standard is case-law 'reasonable notice,' not a codified number of days.",
+    "TODO_VERIFY: Pugh v. Holmes opinion text confirmed via corroborating secondary sources and matching citation, not read directly (Justia blocked automated fetch of the opinion page)."
+  ]
 }

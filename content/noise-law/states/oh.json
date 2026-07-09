@@ -3,6 +3,34 @@
   "state": "Ohio",
   "stateSlug": "oh",
   "abbr": "OH",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Ohio law requires landlords to keep rental units in a fit and habitable condition — including complying with building, housing, health, and safety codes, keeping electrical, plumbing, heating, and A/C systems in good working order, keeping common areas safe and sanitary, and supplying running water, reasonable hot water, and reasonable heat at all times. This duty applies regardless of the lease and generally cannot be waived by agreement.",
+    "statuteName": "Ohio Landlords and Tenants Act",
+    "statuteCitation": "R.C. 5321.04",
+    "sourceUrl": "https://codes.ohio.gov/ohio-revised-code/section-5321.04"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Ohio recognizes an implied covenant of quiet enjoyment as a matter of common law, separate from the statutory habitability duties — it protects a tenant's possession from substantial interference, not a right to literal silence. Ohio's landlord-tenant statute does codify one piece of this directly: landlords must give reasonable notice (presumed 24 hours) before entering and enter only at reasonable times, with remedies available for improper entry or harassment.",
+    "statuteCitation": "R.C. 5321.04(A)(8) (entry-notice component only; the broader covenant is common-law)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "A tenant must give the landlord written notice specifying the acts, omissions, or code violations that constitute noncompliance, sent to the person or place where rent is normally paid. The landlord then has a reasonable time considering the severity of the condition, or 30 days, whichever is sooner, to remedy it before the tenant can use the statutory remedies below."
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "If the landlord doesn't fix the problem within the notice period and the tenant is current on rent, Ohio law lets the tenant deposit all rent due with the clerk of the municipal or county court (rent escrow), and either apply to the court for an order directing repairs or terminate the rental agreement. This escrow remedy does not apply to landlords who own three or fewer rental units and gave the tenant written notice of that fact, nor to certain student housing."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "R.C. 5321.04 — Landlord obligations", "url": "https://codes.ohio.gov/ohio-revised-code/section-5321.04" },
+    { "label": "R.C. 5321.07 — Tenant remedies, notice, rent escrow", "url": "https://codes.ohio.gov/ohio-revised-code/section-5321.07" },
+    { "label": "R.C. Chapter 5321 — Ohio Landlords and Tenants Act", "url": "https://codes.ohio.gov/ohio-revised-code/chapter-5321" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: could not independently confirm the exact current text of the small-landlord (three-or-fewer-units) exemption mechanics beyond secondary-source summaries — recommend a direct read of R.C. 5321.07 in full before treating that carve-out as precisely described."
+  ]
 }

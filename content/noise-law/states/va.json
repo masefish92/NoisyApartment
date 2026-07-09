@@ -3,6 +3,38 @@
   "state": "Virginia",
   "stateSlug": "va",
   "abbr": "VA",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Virginia's implied warranty of habitability is codified in the Virginia Residential Landlord and Tenant Act. Landlords must comply with building/housing codes affecting health and safety, keep the premises fit and habitable, maintain common areas and all systems (electrical, plumbing, heating, A/C) in good working order, supply running water, hot water, and heat, prevent mold/moisture accumulation, and maintain working smoke and CO detectors. This warranty cannot be waived by the lease.",
+    "statuteName": "Virginia Residential Landlord and Tenant Act",
+    "statuteCitation": "Va. Code § 55.1-1220",
+    "sourceUrl": "https://law.lis.virginia.gov/vacode/title55.1/chapter12/section55.1-1220/"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Virginia has a statute giving legal effect to a landlord's covenant for the lessee's quiet enjoyment — it protects a tenant's peaceable possession and use of the unit against interruption or disturbance, and does not mean literal silence. This is a general property-law statute that gives meaning to that covenant when a lease contains that language, rather than an automatic guarantee implied into every lease regardless of wording.",
+    "statuteCitation": "Va. Code § 55.1-1604 (formerly § 55-78)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "For a material noncompliance by the landlord affecting health and safety that can be fixed, the tenant must serve written notice specifying the breach and stating the lease will terminate on a date not less than 30 days after the notice is received if the breach is not remedied within 21 days (the \"21/30 notice\"). A separate repair-and-deduct provision requires 14 days' written notice before a tenant may act.",
+    "statuteCitation": "Va. Code § 55.1-1234 (21/30 notice); Va. Code § 55.1-1244.1 (14-day repair-and-deduct notice)"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Virginia offers both remedies. Rent escrow: a tenant can petition the court to pay rent into escrow when a serious defect (no heat/water, no electricity, inadequate sewage, infestation, lead paint) isn't corrected after written notice; a hearing must occur within 15 days, and if the condition remains unfixed after 6 months in escrow with no reasonable landlord effort, the court awards the funds to the tenant. Repair-and-deduct: after 14 days' written notice and landlord inaction, a tenant may hire a licensed contractor for material/health-and-safety defects and deduct the actual cost from rent, capped at the greater of one month's rent or $1,500.",
+    "statuteCitation": "Va. Code § 55.1-1244 (rent escrow); Va. Code § 55.1-1244.1 (repair-and-deduct)"
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "Va. Code § 55.1-1220 — Landlord to maintain fit premises", "url": "https://law.lis.virginia.gov/vacode/title55.1/chapter12/section55.1-1220/" },
+    { "label": "Va. Code § 55.1-1234 — Noncompliance by landlord", "url": "https://law.lis.virginia.gov/vacode/title55.1/chapter12/section55.1-1234/" },
+    { "label": "Va. Code § 55.1-1244 — Tenant's assertion; rent escrow", "url": "https://law.lis.virginia.gov/vacode/title55.1/chapter12/section55.1-1244/" },
+    { "label": "Va. Code § 55.1-1244.1 — Tenant's remedy by repair", "url": "https://law.lis.virginia.gov/vacode/title55.1/chapter12/section55.1-1244.1/" },
+    { "label": "Va. Code § 55.1-1604 — Covenant of lessor for lessee's quiet enjoyment", "url": "https://law.lis.virginia.gov/vacode/title55.1/chapter16/section55.1-1604/" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: § 55.1-1604's scope — by its text it only gives effect to a quiet-enjoyment covenant when the lease actually contains that phrase, and it's unclear from available sources whether Virginia courts treat quiet enjoyment as automatically implied into every residential lease regardless of wording, or only when invoked by that language. Recommend a targeted case-law check before publishing this as an unconditional guarantee."
+  ]
 }

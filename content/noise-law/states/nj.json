@@ -3,6 +3,36 @@
   "state": "New Jersey",
   "stateSlug": "nj",
   "abbr": "NJ",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "New Jersey's implied warranty of habitability is a common-law doctrine, created by the New Jersey Supreme Court in Marini v. Ireland (1970) and Berzito v. Gambino (1973), requiring landlords to keep rental units free of defects in vital facilities — heat, hot/cold water, electricity, working plumbing, structural soundness — throughout the lease term. A separate rent receivership statute lets tenants deposit rent with a court-appointed administrator when a unit violates housing codes or the implied warranty.",
+    "statuteName": "Common law (Marini v. Ireland / Berzito v. Gambino), supplemented by the Rent Receivership statute",
+    "statuteCitation": "Marini v. Ireland, 56 N.J. 130 (1970); Berzito v. Gambino, 63 N.J. 460 (1973); N.J.S.A. 2A:42-85 et seq.",
+    "sourceUrl": "https://www.nj.gov/dca/codes/publications/pdf_lti/habitablity.pdf"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "New Jersey recognizes the covenant of quiet enjoyment as a distinct common-law doctrine, separate from habitability. It protects a tenant's ability to use the unit without substantial interference — it does not guarantee literal silence. Notably, one appellate decision applied this doctrine directly to noise: a landlord's failure to act on a neighbor's excessive noise can amount to a breach justifying constructive eviction if the noise made the unit substantially unsuitable for ordinary living and abating it was within the landlord's power.",
+    "statuteCitation": "No dedicated NJ statute; common law (Reste Realty Corp. v. Cooper, 53 N.J. 444 (1969); applied to noise in Gottdiener v. Mailhot, 179 N.J. Super. 286 (1981))"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before withholding rent or using repair-and-deduct, a tenant must give the landlord positive and seasonable notice of the defect, request correction, and allow a reasonable period for the landlord to repair it. New Jersey does not set a fixed statutory number of days for this notice — guidance recommends written notice by certified mail and a reasonable wait, which is fact-specific rather than a bright-line deadline."
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "New Jersey allows both repair-and-deduct (a tenant may repair a vital-facility defect and deduct the cost from rent after notice and a reasonable opportunity to repair) and rent withholding/abatement as a defense to a nonpayment eviction action. A separate statutory rent receivership remedy lets a tenant petition a court to appoint an administrator to collect rent and fund repairs when conditions are dangerous to life, health, or safety."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "NJ Dept. of Community Affairs — habitability guidance", "url": "https://www.nj.gov/dca/codes/publications/pdf_lti/habitablity.pdf" },
+    { "label": "NJ Dept. of Community Affairs — rent receivership guidance", "url": "https://www.nj.gov/dca/codes/publications/pdf_lti/rent_recvrship.pdf" },
+    { "label": "Legal Services of NJ — Your Right to Safe and Decent Housing", "url": "https://www.lsnjlaw.org/legal-topics/housing/landlord-tenant/repairs-habitability/pages/safe-decent-housing-aspx" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: no fixed statutory notice period (in days) for rent withholding/repair-and-deduct was found — New Jersey case law and agency guidance both use a 'reasonable time' standard rather than a bright-line number.",
+    "TODO_VERIFY: the NJ DCA habitability PDF could not be read as text during verification (binary/encoding issues on fetch); citation content is corroborated by consistent secondary sources (Legal Services of NJ, case-law summaries) describing the same well-established Marini/Berzito doctrine, but the primary PDF itself was not confirmed word-for-word.",
+    "TODO_VERIFY: New Jersey's official legislature site does not have an easily linkable browse view of codified N.J.S.A. statute text, so the rent-receivership citation (N.J.S.A. 2A:42-85) is corroborated via a state-agency PDF and secondary mirrors rather than a direct njleg.state.nj.us statute page."
+  ]
 }

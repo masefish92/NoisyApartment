@@ -3,6 +3,35 @@
   "state": "Illinois",
   "stateSlug": "il",
   "abbr": "IL",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Illinois has no statewide statute spelling out a habitability standard — the doctrine comes entirely from case law. The Illinois Supreme Court first implied a warranty of habitability into multi-unit residential leases in Jack Spring, Inc. v. Little (1972), then extended it to all residential leases statewide in Glasoe v. Trinkle (1985). A tenant generally has to show a defect substantial enough that a reasonable person would consider the unit unsafe or unsanitary, and that the landlord had actual knowledge of it.",
+    "statuteName": "Common law doctrine — Jack Spring, Inc. v. Little; Glasoe v. Trinkle",
+    "statuteCitation": "Jack Spring, Inc. v. Little, 50 Ill. 2d 351 (1972); Glasoe v. Trinkle, 107 Ill. 2d 1 (1985)",
+    "sourceUrl": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=2605&ChapterID=62&Chapter=PROPERTY&MajorTopic=RIGHTS+AND+REMEDIES"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Illinois separately recognizes an implied covenant of quiet enjoyment in every lease as a matter of common law. It protects a tenant's right to use and possess the unit free of the landlord's intentional or substantial interference — it does not mean literal silence, and unrelated third-party noise generally isn't a breach by the landlord unless the landlord fails to act on it."
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "For the statutory repair-and-deduct remedy, the tenant must notify the landlord in writing by certified or registered mail, and the landlord then has 14 days to make the repair (less if it's an emergency) before the tenant can hire someone and deduct the cost. Outside that specific statute, case law on habitability generally requires the landlord to have actual notice of a defect before liability attaches."
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "The Residential Tenants' Right to Repair Act lets a tenant get a repair done and deduct the cost from rent, capped at the lesser of $500 or half a month's rent, after giving 14 days' written notice. It excludes public housing, condos, co-ops, and owner-occupied buildings of 6 units or fewer. Illinois has no separate statewide rent-escrow statute (Chicago has its own broader municipal ordinance, outside the scope of this statewide entry)."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "765 ILCS 742 — Residential Tenants' Right to Repair Act", "url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=2605&ChapterID=62&Chapter=PROPERTY&MajorTopic=RIGHTS+AND+REMEDIES" },
+    { "label": "Glasoe v. Trinkle, 107 Ill. 2d 1 (1985) — Justia case mirror", "url": "https://law.justia.com/cases/illinois/supreme-court/1985/60154-7.html" },
+    { "label": "Jack Spring, Inc. v. Little, 50 Ill. 2d 351 (1972) — Justia case mirror", "url": "https://law.justia.com/cases/illinois/supreme-court/1972/41730-5.html" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: no fixed statutory number of days for the general common-law habitability defense (as opposed to the 14-day Right to Repair Act period) — case law uses a 'reasonable notice' standard without a codified deadline.",
+    "TODO_VERIFY: this entry covers statewide law only; Chicago's municipal Residential Landlord and Tenant Ordinance provides materially broader remedies within city limits — worth a callout if the site adds city-level IL pages.",
+    "TODO_VERIFY: Jack Spring and Glasoe case text confirmed via corroborating secondary sources and matching citation format, not read directly (Justia blocked automated fetch of the opinion pages)."
+  ]
 }

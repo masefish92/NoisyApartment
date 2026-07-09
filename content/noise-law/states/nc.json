@@ -3,6 +3,35 @@
   "state": "North Carolina",
   "stateSlug": "nc",
   "abbr": "NC",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "North Carolina's Residential Rental Agreements Act requires landlords to comply with building and housing codes, keep the unit in a genuinely fit and habitable condition, maintain electrical/plumbing/heating systems, and keep smoke and carbon monoxide alarms working. A tenant's duty to pay rent and the landlord's duty to maintain the unit are legally linked, so a serious, uncured habitability breach can reduce what rent is actually owed.",
+    "statuteName": "North Carolina Residential Rental Agreements Act",
+    "statuteCitation": "N.C. Gen. Stat. §§ 42-41, 42-42",
+    "sourceUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_42/GS_42-42.html"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "North Carolina recognizes quiet enjoyment as a separate, judge-made protection implied into every lease, not a codified statute like habitability. It protects a tenant's peaceable possession against the landlord's own wrongful acts — not against noise or misbehavior by other tenants or outside parties — and it does not mean literal silence."
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Tenants generally must give the landlord written notice of a needed repair before the landlord's repair obligation is triggered (except in emergencies), and the landlord then has a reasonable time to fix it based on the circumstances — North Carolina does not set one fixed general deadline. One specific exception: smoke and carbon monoxide alarms must be repaired or replaced within 15 days of written notice.",
+    "statuteCitation": "N.C. Gen. Stat. § 42-42(a)(4), (a)(5), (a)(7)"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": false,
+    "summary": "North Carolina does not give tenants a self-help repair-and-deduct right, and a tenant may not unilaterally withhold rent. A tenant with an uncured habitability problem must go to court (or raise it as a defense in an eviction case) and ask a judge for remedies such as ordered repairs, rent abatement, or reimbursement of repair costs — the reduction only happens by court order, not by the tenant's own decision."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "N.C. Gen. Stat. § 42-42 — Landlord to provide fit premises", "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_42/GS_42-42.html" },
+    { "label": "N.C. Gen. Stat. § 42-44 — General remedies, penalties, and limitations", "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_42/GS_42-44.html" },
+    { "label": "N.C. Gen. Stat. Chapter 42, Article 5 — Residential Rental Agreements Act", "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_42/Article_5.html" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: covenant of quiet enjoyment in NC is common-law, not statutory — could not find a single codifying statute number, only case law referenced via a secondary source (Brennan Station 1671, LP v. Borovsky, 262 N.C. App. 1 (2018)); the opinion itself was not read directly.",
+    "TODO_VERIFY: the 'reasonable time' standard for general (non-alarm) repairs is the actual legal standard, not a research gap — it is genuinely open-ended/fact-specific rather than a fixed number of days."
+  ]
 }

@@ -3,6 +3,34 @@
   "state": "Michigan",
   "stateSlug": "mi",
   "abbr": "MI",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Michigan law builds a habitability promise into every residential lease: the landlord guarantees the unit and common areas are fit for their intended use, promises to keep the premises in reasonable repair, and must comply with state and local health/safety codes — unless the problem was caused by the tenant's own willful or irresponsible conduct. Under the state's Truth in Renting Act, a lease clause that tries to waive or weaken this right is void.",
+    "statuteName": "Michigan Compiled Laws",
+    "statuteCitation": "MCL 554.139",
+    "sourceUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-554-139"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Michigan recognizes quiet enjoyment as a separate common-law doctrine implied into every lease, distinct from the statutory habitability warranty. It's breached when the landlord substantially obstructs or interferes with the tenant's beneficial use and possession of the unit — it does not require literal silence and, like the habitability doctrine, generally reaches the landlord's own conduct rather than third-party noise."
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "A tenant should give the landlord written notice describing the problem and a reasonable deadline to fix it, and must wait a reasonable time before pursuing further remedies. Michigan's statute does not specify an exact number of days for general repairs — reasonableness is judged on the facts."
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Michigan tenants have a recognized, though not fully codified, common-law right to repair-and-deduct after giving written notice and a reasonable opportunity to fix the problem, but courts describe this area of law as unsettled, so it carries real risk if a landlord disputes it. Separately, in an eviction case for nonpayment of rent, Michigan law requires the court to deduct from the rent owed any amount excused by the landlord's breach of the lease or of the habitability covenants — a rent-abatement defense decided by a court, not a self-help withholding right."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "MCL 554.139 — Covenants to keep premises fit for use and in repair", "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-554-139" },
+    { "label": "MCL 600.5741 — Judgment; amount due; deduction for landlord's breach", "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-5741" },
+    { "label": "MCL 554.633 — Truth in Renting Act, prohibited/void lease provisions", "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-554-633" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: repair-and-deduct as an affirmative self-help remedy in Michigan rests on case law (Rome v. Walker, 38 Mich App 458 (1972)) as reported by secondary sources — the primary appellate opinion was not read directly.",
+    "TODO_VERIFY: covenant of quiet enjoyment — no Michigan statute codifying it generally was found (MCL 554.139 covers habitability/repair, not quiet enjoyment by name); treated as common-law based on secondary-source consensus."
+  ]
 }

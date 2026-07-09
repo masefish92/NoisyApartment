@@ -3,6 +3,34 @@
   "state": "Arizona",
   "stateSlug": "az",
   "abbr": "AZ",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Arizona's implied warranty of habitability is set out in the Arizona Residential Landlord and Tenant Act. Landlords must comply with health-and-safety building codes, keep the unit and common areas fit and habitable, maintain electrical/plumbing/heating/cooling systems in good working order, and supply running water, reasonable hot water, and reasonable heat/cooling at all times. This duty generally cannot be waived by lease agreement for the core health-and-safety items.",
+    "statuteName": "Arizona Residential Landlord and Tenant Act",
+    "statuteCitation": "A.R.S. § 33-1324",
+    "sourceUrl": "https://www.azleg.gov/ars/33/01324.htm"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Arizona courts recognize an implied covenant of quiet enjoyment in every residential lease, protecting a tenant's use of the unit free from unreasonable interference caused by the landlord (not neighbors or third parties, unless acting for the landlord). It functions as a common-law/contract-law principle applied alongside the statutory habitability duties, rather than its own numbered statute, and it means freedom from landlord-caused disruption, not literal silence."
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "A tenant must give the landlord written notice specifying the acts or omissions that breach the rental agreement before terminating or pursuing certain remedies. For general material noncompliance, the notice must give the landlord at least 10 days to remedy the breach; for noncompliance with the core health-and-safety habitability duties specifically, the notice period is shortened to at least 5 days."
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Arizona allows a specific repair-and-deduct remedy for failure to supply heat, air conditioning, water, hot water, or other essential services: after notice, the tenant may procure reasonable substitute services and deduct the actual reasonable cost from rent. For general (non-essential-service) maintenance failures where the repair cost is under a statutory threshold, the tenant may notify the landlord of intent to fix the problem and deduct the cost. If the landlord's noncompliance is deliberate, tenants can also recover the cost of substitute housing, capped at an amount equal to the periodic rent."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "A.R.S. § 33-1324 — Landlord to maintain fit premises", "url": "https://www.azleg.gov/ars/33/01324.htm" },
+    { "label": "A.R.S. § 33-1361 — Noncompliance by the landlord", "url": "https://www.azleg.gov/ars/33/01361.htm" },
+    { "label": "A.R.S. § 33-1364 — Wrongful failure to supply heat, water, essential services", "url": "https://www.azleg.gov/ars/33/01364.htm" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: the commonly cited '$300 or half a month's rent' repair-and-deduct threshold for general (non-essential-service) repairs came from a secondary source summarizing §33-1361, not from a direct word-for-word read of that subsection — treat the exact dollar figure as needing a final primary-source check before publishing it as a specific number.",
+    "TODO_VERIFY: no standalone A.R.S. section codifying quiet enjoyment by name was found — represented as common-law/implied per secondary-source consensus rather than attributed to a specific statute."
+  ]
 }

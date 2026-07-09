@@ -3,6 +3,35 @@
   "state": "Massachusetts",
   "stateSlug": "ma",
   "abbr": "MA",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Massachusetts recognizes the implied warranty of habitability primarily through case law — the landmark 1973 Supreme Judicial Court decision Boston Housing Authority v. Hemingway — rather than a single standalone habitability statute. Every residential lease carries an implied promise the unit is fit for human occupation, measured against the State Sanitary Code's specific standards, and a landlord's serious breach can excuse or reduce the tenant's rent obligation.",
+    "statuteName": "State Sanitary Code (105 CMR 410.000), as applied through case law and the rent-withholding-defense statute",
+    "statuteCitation": "105 CMR 410.000; M.G.L. c. 111 § 127A; M.G.L. c. 239 § 8A",
+    "sourceUrl": "https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleIII/Chapter239/Section8A"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Massachusetts recognizes quiet enjoyment as a distinct, separately-codified protection from habitability — state law makes it a civil (and even criminal) violation for a landlord to willfully or intentionally interfere, directly or indirectly, with a tenant's quiet enjoyment of a residential unit, or to attempt self-help eviction. It does not mean literal silence; it protects against the landlord's own interference (harassment, illegal lockouts, willful utility shutoffs), not general ambient noise from neighbors.",
+    "statuteCitation": "M.G.L. c. 186, § 14"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "To use a habitability breach as a defense against nonpayment-of-rent eviction, the landlord must have had actual knowledge of the bad conditions before the tenant fell behind on rent; proof of a State Sanitary Code violation that may endanger health or safety creates a presumption in the tenant's favor. The statute does not spell out a fixed number of days the landlord gets to fix the problem — it turns on the landlord's knowledge and a reasonable opportunity to repair, which is fact-specific."
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Massachusetts does not have a general self-help repair-and-deduct statute. The main remedy is rent withholding as a defense to an eviction-for-nonpayment case: if the tenant's habitability counterclaim equals or exceeds the rent owed, the landlord cannot recover possession, and courts can order rent paid to the court and applied toward repairs. Separately, a tenant whose landlord willfully cuts off essential utilities or interferes with quiet enjoyment can recover actual damages or three months' rent (whichever is greater) plus costs and attorney's fees, which can be set off against rent owed."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "M.G.L. c. 186, § 14 — Quiet enjoyment / utility shutoffs", "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section14" },
+    { "label": "M.G.L. c. 239, § 8A — Rent withholding defense", "url": "https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleIII/Chapter239/Section8A" },
+    { "label": "Boston Housing Authority v. Hemingway, 363 Mass. 184 (1973)", "url": "https://law.justia.com/cases/massachusetts/supreme-court/1973/363-mass-184-2.html" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: secondary sources cite a general '14-day reasonable time to repair' figure, but this could not be confirmed against the actual statutory text of c. 239 §8A or c. 186 §14, which do not state a fixed day count — treat any specific day number for MA repair timelines as unverified.",
+    "TODO_VERIFY: 105 CMR 410.000 (State Sanitary Code) primary text could not be directly fetched (mass.gov blocked automated access) — its citation and content are corroborated by multiple secondary sources but were not read directly."
+  ]
 }

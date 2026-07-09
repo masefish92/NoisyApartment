@@ -3,6 +3,36 @@
   "state": "Georgia",
   "stateSlug": "ga",
   "abbr": "GA",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "As of the Safe at Home Act (HB 404), effective July 1, 2024, Georgia residential leases entered into or renewed on or after that date are deemed to include a non-waivable warranty that the premises is fit for human habitation. Older, unrenewed leases may still fall under the prior, thinner version of Georgia's repair duty — before this amendment, Georgia was considered one of the weaker states on implied habitability.",
+    "statuteName": "Official Code of Georgia Annotated",
+    "statuteCitation": "O.C.G.A. § 44-7-13 (duty to repair; subsection (b) added by the 2024 Safe at Home Act)",
+    "sourceUrl": "https://law.justia.com/codes/georgia/title-44/chapter-7/article-1/section-44-7-13/"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Georgia recognizes an implied covenant of quiet enjoyment in every lease, rooted in the statute describing a tenant's lease as conveying the right to possess and enjoy the property. It does not guarantee literal silence — it protects against substantial interference with possession. Georgia courts have narrowed its practical force in commercial-eviction contexts, so its application to ordinary residential noise disputes is less settled than the habitability warranty.",
+    "statuteCitation": "O.C.G.A. § 44-7-1 (implied, not a dedicated quiet-enjoyment statute)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "A Georgia tenant must give the landlord written notice describing the needed repair and a reasonable opportunity to fix it before using any repair remedy. The statute does not set a fixed number of days — reasonableness is judged by severity. Verbal notice is not sufficient."
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Georgia does not have a court rent-escrow deposit system. Outright rent withholding is risky and not a protected statutory remedy — a landlord can treat it as nonpayment and pursue eviction. Instead, after proper written notice and a reasonable opportunity to repair, a tenant may hire someone to make the repair and deduct a reasonable cost from rent, sue for damages, or — if the unit truly cannot be made habitable — treat it as constructive eviction and vacate."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "O.C.G.A. § 44-7-13 — Landlord's duties as to repairs and improvements", "url": "https://law.justia.com/codes/georgia/title-44/chapter-7/article-1/section-44-7-13/" },
+    { "label": "O.C.G.A. § 44-7-1 — Creation of landlord-tenant relationship", "url": "https://codes.findlaw.com/ga/title-44-property/ga-code-sect-44-7-1/" },
+    { "label": "Georgia AG Consumer Protection Division — Landlord won't make repairs", "url": "https://consumered.georgia.gov/ask-ed/2021-10-07/landlord-wont-make-repairs" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: could not directly read the raw statutory text of O.C.G.A. § 44-7-13(b) as amended by HB 404 (Safe at Home Act) — Georgia's official legislature portal and Justia mirror both blocked automated fetch during research; everything on this subsection rests on consistent secondary summaries, not a direct primary-source read. Flag for a manual check before treating the exact wording/effective-date language as final.",
+    "TODO_VERIFY: the commonly cited 'repair-and-deduct capped around one month's rent' figure does not appear in the statutory text found so far — treat as unconfirmed, not a hard legal limit.",
+    "TODO_VERIFY: Georgia's official state statute site (legis.ga.gov) is not reliably fetchable by automated tools; citations above rely on Justia/FindLaw mirrors rather than the primary Lexis-hosted portal."
+  ]
 }
