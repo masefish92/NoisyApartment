@@ -3,6 +3,7 @@
   "state": "California",
   "stateSlug": "ca",
   "abbr": "CA",
+  "verified": true,
   "impliedWarrantyOfHabitability": {
     "recognized": true,
     "summary": "California Civil Code Section 1941.1 lists the specific minimum conditions a rental unit must meet to be considered habitable (weatherproofing, working plumbing/gas/electrical, heat, sanitation, and more). A tenant must generally show an uninhabitable condition, the landlord's knowledge of it, and resulting damages to prevail on a habitability claim.",

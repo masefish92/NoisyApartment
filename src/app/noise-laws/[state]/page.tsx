@@ -72,45 +72,91 @@ export default async function StateNoiseLawPage({
       <h1 className="font-display-lg text-display-lg-mobile md:text-display-lg text-primary mt-4 mb-4">
         {state.state} Noise Laws &amp; Tenant Rights
       </h1>
-      <div className="mb-8">
-        <LastVerified date={state.lastVerified} />
-      </div>
+      {state.verified && state.lastVerified && (
+        <div className="mb-8">
+          <LastVerified date={state.lastVerified} />
+        </div>
+      )}
 
       <Disclaimer />
 
-      <dl className="space-y-6 mb-12">
-        <LegalField label="Implied warranty of habitability">
-          {state.impliedWarrantyOfHabitability.summary}
-          {state.impliedWarrantyOfHabitability.statuteCitation && (
-            <span className="block mt-1 font-bold">
-              {state.impliedWarrantyOfHabitability.statuteName} (
-              {state.impliedWarrantyOfHabitability.statuteCitation})
-            </span>
-          )}
-        </LegalField>
-        <LegalField label="Covenant of quiet enjoyment">
-          {state.covenantOfQuietEnjoyment.summary}
-        </LegalField>
-        <LegalField label="Notice required before remedies">
-          {state.noticeToRemedy.summary}
-        </LegalField>
-        <LegalField label="Rent escrow / repair-and-deduct">
-          {state.rentEscrowOrRepairDeduct.summary}
-        </LegalField>
-      </dl>
+      {state.verified &&
+      state.impliedWarrantyOfHabitability &&
+      state.covenantOfQuietEnjoyment &&
+      state.noticeToRemedy &&
+      state.rentEscrowOrRepairDeduct ? (
+        <>
+          <dl className="space-y-6 mb-12">
+            <LegalField label="Implied warranty of habitability">
+              {state.impliedWarrantyOfHabitability.summary}
+              {state.impliedWarrantyOfHabitability.statuteCitation && (
+                <span className="block mt-1 font-bold">
+                  {state.impliedWarrantyOfHabitability.statuteName} (
+                  {state.impliedWarrantyOfHabitability.statuteCitation})
+                </span>
+              )}
+            </LegalField>
+            <LegalField label="Covenant of quiet enjoyment">
+              {state.covenantOfQuietEnjoyment.summary}
+            </LegalField>
+            <LegalField label="Notice required before remedies">
+              {state.noticeToRemedy.summary}
+            </LegalField>
+            <LegalField label="Rent escrow / repair-and-deduct">
+              {state.rentEscrowOrRepairDeduct.summary}
+            </LegalField>
+          </dl>
 
-      {state.sources.length > 0 && (
+          {state.sources.length > 0 && (
+            <div className="mb-12">
+              <h2 className="font-label-sm text-label-sm uppercase tracking-widest text-secondary mb-3">
+                Sources
+              </h2>
+              <ul className="space-y-2">
+                {state.sources.map((source) => (
+                  <li key={source.url}>
+                    <SourceLink label={source.label} url={source.url} />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </>
+      ) : (
         <div className="mb-12">
-          <h2 className="font-label-sm text-label-sm uppercase tracking-widest text-secondary mb-3">
-            Sources
-          </h2>
-          <ul className="space-y-2">
-            {state.sources.map((source) => (
-              <li key={source.url}>
-                <SourceLink label={source.label} url={source.url} />
-              </li>
-            ))}
-          </ul>
+          <div className="border border-outline-variant bg-surface-container-low p-6 mb-8">
+            <p className="font-label-sm text-label-sm uppercase tracking-widest text-secondary mb-2">
+              State specifics under review
+            </p>
+            <p className="font-body-md text-sm text-on-surface-variant">
+              We haven&apos;t yet verified {state.state}&apos;s specific
+              statutes, quiet-hours windows, or decibel limits against a
+              primary source, so we&apos;re not publishing citations for this
+              state until that research is done.
+            </p>
+          </div>
+
+          <dl className="space-y-6">
+            <LegalField label="Quiet enjoyment, generally">
+              Almost every residential lease in the US includes an implied
+              promise of quiet enjoyment. It doesn&apos;t mean &quot;silence&quot; —
+              it means you have the right to use your property without
+              unreasonable interference, and most states recognize some
+              version of this right even where {state.state}&apos;s exact
+              statutory language isn&apos;t confirmed here yet.
+            </LegalField>
+            <LegalField label="Finding your local ordinance">
+              Noise ordinances are usually set at the city or county level,
+              not the state level — search &quot;[your city] noise ordinance&quot;
+              or check your city or county government website for quiet
+              hours and decibel limits that apply to your address.
+            </LegalField>
+            <LegalField label="What to do in the meantime">
+              Start documenting incidents with a dated record, and put your
+              complaint in writing to your landlord or property manager —
+              both matter regardless of which state or city you&apos;re in.
+            </LegalField>
+          </dl>
         </div>
       )}
 
@@ -137,6 +183,18 @@ export default async function StateNoiseLawPage({
           </ul>
         )}
       </section>
+
+      <p className="mt-12 font-body-md text-sm text-on-surface-variant border-t border-outline-variant pt-6">
+        Ready to escalate? Document what&apos;s happening with a{" "}
+        <Link href="/noise-log" className="text-primary underline">
+          noise log
+        </Link>{" "}
+        and use the{" "}
+        <Link href="/tools/complaint-letter-generator" className="text-primary underline">
+          complaint letter generator
+        </Link>{" "}
+        to put it in writing.
+      </p>
     </div>
   );
 }

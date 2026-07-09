@@ -3,6 +3,7 @@
   "state": "Florida",
   "stateSlug": "fl",
   "abbr": "FL",
+  "verified": true,
   "impliedWarrantyOfHabitability": {
     "recognized": true,
     "summary": "Florida Statute 83.51 requires landlords to comply with applicable building, housing, and health codes, or, where none apply, to maintain structural components, plumbing, and required facilities in good working condition, for the duration of the tenancy.",

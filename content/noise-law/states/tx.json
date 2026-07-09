@@ -3,6 +3,7 @@
   "state": "Texas",
   "stateSlug": "tx",
   "abbr": "TX",
+  "verified": true,
   "impliedWarrantyOfHabitability": {
     "recognized": true,
     "summary": "Every Texas residential lease carries an implied warranty of habitability that cannot be waived. Property Code Section 92.052 requires landlords to repair conditions materially affecting the physical health or safety of an ordinary tenant after written notice.",

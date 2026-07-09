@@ -49,30 +49,32 @@ export default function NoiseLawsHubPage() {
 
       <section>
         <h2 className="font-headline-md text-headline-md text-primary mb-2">
-          Major States &amp; Cities
+          All 50 States
         </h2>
         <p className="font-body-md text-sm text-on-surface-variant mb-6">
-          We&apos;re starting with a handful of well-researched jurisdictions
-          and expanding from here.
+          We&apos;ve fully researched and cited a handful of states so far —
+          the rest have a page with general guidance while research is in
+          progress.
         </p>
-        {states.length === 0 ? (
-          <p className="font-body-md text-on-surface-variant border border-outline-variant p-8 text-center max-w-xl">
-            State data is being added.
-          </p>
-        ) : (
-          <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 max-w-3xl">
-            {states.map((state) => (
-              <li key={state.stateSlug}>
-                <Link
-                  href={`/noise-laws/${state.stateSlug}`}
-                  className="block border border-outline-variant bg-background px-5 py-3 font-body-md text-sm hover:border-primary transition-colors"
+        <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 max-w-3xl">
+          {states.map((state) => (
+            <li key={state.stateSlug}>
+              <Link
+                href={`/noise-laws/${state.stateSlug}`}
+                className="flex items-center justify-between gap-3 border border-outline-variant bg-background px-5 py-3 font-body-md text-sm hover:border-primary transition-colors"
+              >
+                <span>{state.state}</span>
+                <span
+                  className={`font-label-sm text-[10px] uppercase tracking-widest shrink-0 ${
+                    state.verified ? "text-secondary" : "text-on-surface-variant"
+                  }`}
                 >
-                  {state.state}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        )}
+                  {state.verified ? "Verified" : "Under review"}
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
       </section>
     </div>
   );

@@ -3,6 +3,7 @@
   "state": "Washington",
   "stateSlug": "wa",
   "abbr": "WA",
+  "verified": true,
   "impliedWarrantyOfHabitability": {
     "recognized": true,
     "summary": "The Residential Landlord-Tenant Act requires landlords to keep rental premises fit for human habitation and to substantially comply with applicable codes, statutes, and ordinances governing their maintenance. A persistent, unaddressed noise problem the landlord has the power to fix can implicate this duty.",

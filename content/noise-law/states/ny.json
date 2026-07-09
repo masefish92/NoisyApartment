@@ -3,6 +3,7 @@
   "state": "New York",
   "stateSlug": "ny",
   "abbr": "NY",
+  "verified": true,
   "impliedWarrantyOfHabitability": {
     "recognized": true,
     "summary": "Every written or oral residential lease in New York includes an implied warranty that the premises are fit for human habitation and that occupants won't be subjected to conditions dangerous, hazardous, or detrimental to life, health, or safety. This warranty cannot be waived by agreement.",

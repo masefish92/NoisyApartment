@@ -12,28 +12,35 @@ export type StateNoiseLaw = {
   state: string;
   stateSlug: string;
   abbr: string;
-  impliedWarrantyOfHabitability: {
+  /**
+   * false = no research done yet for this state. In that case the four
+   * legal-detail fields below are omitted entirely rather than populated
+   * with invented statute numbers or guessed defaults — the page renders
+   * generic guidance plus an "under review" notice instead.
+   */
+  verified: boolean;
+  impliedWarrantyOfHabitability?: {
     recognized: boolean;
     summary: string;
     statuteName?: string;
     statuteCitation?: string;
     sourceUrl?: string;
   };
-  covenantOfQuietEnjoyment: {
+  covenantOfQuietEnjoyment?: {
     recognized: boolean;
     summary: string;
     statuteCitation?: string;
   };
-  noticeToRemedy: {
+  noticeToRemedy?: {
     required: boolean;
     summary: string;
     statuteCitation?: string;
   };
-  rentEscrowOrRepairDeduct: {
+  rentEscrowOrRepairDeduct?: {
     available: boolean;
     summary: string;
   };
-  lastVerified: string;
+  lastVerified?: string;
   sources: Source[];
   /** Research-team-only TODO_VERIFY flags — never rendered on the public page. */
   internalNotes?: string[];
