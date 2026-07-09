@@ -3,6 +3,40 @@
   "state": "South Carolina",
   "stateSlug": "sc",
   "abbr": "SC",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "South Carolina's Residential Landlord and Tenant Act requires landlords to keep rental units fit and habitable. A landlord must comply with building and housing codes affecting health and safety, keep the unit and common areas in a safe condition, and maintain electrical, plumbing, heating, and other essential systems and appliances in good working order, along with running water, reasonable hot water, and reasonable heat. This duty cannot be waived by the lease.",
+    "statuteName": "South Carolina Residential Landlord and Tenant Act",
+    "statuteCitation": "S.C. Code Ann. § 27-40-440",
+    "sourceUrl": "https://www.scstatehouse.gov/code/t27c040.php"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "South Carolina recognizes the covenant of quiet enjoyment as an implied term of every lease, guaranteeing a tenant's right to quiet and peaceful possession of the rented premises free from substantial interference by the landlord. South Carolina appellate courts have enforced this covenant, finding a landlord in breach for actions that deprived a tenant of full, quiet possession of leased space. To succeed on a claim, a tenant generally must show the interference was substantial rather than a minor annoyance.",
+    "statuteCitation": "Leinbach Investors, LLC v. Magnolia Paradigm, Inc., 769 S.E.2d 242 (S.C. Ct. App. 2015)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before a South Carolina tenant can terminate a lease or sue over a landlord's failure to maintain the unit, the tenant must give the landlord written notice describing the problem. If the landlord does not fix a breach materially affecting health, safety, or the physical condition of the unit within 14 days of receiving that notice, the tenant may terminate the rental agreement and may also seek actual damages, an injunction, and attorney's fees if the landlord's noncompliance was willful. A separate notice-and-reasonable-time requirement applies if the landlord fails to provide essential services like water or heat.",
+    "statuteCitation": "S.C. Code Ann. § 27-40-610"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "South Carolina law does not give tenants a general right to withhold rent or deduct ordinary repair costs from rent, and there is no court-supervised rent escrow procedure in the statute. It does allow one narrow self-help remedy: if a landlord willfully or negligently fails to provide essential services required by the lease or by state law, such as water, heat, or working plumbing, the tenant can give written notice, then pay for those services and deduct the actual, reasonable cost from rent, or instead sue for the drop in the unit's rental value plus attorney's fees. The statute expressly states this provision does not authorize a tenant to make general repairs and deduct their cost from rent."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "S.C. Code Ann. Title 27, Chapter 40 (Residential Landlord and Tenant Act) — official statehouse text, directly fetched", "url": "https://www.scstatehouse.gov/code/t27c040.php" },
+    { "label": "S.C. Code § 27-40-440, Landlord to maintain premises (Justia)", "url": "https://law.justia.com/codes/south-carolina/title-27/chapter-40/section-27-40-440/" },
+    { "label": "S.C. Code § 27-40-610, Noncompliance by landlord in general (Justia)", "url": "https://law.justia.com/codes/south-carolina/title-27/chapter-40/section-27-40-610/" },
+    { "label": "S.C. Code § 27-40-630, Wrongful failure to provide essential services (Justia)", "url": "https://law.justia.com/codes/south-carolina/title-27/chapter-40/section-27-40-630/" },
+    { "label": "Leinbach Investors, LLC v. Magnolia Paradigm, Inc. case summary (Justia)", "url": "https://law.justia.com/cases/south-carolina/court-of-appeals/2014/5270.html" },
+    { "label": "SC Appleseed / SC Legal Services Authority — Landlord & Tenant Law in South Carolina (secondary corroboration)", "url": "https://www.scjustice.org/brochure/landlord-tenant-law-south-carolina/" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: Fetch to the primary South Carolina Court of Appeals opinion for Leinbach Investors, LLC v. Magnolia Paradigm, Inc. (law.justia.com case page) returned HTTP 403, so the citation (769 S.E.2d 242, S.C. Ct. App. 2015) was corroborated only via search-result snippets from multiple secondary sources, not by directly reading the opinion. Also note the underlying dispute was between two commercial tenants of the same landlord, not a residential apartment noise scenario — worth flagging or replacing with a residential SC case if a cleaner on-point one is found.",
+    "TODO_VERIFY: Confirm whether South Carolina courts have also grounded habitability protections independently in common law, or whether § 27-40-440 is treated as the sole/controlling basis (current sourcing only confirms the statutory basis).",
+    "TODO_VERIFY: Confirm there is genuinely no dollar cap on the repair-and-deduct-for-essential-services remedy under § 27-40-630(a)(1); the fetched statute text showed none, but double-check against the current codified version before publishing that as a firm 'no cap' claim."
+  ]
 }

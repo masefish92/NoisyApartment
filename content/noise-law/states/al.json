@@ -3,6 +3,43 @@
   "state": "Alabama",
   "stateSlug": "al",
   "abbr": "AL",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Alabama tenants have a statutory right to a habitable home under the Alabama Uniform Residential Landlord and Tenant Act. Landlords must comply with building and housing codes affecting health and safety, keep the unit in habitable condition, maintain common areas, and keep electrical, plumbing, heating, and hot water systems in good working order. This duty applies statewide to residential rental agreements entered on or after January 1, 2007.",
+    "statuteName": "Alabama Uniform Residential Landlord and Tenant Act",
+    "statuteCitation": "Ala. Code § 35-9A-204",
+    "sourceUrl": "https://law.onecle.com/alabama/title-35/35-9A-204.html"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Alabama recognizes an implied covenant of quiet enjoyment in leases under common law, meaning a landlord may not substantially interfere with a tenant's use and possession of the rental. Alabama's landlord-tenant statute also builds a parallel duty into tenant obligations, requiring tenants to conduct themselves, and require guests to conduct themselves, in a way that does not disturb neighbors' peaceful enjoyment of the premises.",
+    "statuteCitation": "Ala. Code § 35-9A-301(a)(6)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before ending a lease over a landlord's failure to maintain the property, a tenant must deliver written notice describing the problem. The landlord then has at least 14 days from receipt of that notice to fix the issue before the tenant can treat the lease as terminated, unless the landlord adequately remedies the breach within that window.",
+    "statuteCitation": "Ala. Code § 35-9A-401"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": false,
+    "summary": "Alabama does not give tenants a right to withhold rent or to repair a problem themselves and deduct the cost from rent. State law expressly bars a tenant in possession from withholding rent to enforce any right under the landlord-tenant act. Instead, after proper 14-day written notice, an Alabama tenant's remedies are limited to terminating the lease, suing for actual damages and attorney's fees, or seeking injunctive relief."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "Ala. Code § 35-9A-121 — Territorial Application", "url": "https://law.onecle.com/alabama/title-35/35-9A-121.html" },
+    { "label": "Ala. Code § 35-9A-204 — Landlord to Maintain Premises", "url": "https://law.onecle.com/alabama/title-35/35-9A-204.html" },
+    { "label": "Ala. Code § 35-9A-301 — Tenant to Maintain Dwelling Unit", "url": "https://law.onecle.com/alabama/title-35/35-9A-301.html" },
+    { "label": "Ala. Code § 35-9A-401 — Noncompliance by the Landlord", "url": "https://law.onecle.com/alabama/title-35/35-9A-401.html" },
+    { "label": "Ala. Code § 35-9A-164 — Payment of Rent Prerequisite to Enforcing Remedies", "url": "https://www.lawserver.com/law/state/alabama/al-code/alabama_code_35-9a-164" },
+    { "label": "Chapter 9A Overview — Uniform Residential Landlord and Tenant Act", "url": "https://law.onecle.com/alabama/title-35/chapter-9a/index.html" },
+    { "label": "Repairs in Rental Housing — Alabama Legal Help (legal aid corroboration)", "url": "https://www.alabamalegalhelp.org/resource/repairs-in-rental-housing" },
+    { "label": "Southern Security Services, Inc. v. Esneault, Ala. Civ. App. (1983)", "url": "https://law.justia.com/cases/alabama/court-of-appeals-civil/1983/civ-3730.html" },
+    { "label": "Code of Alabama, official legislature portal (§ 35-9A-101 et seq.)", "url": "https://alison.legislature.state.al.us/code-of-alabama?section=35-9A-101" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: Could not confirm via primary source text whether the original 2006 enactment (Act 2006-316, eff. Jan. 1, 2007) had a population-based county limitation on applicability before Act 2009-633 amended § 35-9A-121. The current codified text of § 35-9A-121 confirms unrestricted statewide applicability (no county/population threshold), which is what the public-facing summary states, but the pre-2009 legislative history could not be independently verified.",
+    "TODO_VERIFY: No Alabama residential-lease-specific published appellate case directly confirming the implied covenant of quiet enjoyment could be located. Relied on Southern Security Services, Inc. v. Esneault (Ala. Civ. App. 1983), which is a commercial lease case, plus general Alabama property-law treatment and the statutory 'peaceful enjoyment' language in Ala. Code § 35-9A-301(a)(6) (a tenant-to-neighbor duty, not a landlord-to-tenant covenant) as corroboration. A residential-specific case citation would strengthen this.",
+    "TODO_VERIFY: Some AI-summarized secondary/aggregator sites claimed Alabama allows an 'emergency repair-and-deduct capped at one month's rent or $300.' This could not be confirmed against the statutory text of Ala. Code § 35-9A-401 or § 35-9A-164 and directly contradicts the plain text of § 35-9A-164 (no rent withholding), which was confirmed via two independent primary/secondary fetches (onecle.com statute text plus AlabamaLegalHelp.org legal-aid page stating tenants cannot hold back rent or use rent to pay for repairs). Treated the aggregator claim as unreliable and excluded it."
+  ]
 }

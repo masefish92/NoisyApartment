@@ -3,6 +3,47 @@
   "state": "Colorado",
   "stateSlug": "co",
   "abbr": "CO",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Colorado law guarantees every tenant a livable home. Landlords automatically warrant that a rental is fit for human habitation when a tenant moves in and must keep it that way throughout the tenancy. A landlord breaches this warranty if a condition materially interferes with a tenant's life, health, or safety, or if the unit is \"uninhabitable\" under the statute's standards (such as failed weatherproofing, broken plumbing, no heat, or hazardous gas lines) and doesn't act quickly enough after being notified. The right cannot be waived in a lease — any clause purporting to waive it is void as against public policy.",
+    "statuteName": "Warranty of Habitability",
+    "statuteCitation": "C.R.S. § 38-12-501 et seq. (core provisions at §§ 38-12-503, 38-12-505, 38-12-507)",
+    "sourceUrl": "https://colorado.public.law/statutes/crs_38-12-503"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Colorado recognizes an implied covenant of quiet enjoyment in every residential lease as a matter of common law, even when the lease doesn't spell it out. Courts have held that a tenant is entitled to possession and use of the rental free from substantial interference, including interference by the landlord. This is a court-made doctrine rather than a numbered statute, so it typically comes up when a tenant sues over a landlord's own disruptive conduct — improper entry, harassment, or failing to address a disturbance within the landlord's control — rather than as a standalone tool against a noisy neighbor.",
+    "statuteCitation": "Common-law doctrine; see Kirkland v. Allen, 678 P.2d 568 (Colo. App. 1984); Radinsky v. Weaver, 170 Colo. 169, 460 P.2d 218 (1969)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Yes. A Colorado tenant must give the landlord notice of a defective condition before pursuing habitability remedies, and the landlord then gets a statutory window to respond. Once notified, a landlord must commence remedial action within 24 hours for conditions that materially interfere with the tenant's life, health, or safety, and within roughly 72 to 96 hours for other uninhabitable conditions (the longer window applies when the tenant's notice includes permission for the landlord to enter). The landlord must also send the tenant a written response within 24 hours describing their repair plan and estimated timeline.",
+    "statuteCitation": "C.R.S. § 38-12-503(2), (2.5)"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Yes, within limits. Colorado tenants can use a repair-and-deduct remedy: after giving the landlord at least 10 days' written or electronic notice of intent to hire a professional, along with a good-faith repair estimate from someone unrelated to the tenant, the tenant can pay for the repair and deduct the cost from rent if the landlord doesn't obtain a competing estimate within 4 business days. Separately, if a tenant raises a habitability defect as a defense in an eviction case, a court can order the tenant to pay disputed rent into the court registry — with that requirement waivable for indigent tenants — rather than directly to the landlord while the dispute is resolved."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "C.R.S. § 38-12-503 — Warranty of habitability (public.law, directly fetched)", "url": "https://colorado.public.law/statutes/crs_38-12-503" },
+    { "label": "C.R.S. § 38-12-505 — Uninhabitable residential premises (public.law)", "url": "https://colorado.public.law/statutes/crs_38-12-505" },
+    { "label": "C.R.S. § 38-12-507 — Breach of warranty of habitability, tenant's remedies (public.law)", "url": "https://colorado.public.law/statutes/crs_38-12-507" },
+    { "label": "C.R.S. § 38-12-503 (FindLaw mirror)", "url": "https://codes.findlaw.com/co/title-38-property-real-and-personal/co-rev-st-sect-38-12-503/" },
+    { "label": "C.R.S. § 38-12-507 (FindLaw mirror)", "url": "https://codes.findlaw.com/co/title-38-property-real-and-personal/co-rev-st-sect-38-12-507/" },
+    { "label": "C.R.S. § 38-12-503 (Justia)", "url": "https://law.justia.com/codes/colorado/title-38/tenants-and-landlords/article-12/part-5/section-38-12-503/" },
+    { "label": "C.R.S. § 38-12-507 (Justia)", "url": "https://law.justia.com/codes/colorado/title-38/tenants-and-landlords/article-12/part-5/section-38-12-507/" },
+    { "label": "Kirkland v. Allen, 678 P.2d 568 (Colo. App. 1984) (Justia)", "url": "https://law.justia.com/cases/colorado/court-of-appeals/1984/81ca0937-0.html" },
+    { "label": "Colorado Right to Repairs (repair-and-deduct secondary summary)", "url": "https://commoner-law.com/rights/housing-rights/right-to-repairs/colorado" },
+    { "label": "Colorado General Assembly, Renters' Rights — Colorado Law Summary (official)", "url": "https://content.leg.colorado.gov/sites/default/files/renters_rights_-_colorado_law_summary.pdf" },
+    { "label": "New Warranty of Habitability law includes many changes — Colorado Real Estate Journal", "url": "https://crej.com/news/new-warranty-of-habitability-law-includes-many-changes/" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: Repair-and-deduct dollar cap is unresolved. colorado.public.law and FindLaw renderings of C.R.S. § 38-12-507 that were fetched directly showed no explicit dollar/rent cap on the deduction amount, but several secondary summary sites assert the deduction is capped at 'one month's rent' per repair. The summary above deliberately omits a specific cap figure — confirm against the official leg.colorado.gov statute text before publishing any cap number.",
+    "TODO_VERIFY: The three-tier notice/remedial-action timeline (24 hours for conditions materially interfering with life/health/safety; ~72 hours for other uninhabitable conditions; up to 96 hours where the tenant's notice grants landlord entry permission) was reconstructed from search-engine snippets of § 38-12-503, not a single clean fetch of the full statute text (law.justia.com returned HTTP 403 during agent research). The structure was consistent across multiple independent searches but should be checked against the official codified text at leg.colorado.gov before treating the exact hour counts as final.",
+    "TODO_VERIFY: law.justia.com and leg.colorado.gov blocked direct fetch during agent research; primary-source confirmation relied on colorado.public.law and FindLaw statute mirrors plus search-result corroboration rather than the Colorado General Assembly's own site. Recommend a follow-up direct check of leg.colorado.gov's codified statutes if possible.",
+    "TODO_VERIFY: Kirkland v. Allen, 678 P.2d 568 (Colo. App. 1984) and Radinsky v. Weaver, 170 Colo. 169, 460 P.2d 218 (1969) were identified via search-engine snippets as Colorado cases addressing the covenant of quiet enjoyment; full opinion text was not directly fetched to confirm exact holding language. Citations appear consistent across independent secondary sources but full-text confirmation is still recommended.",
+    "TODO_VERIFY: Noise is not called out as its own condition in the habitability statute's uninhabitability list (weatherproofing, plumbing, heat, gas safety) — noise disturbances in Colorado are handled primarily through the common-law quiet enjoyment doctrine and local nuisance ordinances rather than the state habitability statute. Worth double-checking this framing against any Colorado nuisance/noise-ordinance research before publishing copy that implies noise falls under § 38-12-503/505."
+  ]
 }

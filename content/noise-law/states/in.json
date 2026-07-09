@@ -3,6 +3,41 @@
   "state": "Indiana",
   "stateSlug": "in",
   "abbr": "IN",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Indiana law imposes a statutory duty on landlords to deliver and maintain rental housing in a safe, clean, and habitable condition, including compliance with health and housing codes and working plumbing, heating, and electrical systems. Separately, Indiana courts have recognized that a warranty of habitability can be implied in a residential lease based on the landlord and tenant's agreement, course of dealing, or ordinary rental-industry practice, rather than being automatically read into every lease. This principle was established by the Indiana Supreme Court in Johnson v. Scandia Associates, Inc., which let a tenant pursue a claim over a hidden dangerous condition in her apartment under an implied-warranty theory.",
+    "statuteName": "Indiana Code Title 32, Article 31, Chapter 8 (Landlord Obligations Under a Rental Agreement)",
+    "statuteCitation": "Ind. Code 32-31-8-5; Johnson v. Scandia Associates, Inc., 717 N.E.2d 24 (Ind. 1999)",
+    "sourceUrl": "https://codes.findlaw.com/in/title-32-property/in-code-sect-32-31-8-5/"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Indiana law protects a tenant's right to possession and use of a rental unit without unreasonable landlord interference. By statute, a landlord may not lock a tenant out, remove doors, windows, or appliances, or shut off utilities except in narrow circumstances like emergencies or good-faith repairs, and must give reasonable notice before entering except in an emergency. This statutory protection operates alongside the common-law covenant of quiet enjoyment that Indiana courts have long treated as implied in residential leases.",
+    "statuteCitation": "Ind. Code 32-31-5-6"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before an Indiana tenant can sue a landlord for failing to meet a maintenance or habitability obligation, the tenant must first give the landlord notice describing the problem and allow a reasonable amount of time for the landlord to make repairs. The statute does not set an exact number of days for what counts as reasonable — it depends on the nature of the defect. The tenant also cannot block the landlord's access to the unit to make the repair, and only after the landlord fails or refuses to fix the problem within a reasonable time can the tenant bring a court action.",
+    "statuteCitation": "Ind. Code 32-31-8-6"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": false,
+    "summary": "Indiana does not have a statute allowing tenants to withhold rent or use a repair-and-deduct remedy when a landlord fails to make repairs. A tenant who stops paying rent over a habitability problem risks eviction, since Indiana law does not treat the landlord's repair obligations as an excuse for nonpayment. Instead, a tenant's remedy is to give written notice and, if the landlord doesn't fix the problem within a reasonable time, sue for actual and consequential damages, attorney's fees and court costs, or an injunction ordering the repair."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "Ind. Code 32-31-8-5 (Landlord Obligations)", "url": "https://codes.findlaw.com/in/title-32-property/in-code-sect-32-31-8-5/" },
+    { "label": "Ind. Code 32-31-8-6 (Tenant's Cause of Action to Enforce Landlord Obligations)", "url": "https://codes.findlaw.com/in/title-32-property/in-code-sect-32-31-8-6/" },
+    { "label": "Ind. Code 32-31-5-6 (Landlord Prohibited From Interfering With Access, Possession, or Essential Services)", "url": "https://codes.findlaw.com/in/title-32-property/in-code-sect-32-31-5-6/" },
+    { "label": "Johnson v. Scandia Associates, Inc. — Indiana Supreme Court opinion summary", "url": "https://caselaw.findlaw.com/court/in-supreme-court/1376064.html" },
+    { "label": "Johnson v. Scandia Associates, Inc. case page (Justia)", "url": "https://law.justia.com/cases/indiana/supreme-court/1999/09309901-rts.html" },
+    { "label": "Indiana Code Title 32, Article 31 index (Justia)", "url": "https://law.justia.com/codes/indiana/title-32/article-31/" },
+    { "label": "Indiana Warranty of Habitability overview (secondary corroboration on repair-and-deduct)", "url": "https://ipropertymanagement.com/laws/warranty-of-habitability-indiana" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: Confirm the exact reporter citation '717 N.E.2d 24 (Ind. 1999)' for Johnson v. Scandia Associates, Inc. against an official reporter or Westlaw/Lexis cite — Justia's case page returned HTTP 403 on direct fetch, so this was corroborated only via search-engine synthesis of the FindLaw case summary, not a full read of the opinion text.",
+    "TODO_VERIFY: Confirm whether later Indiana appellate decisions have broadened Johnson v. Scandia's implied-in-fact warranty theory beyond personal-injury claims against professional landlords, since the original holding was fairly narrow (it required proof of course-of-dealing/industry practice, not an automatic warranty in every lease).",
+    "TODO_VERIFY: IC 32-31-8-6 references related tenant rights under IC 32-31-3 and IC 32-31-6 as not being limited by that section — these weren't researched for this pass and could contain additional relevant remedies worth checking in a follow-up."
+  ]
 }

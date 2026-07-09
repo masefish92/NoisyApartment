@@ -28,64 +28,73 @@ See the `StateNoiseLaw` and `CityNoiseLaw` types in `src/lib/noise-law.ts`
 for the authoritative shape. Every entry needs `lastVerified` (ISO date)
 and a non-empty `sources` array.
 
-## Seeded (5 states / 5 cities)
+## State legal research status (25 of 50 verified)
 
-- [x] Washington — Seattle
-- [x] California — Los Angeles
-- [x] Texas — Austin
-- [x] New York — New York City
-- [x] Florida — Miami
+Every state has a page (all 50 got honest `verified: false` stubs in an
+earlier pass so no state page 404s or shows invented numbers). This list
+tracks which ones have real, citation-backed `verified: true` data for
+implied warranty of habitability, covenant of quiet enjoyment, notice-to-
+remedy, and rent escrow/repair-and-deduct. Seeded cities (5, one per the
+first five verified states) are listed separately below.
 
-## Remaining states + DC (not yet seeded — add a state file first, then at
-least one city)
-
-- [ ] Alabama
+- [x] Alabama
 - [ ] Alaska
-- [ ] Arizona
+- [x] Arizona
 - [ ] Arkansas
-- [ ] Colorado
+- [x] California
+- [x] Colorado
 - [ ] Connecticut
 - [ ] Delaware
-- [ ] District of Columbia
-- [ ] Georgia
+- [x] Florida
+- [x] Georgia
 - [ ] Hawaii
 - [ ] Idaho
-- [ ] Illinois
-- [ ] Indiana
+- [x] Illinois
+- [x] Indiana
 - [ ] Iowa
 - [ ] Kansas
 - [ ] Kentucky
-- [ ] Louisiana
+- [x] Louisiana
 - [ ] Maine
-- [ ] Maryland
-- [ ] Massachusetts
-- [ ] Michigan
-- [ ] Minnesota
+- [x] Maryland
+- [x] Massachusetts
+- [x] Michigan
+- [x] Minnesota
 - [ ] Mississippi
-- [ ] Missouri
+- [x] Missouri
 - [ ] Montana
 - [ ] Nebraska
 - [ ] Nevada
 - [ ] New Hampshire
-- [ ] New Jersey
+- [x] New Jersey
 - [ ] New Mexico
-- [ ] North Carolina
+- [x] New York
+- [x] North Carolina
 - [ ] North Dakota
-- [ ] Ohio
+- [x] Ohio
 - [ ] Oklahoma
 - [ ] Oregon
-- [ ] Pennsylvania
+- [x] Pennsylvania
 - [ ] Rhode Island
-- [ ] South Carolina
+- [x] South Carolina
 - [ ] South Dakota
-- [ ] Tennessee
+- [x] Tennessee
+- [x] Texas
 - [ ] Utah
 - [ ] Vermont
-- [ ] Virginia
+- [x] Virginia
+- [x] Washington
 - [ ] West Virginia
-- [ ] Wisconsin
+- [x] Wisconsin
 - [ ] Wyoming
 
+Seeded cities (state + city page both live): Washington (Seattle),
+California (Los Angeles), Texas (Austin), New York (New York City),
+Florida (Miami). The other 20 verified states currently have a state page
+only — no city-level page yet.
+
 This is a checklist for future research passes, not a promise that every
-entry above is equally urgent — prioritize by traffic/renter population when
-picking up the next batch.
+unchecked entry is equally urgent — prioritize by traffic/renter population
+when picking up the next batch (e.g. Ohio-adjacent Midwest/Northeast states
+and Nevada/Arizona-adjacent Southwest states cover a lot of remaining
+renter population).

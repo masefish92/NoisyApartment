@@ -3,6 +3,40 @@
   "state": "Minnesota",
   "stateSlug": "mn",
   "abbr": "MN",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Minnesota law builds a set of landlord promises into every residential lease automatically: keeping the unit and common areas fit for their intended use, keeping the premises in reasonable repair, complying with health and safety codes, taking reasonable energy-efficiency measures, and supplying heat of at least 68°F between October 1 and April 30. These duties apply no matter what the lease says, and neither the landlord nor the tenant can waive or modify them.",
+    "statuteName": "Covenants of Landlord or Licensor",
+    "statuteCitation": "Minn. Stat. § 504B.161",
+    "sourceUrl": "https://www.revisor.mn.gov/statutes/cite/504B.161"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Minnesota courts have long recognized an implied covenant of quiet enjoyment in every residential lease, tracing back to Wilkinson v. Clauson (Minn. 1882). On its own, this covenant is narrower than it sounds and doesn't guarantee a noise-free home, but Minnesota courts have held that a landlord's failure to take reasonable steps to stop a severely disruptive, noisy tenant or neighbor can amount to a 'constructive eviction.' In Colonial Court Apartments v. Kern, 163 N.W.2d 770 (Minn. 1968), the Minnesota Supreme Court found that sufficiently loud and intrusive conduct materially disturbing a tenant's use and enjoyment of their unit can justify the tenant moving out and stopping rent payments, if the landlord failed to address it after being notified."
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before a Minnesota tenant can escrow rent or file a tenant remedies action over a habitability problem, the landlord generally must first get a chance to fix it. If a local housing, health, or fire inspector has already ordered repairs, the landlord gets a reasonable period (set by the inspector) to complete them. If no inspector is involved, the tenant must give the landlord written notice describing the problem, and the landlord then has 14 days to fix it before the tenant can deposit rent with the court or file suit.",
+    "statuteCitation": "Minn. Stat. §§ 504B.185, subd. 2; 504B.385, subd. 1(c); 504B.395"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Minnesota tenants can bring a 'rent escrow action,' depositing their rent with the court administrator instead of paying the landlord, when the landlord fails to fix a code violation after proper notice. The court holds a hearing within roughly 10 to 14 days and can order the landlord to make repairs, release the escrowed rent to pay for repairs, abate (reduce) rent including retroactively, or let the tenant have repairs made with the cost deducted from rent. Filing fees follow conciliation-court rates and can be waived for tenants who can't afford them, and a pending rent escrow case gets consolidated with any eviction case between the same parties."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "Minn. Stat. § 504B.161 — Covenants of Landlord or Licensor (Revisor of Statutes, directly fetched)", "url": "https://www.revisor.mn.gov/statutes/cite/504b.161" },
+    { "label": "Minn. Stat. § 504B.385 — Rent Escrow Action to Remedy Violations (Revisor of Statutes)", "url": "https://www.revisor.mn.gov/statutes/cite/504b.385" },
+    { "label": "Minn. Stat. § 504B.395 — Tenant Remedies Actions (Revisor of Statutes)", "url": "https://www.revisor.mn.gov/statutes/cite/504b.395" },
+    { "label": "Minn. Stat. § 504B.185 — Notice of Violations (Revisor of Statutes)", "url": "https://www.revisor.mn.gov/statutes/cite/504b.185" },
+    { "label": "Minnesota Attorney General, Landlords & Tenants Handbook, Ch. 2 (During the Tenancy)", "url": "https://www.ag.state.mn.us/consumer/handbooks/lt/CH2.asp" },
+    { "label": "Fredrikson & Byron — 'Should We Lower Our Voices? The Misunderstood Covenant of Quiet Enjoyment'", "url": "https://www.fredlaw.com/alert-should-we-lower-our-voices-the-misunderstood-covenant-of-quiet-enjoyment" },
+    { "label": "Colonial Court Apartments, Inc. v. Kern (Minn. 1968) — Justia case listing", "url": "https://law.justia.com/cases/minnesota/supreme-court/1968/41151-1.html" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: Full opinion text of Colonial Court Apartments v. Kern, 163 N.W.2d 770 (Minn. 1968) could not be directly fetched (Justia returned HTTP 403); the facts/holding summary relies on a secondary source (fredlaw.com) and search-result snippets rather than the primary opinion text.",
+    "TODO_VERIFY: Wilkinson v. Clauson, 12 N.W. 147 (Minn. 1882) citation for the origin of the implied covenant of quiet enjoyment was found only via a secondary source (fredlaw.com); not independently confirmed against a primary case reporter or database.",
+    "TODO_VERIFY: No specific dollar cap on rent-escrow deposit amounts was found in § 504B.385 — the escrowed amount appears to simply track the tenant's ongoing rent obligation, not a separate capped fund. Confirm there is no dollar limit elsewhere in Chapter 504B before publishing any 'no cap' claim as definitive."
+  ]
 }

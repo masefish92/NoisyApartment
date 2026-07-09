@@ -3,6 +3,42 @@
   "state": "Maryland",
   "stateSlug": "md",
   "abbr": "MD",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Maryland recognizes an implied warranty of habitability by statute. Any landlord renting out a residential dwelling unit, whether under a written or oral lease, is deemed to warrant that the unit is fit for human habitation, and that warranty exists at the start of the tenancy and continues throughout its term. \"Fit for human habitation\" means the unit and property are free of serious defects that constitute, or will constitute if not promptly corrected, a fire hazard or other serious and substantial threat to the life, health, or safety of occupants. If a landlord breaches this warranty and fails to fix the problem within a reasonable time after notice, the tenant can sue for damages and rent abatement, or raise the defect as a defense to an eviction action.",
+    "statuteName": "Landlord's Implied Warranty of Habitability",
+    "statuteCitation": "Md. Code, Real Property § 8-212",
+    "sourceUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=grp&section=8-212"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Maryland law guarantees every tenant the right to peaceably and quietly enter and hold the leased premises, a protection codified as the covenant of quiet enjoyment. Beyond the statute, Maryland courts have applied this covenant in noise cases directly: in Bocchini v. Gorn Management Co., 69 Md. App. 1 (1986), the Court of Special Appeals held that a landlord who knew about a neighboring tenant's ongoing late-night noise, banging, and yelling, and failed to enforce a no-excessive-noise lease clause against that neighbor, could be liable for breaching the covenant of quiet enjoyment and for constructively evicting the disturbed tenant. This means a landlord's failure to act on a noisy-neighbor complaint can itself be a legal breach, not just the noisy tenant's problem.",
+    "statuteCitation": "Md. Code, Real Property § 8-204; Bocchini v. Gorn Management Co., 69 Md. App. 1, 515 A.2d 1179 (1986)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before a Maryland tenant can use the rent escrow process over a dangerous defect, the landlord must first be given notice of the problem, either by written communication sent by certified mail listing the defects, by actual notice, or through a written violation or condemnation notice from a government agency. The landlord then gets a reasonable time to make repairs; Maryland law sets up a rebuttable presumption that any period longer than 30 days after the landlord receives notice is unreasonable.",
+    "statuteCitation": "Md. Code, Real Property § 8-211(b)"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Maryland's Rent Escrow Act lets a tenant facing a dangerous defect (such as no heat, no water, faulty wiring, or a serious rodent infestation) pay disputed rent into court instead of to the landlord, or withhold rent and raise the defect as a defense if the landlord sues for rent or possession. After proper notice and a reasonable repair window (presumed unreasonable past 30 days), a court can dismiss the case, order the rent abated by a fair and equitable amount, order the landlord to make repairs, or in some cases terminate the lease, and can award the tenant attorney's fees and litigation costs. Maryland's statute is structured around this court-supervised rent escrow and abatement process rather than a self-help repair-and-deduct right, so tenants generally need a District Court filing rather than being able to unilaterally deduct repair costs from rent."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "Md. Code, Real Property § 8-211 — Repair of Dangerous Defects; Rent Escrow (official statute text)", "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=grp&section=8-211" },
+    { "label": "Md. Code, Real Property § 8-212 — Landlord's Implied Warranty of Habitability (official statute text)", "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=grp&section=8-212" },
+    { "label": "Md. Code, Real Property § 8-212, Justia mirror (2025 statutes, confirms section title)", "url": "https://law.justia.com/codes/maryland/real-property/title-8/subtitle-2/section-8-212/" },
+    { "label": "Md. Code, Real Property § 8-211, Justia mirror (2025 statutes)", "url": "https://law.justia.com/codes/maryland/real-property/title-8/subtitle-2/section-8-211/" },
+    { "label": "Md. Code, Real Property § 8-204 — Covenant of Quiet Enjoyment (official statute text)", "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=grp&section=8-204" },
+    { "label": "Md. Code, Real Property § 8-204, Justia mirror (2025 statutes)", "url": "https://law.justia.com/codes/maryland/real-property/title-8/subtitle-2/section-8-204/" },
+    { "label": "Bocchini v. Gorn Management Co., 69 Md. App. 1 (1986), Justia case opinion", "url": "https://law.justia.com/cases/maryland/court-of-special-appeals/1986/136-september-term-1986-0.html" },
+    { "label": "Maryland People's Law Library — Quiet Enjoyment and Constructive Eviction (secondary corroboration)", "url": "https://www.peoples-law.org/quiet-enjoyment-and-constructive-eviction" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: Could not directly reach peoples-law.org/warranty-habitability-rental-housing (403 Forbidden) to cross-check the habitability summary; relied on the official mgaleg.maryland.gov § 8-212 statute text fetch (independently spot-checked and confirmed) plus Justia's section-title index instead.",
+    "TODO_VERIFY: Did not find an explicit Maryland statutory 'repair-and-deduct' (self-help) provision distinct from the court-supervised rent escrow process in § 8-211 — several secondary sources disagree on whether any narrow repair-and-deduct right exists tied to code-enforcement orders. The summary above intentionally describes only the confirmed rent-escrow/abatement mechanism.",
+    "TODO_VERIFY: § 8-211's list of qualifying defects (heat/water/electricity, sewage, rodent infestation in 2+ units, structural defects) was captured via WebFetch summarization of the mgaleg page rather than a verbatim quote-by-quote reading; worth a follow-up direct read of the full § 8-211 text if exact statutory wording of the defect list is needed for the article."
+  ]
 }

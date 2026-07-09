@@ -3,6 +3,42 @@
   "state": "Louisiana",
   "stateSlug": "la",
   "abbr": "LA",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Louisiana's civil-law system doesn't use the phrase 'implied warranty of habitability,' but it reaches the same result through the Civil Code itself rather than case law. Article 2682 obligates every landlord to maintain the leased property in a condition suited for the purpose it was rented for, and Articles 2696–2697 warrant that the unit is free of vices or defects that prevent its intended use — including defects the landlord didn't know about when the lease began. These duties apply automatically to every residential lease in the state and don't need to be written into the lease to exist.",
+    "statuteName": "Lessor's Principal Obligations; Warranty Against Vices or Defects",
+    "statuteCitation": "La. Civ. Code arts. 2682, 2696, 2697",
+    "sourceUrl": "https://www.legis.la.gov/legis/Law.aspx?d=109743"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Louisiana's version is the lessor's 'warranty of peaceful possession' under Civil Code Articles 2682 and 2700. The landlord must protect the tenant's peaceful possession for the life of the lease, and for residential leases this duty specifically extends to disturbances caused by anyone the landlord has given access to the property — including another tenant of the same landlord occupying an adjacent unit. If a disturbance is serious enough that the tenant can no longer use the unit for its intended purpose, the landlord is considered to have breached this warranty.",
+    "statuteCitation": "La. Civ. Code arts. 2682, 2700"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Yes. A Louisiana tenant must first put the landlord in default — formally demand the repair — and give the landlord a reasonable amount of time to act before taking matters into their own hands. Louisiana law allows this demand to be made by written request, an oral request made in front of two witnesses, or by filing suit; if the lease itself specifies a notice method, that method controls instead. Written notice (mail, email, or text) is strongly recommended, since the tenant bears the burden of proving notice was given if the landlord disputes it later.",
+    "statuteCitation": "La. Civ. Code arts. 1991, 2694"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Louisiana allows repair-and-deduct: if the landlord fails to make a necessary repair within a reasonable time after the tenant's demand, the tenant may have the repair done and either demand immediate reimbursement or apply the cost against rent, but only to the extent the repair was necessary and the amount spent was reasonable. There's no statutory dollar cap; courts decide reasonableness case by case, and a lease can't prohibit a tenant from using this right. Louisiana courts have also allowed a tenant to withhold rent in advance to fund an upcoming repair as a defense to eviction, as long as the tenant genuinely intends to complete the repair within a reasonable time."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "La. Civ. Code art. 2682 (Lessor's principal obligations) — Louisiana State Legislature, directly fetched", "url": "https://www.legis.la.gov/legis/Law.aspx?d=109743" },
+    { "label": "La. Civ. Code art. 2694 (Lessee's right to make repairs) — Louisiana State Legislature", "url": "https://www.legis.la.gov/legis/Law.aspx?d=109756" },
+    { "label": "La. Civ. Code art. 2696 (Warranty against vices or defects) — Louisiana State Legislature", "url": "https://www.legis.la.gov/legis/Law.aspx?d=109758" },
+    { "label": "La. Civ. Code art. 2697 (Warranty for unknown vices or defects) — FindLaw", "url": "https://codes.findlaw.com/la/civil-code/la-civ-code-tit-ix-art-2697/" },
+    { "label": "La. Civ. Code art. 2700 (Warranty of peaceful possession) — Louisiana State Legislature", "url": "https://www.legis.la.gov/legis/Law.aspx?d=109764" },
+    { "label": "La. Civ. Code art. 1991 (Manners of putting in default) — Louisiana State Legislature", "url": "https://legis.la.gov/Legis/Law.aspx?d=109245" },
+    { "label": "Louisiana Legal Services Pro Bono Desk Manual — Requirements for repair-and-deduct", "url": "https://probonodeskmanual.loyno.edu/louisiana-landlord-tenant-law/1132-requirements" },
+    { "label": "Louisiana Legal Services Pro Bono Desk Manual — Notice and Demand", "url": "https://probonodeskmanual.loyno.edu/index.php/louisiana-landlord-tenant-law/1133-notice-and-demand" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: Article 1989 itself (titled 'Damages for delay' per secondary listings) could not be fetched verbatim from a primary source — used Article 1991 ('Manners of putting in default') as the operative, confirmed citation for the notice mechanism instead. Before publishing, confirm whether 1989 should also be cited (it appears to be the general rule that damages for delay run from the date of default, with 1991 supplying the how-to).",
+    "TODO_VERIFY: The claim that Louisiana courts found 5 months and 14 months of advance rent-withholding 'excessive' came from the Loyola pro bono desk manual (secondary source) without a specific case name/citation surfacing in search. If citing specific case law on-site, track down the underlying case name(s) first.",
+    "TODO_VERIFY: No specific Louisiana appellate case name was identified for the habitability/quiet-possession doctrines — unlike common-law states, Louisiana's protection is purely codal (statutory), so this may be expected, but worth a follow-up pass if the page format wants a 'leading case' citation."
+  ]
 }

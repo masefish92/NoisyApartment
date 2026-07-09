@@ -3,6 +3,47 @@
   "state": "Missouri",
   "stateSlug": "mo",
   "abbr": "MO",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Missouri has no general statute creating an implied warranty of habitability for most residential leases. Instead, the warranty comes from case law: the Missouri Court of Appeals first recognized it in King v. Moorehead (1973), and the Missouri Supreme Court confirmed it applies statewide in Detling v. Edelbrock (1984), holding that every residential lease carries an implied promise that the unit is fit for living at the start of the tenancy and will stay that way. To win a habitability claim, a tenant must show a lease existed, a dangerous or unsanitary condition developed that materially affects health and safety, the tenant gave the landlord reasonable notice of the problem, and the landlord failed to restore habitability.",
+    "statuteName": "Common-law doctrine (no general habitability statute); leading case Detling v. Edelbrock",
+    "statuteCitation": "Detling v. Edelbrock, 671 S.W.2d 265 (Mo. banc 1984); King v. Moorehead, 495 S.W.2d 65 (Mo. App. 1973)",
+    "sourceUrl": "https://law.justia.com/cases/missouri/supreme-court/1984/65048-0.html"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Missouri recognizes an implied covenant of quiet enjoyment in residential leases under common law. If a landlord's actions or failures substantially interfere with a tenant's use and enjoyment of the unit, the tenant can treat it as a constructive eviction, move out, and sue for damages without owing further rent. This interference doctrine developed alongside Missouri's implied warranty of habitability case law, including King v. Moorehead.",
+    "statuteCitation": "Common law; King v. Moorehead, 495 S.W.2d 65 (Mo. App. 1973)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Yes. Before a Missouri tenant can pursue a habitability claim or use the repair-and-deduct remedy, the landlord must first be given notice and a chance to fix the problem. Under the repair-and-deduct statute, the tenant must notify the landlord in writing, and the landlord then has 14 days to make the repair (except in emergencies) before the tenant may act. Case law under Detling v. Edelbrock likewise requires the tenant to give the landlord reasonable notice of the defect before a habitability claim can succeed.",
+    "statuteCitation": "RSMo § 441.234"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Missouri has a narrow statutory repair-and-deduct remedy: a tenant who has lawfully resided in the unit at least six consecutive months and is current on rent can give the landlord 14 days' written notice of a needed repair, and if it isn't fixed, may pay for the repair and deduct the cost from rent, up to whichever is greater of $300 or half a month's rent per repair, capped at one month's rent total across any 12-month period. Separately, Missouri courts have long allowed a tenant fighting an eviction over habitability issues to pay disputed rent into the court's custody (\"in custodia legis\") instead of to the landlord while the case is litigated, a practice tracing to King v. Moorehead and upheld by the Missouri Supreme Court in Kohner Properties, Inc. v. Johnson (2018). A separate statutory rent-escrow/receivership process exists for nuisance properties, but it is not a self-help tool for individual tenants: only a county, municipality, local housing corporation, or neighborhood association can petition a court to appoint a receiver and redirect rents toward repairs."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "RSMo § 441.234 (repair-and-deduct)", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=441.234" },
+    { "label": "RSMo § 441.500 (definitions, Enforcement of Minimum Housing Code Standards Act)", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=441.500" },
+    { "label": "RSMo § 441.510 (civil action procedure, receiver appointment)", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=441.510" },
+    { "label": "RSMo § 441.550 (standing/filing requirements)", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=441.550" },
+    { "label": "RSMo § 441.560 (defenses to nuisance proceeding)", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=441.560" },
+    { "label": "RSMo § 441.570 (action of court upon finding a nuisance exists)", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=441.570" },
+    { "label": "Missouri Revised Statutes Chapter 441, Landlord and Tenant (Justia)", "url": "https://law.justia.com/codes/missouri/title-xxix/chapter-441/" },
+    { "label": "King v. Moorehead, 495 S.W.2d 65 (Mo. App. 1973)", "url": "https://law.justia.com/cases/missouri/court-of-appeals/1973/25812-0.html" },
+    { "label": "Detling v. Edelbrock, 671 S.W.2d 265 (Mo. banc 1984)", "url": "https://law.justia.com/cases/missouri/supreme-court/1984/65048-0.html" },
+    { "label": "Kohner Properties, Inc. v. Johnson, SC95944 (Mo. banc 2018)", "url": "https://law.justia.com/cases/missouri/supreme-court/2018/sc95944.html" },
+    { "label": "Missouri's implied warranty of habitability (Missouri Bar)", "url": "https://news.mobar.org/missouris-implied-warranty-of-habitability/" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: King v. Moorehead (495 S.W.2d 65, Mo. App. 1973) citation and holding were confirmed only via secondary sources/search snippets; direct fetch of the Justia opinion page returned HTTP 403 and could not be opened to read full text.",
+    "TODO_VERIFY: Detling v. Edelbrock (671 S.W.2d 265, Mo. banc 1984) citation confirmed via multiple converging secondary sources, but direct fetch of the Justia opinion page returned HTTP 403 and the full opinion text was not directly read (RSMo § 441.234's own repair-and-deduct terms WERE independently spot-checked and confirmed directly against revisor.mo.gov).",
+    "TODO_VERIFY: Kohner Properties, Inc. v. Johnson (SC95944, Mo. banc 2018) holding on the 'in custodia legis' rent-payment practice was confirmed via search snippets and courts.mo.gov page titles, but the courts.mo.gov opinion PDF returned HTTP 403 on fetch and was not opened directly — confirm exact holding language before publishing any direct quotes.",
+    "TODO_VERIFY: RSMo § 441.560/441.570 standing and process details were only partially confirmed by direct fetch; recommend a follow-up full read of RSMo §§ 441.500-441.643 in sequence to confirm individual tenants still have no standing to initiate the nuisance/receivership rent-escrow process after later amendments.",
+    "TODO_VERIFY: Could not conclusively rule out a narrower statutory implied warranty of habitability in a limited context (e.g., manufactured/mobile home parks under a different chapter) — general residential leases are confirmed to rely on case law only, but this narrower-context carve-out was not specifically located or ruled out."
+  ]
 }

@@ -3,6 +3,44 @@
   "state": "Wisconsin",
   "stateSlug": "wi",
   "abbr": "WI",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Wisconsin law requires landlords to keep rental units in a reasonable state of repair, including structural components and equipment for essential services like heat, water, and air conditioning, and to comply with local housing codes. If a landlord fails to meet this duty and the unit becomes untenantable due to fire, water damage, or a health hazard, or there's a substantial violation materially affecting a tenant's health or safety, the tenant can move out without owing further rent or stay and get a partial rent abatement for the loss of use. Rental agreements cannot waive these protections in a residential tenancy.",
+    "statuteName": "Repairs; Untenantability",
+    "statuteCitation": "Wis. Stat. § 704.07(2), (4)",
+    "sourceUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/704/07?view=section"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Wisconsin recognizes an implied covenant of quiet enjoyment in every lease under three years, rooted in common law. Courts have held it protects a tenant's right to possession rather than freedom from noise as such — a breach requires an actual or constructive eviction, meaning conditions so severe the unit becomes unfit for its intended use. In a 1998 case involving loud partying neighbors, a Wisconsin appeals court rejected a tenant's rent-abatement claim because he stayed in the unit and renewed his lease twice after the noise began, which the court treated as a waiver of any breach.",
+    "statuteCitation": "First Wisconsin Trust Co. v. L. Wiemann Co., 93 Wis. 2d 258, 286 N.W.2d 360 (1980); Farina v. Meridian Group, Inc., Wis. Ct. App. No. 97-2421-FT (Mar. 12, 1998)"
+  },
+  "noticeToRemedy": {
+    "required": false,
+    "summary": "Wisconsin's repair statute doesn't set a fixed number of days' written notice a tenant must give before acting on a habitability problem. As a practical matter, landlords can't be expected to fix what they don't know about, so tenants should put repair requests in writing and give the landlord a reasonable amount of time to respond before pursuing remedies like rent abatement.",
+    "statuteCitation": "Wis. Stat. § 704.07"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": false,
+    "summary": "Wisconsin does not have a statewide repair-and-deduct law — tenants cannot hire someone to make repairs and subtract the cost from rent. The only statewide self-help remedy is partial rent abatement while remaining in possession, reflecting how much use of the unit the tenant has lost; withholding rent in full is not allowed. A few cities, including Kenosha, run their own local rent-escrow programs where rent is held by the municipality until repairs are made, but this is not a statewide right."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "Wis. Stat. § 704.07 — Repairs; untenantability (Wisconsin Legislature, directly fetched)", "url": "https://docs.legis.wisconsin.gov/statutes/statutes/704/07?view=section" },
+    { "label": "Wis. Stat. § 704.07(4) — Untenantability subsection", "url": "https://docs.legis.wisconsin.gov/statutes/statutes/704/07/4" },
+    { "label": "Wis. Stat. § 704.07(3) — Duty of tenant subsection", "url": "https://docs.legis.wisconsin.gov/statutes/statutes/704/07/3" },
+    { "label": "Wis. Admin. Code ATCP 134.04 — Disclosure requirements", "url": "https://docs.legis.wisconsin.gov/code/admin_code/atcp/090/134/04" },
+    { "label": "Wis. Admin. Code ATCP 134.06 — Security deposits", "url": "https://docs.legis.wisconsin.gov/code/admin_code/atcp/090/134/06" },
+    { "label": "Wis. Admin. Code Chapter ATCP 134 (Cornell LII mirror)", "url": "https://www.law.cornell.edu/regulations/wisconsin/agency-department-of-agriculture-trade-and-consumer-protection/ATCP-90-139/chapter-ATCP-134" },
+    { "label": "Farina v. Meridian Group, Inc., Wis. Ct. App. No. 97-2421-FT (Mar. 12, 1998) — full opinion", "url": "https://www.wicourts.gov/ca/opinion/DisplayDocument.html?content=html&seqNo=12915" },
+    { "label": "Tenant Resource Center — Peaceful Enjoyment (cites First Wisconsin Trust Co. v. L. Wiemann Co.)", "url": "https://www.tenantresourcecenter.org/peaceful_enjoyment" },
+    { "label": "Tenant Resource Center — Repairs in Wisconsin", "url": "https://www.tenantresourcecenter.org/repairs_in_wisconsin" },
+    { "label": "Tenant Resource Center — Rent Abatement", "url": "https://www.tenantresourcecenter.org/rent_abatement" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: Farina v. Meridian Group, Inc. (Ct. App. No. 97-2421-FT, 1998) is a 'FT' (fast-track/expedited small-claims) appeal — confirm whether it's designated for publication under Wis. Stat. § 809.23 before citing it as binding precedent anywhere more formal than illustrative renter-facing prose; First Wisconsin Trust Co. v. L. Wiemann Co. (1980) is the safer published-case citation for the underlying rule.",
+    "TODO_VERIFY: Confirm First Wisconsin Trust Co. v. L. Wiemann Co., 93 Wis. 2d 258, 286 N.W.2d 360 (1980) citation directly against a case reporter or Westlaw/Google Scholar — this was corroborated only via a secondary source (Tenant Resource Center), not fetched directly from a court opinion or case-law database.",
+    "TODO_VERIFY: Local rent-escrow ordinances (Kenosha, Milwaukee, Wausau, Madison, Fitchburg mentioned by secondary sources) are city-level programs outside the scope of this statewide research — do not present as statewide law if this content is later expanded to mention them."
+  ]
 }

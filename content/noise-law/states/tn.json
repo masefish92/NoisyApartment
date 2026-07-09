@@ -3,6 +3,43 @@
   "state": "Tennessee",
   "stateSlug": "tn",
   "abbr": "TN",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Tennessee's Uniform Residential Landlord and Tenant Act requires landlords to comply with building and housing codes that materially affect health and safety and to make all repairs needed to keep the unit fit and habitable. This duty applies even if the lease tries to waive it. It only applies as a statutory right in counties with a population above 75,000 (the state's larger metro counties); in smaller counties, habitability disputes are handled under the lease terms and local common law instead.",
+    "statuteName": "Uniform Residential Landlord and Tenant Act — Landlord's Maintenance Obligations",
+    "statuteCitation": "Tenn. Code Ann. § 66-28-304",
+    "sourceUrl": "https://law.justia.com/codes/tennessee/title-66/chapter-28/part-3/section-66-28-304/"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Tennessee common law recognizes an implied covenant of quiet enjoyment in every residential lease, entitling tenants to peaceable possession and use of their rental unit without unreasonable interference from the landlord. Tennessee courts have described this covenant as protecting a tenant from any act of the landlord that destroys the quiet and beneficial enjoyment of the property. It is a court-created doctrine rather than a specific statute.",
+    "statuteCitation": "Morrison v. Smith, 757 S.W.2d 678, 682 (Tenn. Ct. App. 1988)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before a Tennessee tenant covered by the Uniform Residential Landlord and Tenant Act can pursue remedies for a landlord's failure to maintain the property, the tenant must give the landlord written notice of the problem and allow 14 days for repairs. If the landlord doesn't fix the issue within that 14-day window, the tenant can pursue damages, injunctive relief, attorney's fees, or in some cases end the lease.",
+    "statuteCitation": "Tenn. Code Ann. § 66-28-501"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Tennessee's URLTA lets a tenant act when a landlord fails to supply an essential service, such as utilities, heat, or another obligation that materially affects health and safety. After giving written notice, the tenant can either procure the essential service themselves and deduct the actual, reasonable cost from rent, or get substitute housing and stop paying rent for that period while recovering the reasonable cost of the substitute housing and attorney's fees. A tenant can't use this remedy at the same time as the general noncompliance remedies for ordinary repairs, and like the rest of URLTA, it only applies in the state's larger, covered counties."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "Tenn. Code Ann. § 66-28-304 — Maintenance by Landlord (Justia)", "url": "https://law.justia.com/codes/tennessee/title-66/chapter-28/part-3/section-66-28-304/" },
+    { "label": "Tenn. Code Ann. § 66-28-304 (FindLaw mirror, directly fetched)", "url": "https://codes.findlaw.com/tn/title-66-property/tn-code-sect-66-28-304/" },
+    { "label": "Tenn. Code Ann. § 66-28-102 — Application (FindLaw mirror, directly fetched)", "url": "https://codes.findlaw.com/tn/title-66-property/tn-code-sect-66-28-102/" },
+    { "label": "Tenn. Code Ann. § 66-28-501 — Noncompliance by Landlord (FindLaw mirror, directly fetched)", "url": "https://codes.findlaw.com/tn/title-66-property/tn-code-sect-66-28-501/" },
+    { "label": "Tenn. Code Ann. § 66-28-502 — Essential Services (FindLaw mirror, directly fetched)", "url": "https://codes.findlaw.com/tn/title-66-property/tn-code-sect-66-28-502/" },
+    { "label": "Morrison v. Smith, 757 S.W.2d 678 (Tenn. Ct. App. 1988) (Justia case page)", "url": "https://law.justia.com/cases/tennessee/court-of-appeals/1988/757-s-w-2d-678-2.html" },
+    { "label": "Tennessee Code Title 66, Chapter 28 — Uniform Residential Landlord and Tenant Act (Justia overview)", "url": "https://law.justia.com/codes/tennessee/title-66/chapter-28/" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: law.justia.com pages returned HTTP 403 to WebFetch and could not be opened directly; statute text was confirmed instead via the FindLaw mirror (codes.findlaw.com), which was directly fetched and matched search-snippet text. Spot-check against the official Tennessee General Assembly site (capitol.tn.gov) or Lexis public TCA mirror before publishing.",
+    "TODO_VERIFY: Sources conflict on whether the county population threshold is pinned to 'the 2010 federal census' specifically or updates with 'any subsequent federal census.' This affects whether the list of URLTA-covered counties is fixed or can grow over time — confirm before stating it either way in any more detailed county-list content.",
+    "TODO_VERIFY: Did not verify the specific list of Tennessee counties currently over the 75,000 threshold against a primary source — secondary sources gave inconsistent 17- vs 18-county lists. Deliberately omitted specific county names from the public summary for this reason.",
+    "TODO_VERIFY: Could not confirm via a directly-opened primary source whether Morrison v. Smith, 757 S.W.2d 678 (Tenn. Ct. App. 1988), remains the standard citation Tennessee courts currently use for the quiet-enjoyment covenant in residential leases. A 2019 citing case, Hixson v. Am. Towers, LLC, 593 S.W.3d 699, 712 (Tenn. Ct. App. 2019), appeared in search results reaffirming similar language but was not independently opened.",
+    "TODO_VERIFY: Did not confirm whether any statutory or case-law implied warranty of habitability applies to Tennessee tenants in counties NOT covered by URLTA (population ≤75,000 per 2010 census). Secondary sources suggest local common law and lease terms control there instead, but this was not verified against a primary source."
+  ]
 }
