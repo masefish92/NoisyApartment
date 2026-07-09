@@ -8,15 +8,17 @@ import {
 } from "@/lib/content";
 import { CATEGORIES } from "@/lib/categories";
 import { SITE_CONFIG } from "@/config/site";
+import { buildMetadata } from "@/lib/seo";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleSchema from "@/components/schema/ArticleSchema";
 import BreadcrumbListSchema from "@/components/schema/BreadcrumbListSchema";
 
-export const metadata: Metadata = {
-  title: "The Complete Guide to Apartment Noise | NoisyApartment",
+export const metadata: Metadata = buildMetadata({
+  title: "The Complete Guide to Apartment Noise",
   description:
     "Every noise problem apartment dwellers face, and how to fix it — organized by source and by room.",
-};
+  path: "/guides/apartment-noise",
+});
 
 export default async function ApartmentNoisePillarPage() {
   const pillar = getPillarArticle();

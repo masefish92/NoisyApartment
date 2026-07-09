@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { CATEGORIES, getCategory, type CategoryGroup } from "@/lib/categories";
 import { getArticlesByCategory } from "@/lib/content";
+import { buildMetadata } from "@/lib/seo";
 
 const GROUP_LABELS: Record<CategoryGroup, string> = {
   source: "By Noise Source",
@@ -22,10 +23,11 @@ export async function generateMetadata({
   const { category: slug } = await params;
   const category = getCategory(slug);
   if (!category) return {};
-  return {
-    title: `${category.label} Noise Guides | NoisyApartment`,
+  return buildMetadata({
+    title: `${category.label} Noise Guides`,
     description: category.description,
-  };
+    path: `/category/${category.slug}`,
+  });
 }
 
 export default async function CategoryPage({

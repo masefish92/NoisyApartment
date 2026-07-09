@@ -1,8 +1,17 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import type { Metadata } from "next";
 import { getFeaturedArticles } from "@/lib/content";
 import { getCategoriesByGroup, getCategory } from "@/lib/categories";
+import { buildMetadata } from "@/lib/seo";
 import HeroVideo from "@/components/HeroVideo";
+
+export const metadata: Metadata = buildMetadata({
+  title: "Solve Your Apartment Noise Problem — Free",
+  description:
+    "Free, practical guides for renters and condo owners dealing with noisy neighbors, thin walls, and street noise — organized by noise source and by room.",
+  path: "/",
+});
 
 const HERO_CHIPS = getCategoriesByGroup("source");
 const SOURCE_CATEGORIES = getCategoriesByGroup("source");

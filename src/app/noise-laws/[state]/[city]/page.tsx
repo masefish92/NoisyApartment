@@ -8,6 +8,7 @@ import LastVerified from "@/components/LastVerified";
 import BreadcrumbListSchema from "@/components/schema/BreadcrumbListSchema";
 import FAQSchema from "@/components/schema/FAQSchema";
 import { SITE_CONFIG } from "@/config/site";
+import { buildMetadata } from "@/lib/seo";
 import type { CityNoiseLaw } from "@/lib/noise-law";
 
 export async function generateStaticParams() {
@@ -22,10 +23,11 @@ export async function generateMetadata({
   const { state: stateSlug, city: citySlug } = await params;
   const city = getCity(stateSlug, citySlug);
   if (!city) return {};
-  return {
-    title: `${city.city}, ${city.state.length <= 2 ? city.state : city.state} Noise Ordinance & Quiet Hours Explained | NoisyApartment`,
+  return buildMetadata({
+    title: `${city.city}, ${city.state} Noise Ordinance & Quiet Hours Explained`,
     description: `Quiet hours, decibel limits, and how to report a noise complaint in ${city.city} — with the governing ordinance citation and source.`,
-  };
+    path: `/noise-laws/${stateSlug}/${citySlug}`,
+  });
 }
 
 function buildFaqItems(city: CityNoiseLaw) {

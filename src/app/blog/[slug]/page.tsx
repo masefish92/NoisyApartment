@@ -12,6 +12,7 @@ import {
 } from "@/lib/content";
 import { getCategory } from "@/lib/categories";
 import { SITE_CONFIG } from "@/config/site";
+import { buildMetadata } from "@/lib/seo";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import TableOfContents from "@/components/TableOfContents";
 import RelatedArticles from "@/components/RelatedArticles";
@@ -31,10 +32,13 @@ export async function generateMetadata({
   const { slug } = await params;
   const article = getArticleBySlug(slug);
   if (!article) return {};
-  return {
-    title: `${article.title} | NoisyApartment`,
+  const image = article.heroImage ?? extractFirstImage(article.content);
+  return buildMetadata({
+    title: article.title,
     description: article.description,
-  };
+    path: `/blog/${article.slug}`,
+    ogImage: image?.startsWith("http") ? image : image ? `${SITE_CONFIG.siteUrl}${image}` : undefined,
+  });
 }
 
 function formatDate(date: string) {

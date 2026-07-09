@@ -4,12 +4,14 @@ import NoiseLog from "@/components/NoiseLog";
 import BreadcrumbListSchema from "@/components/schema/BreadcrumbListSchema";
 import SoftwareApplicationSchema from "@/components/schema/SoftwareApplicationSchema";
 import { SITE_CONFIG } from "@/config/site";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Free Noise Complaint Log — Track Incidents for Your Landlord or Court | NoisyApartment",
+export const metadata: Metadata = buildMetadata({
+  title: "Free Noise Complaint Log — Track Incidents for Your Landlord or Court",
   description:
     "Log noise incidents with date, time, and detail, then export a clean PDF or CSV for your landlord, a mediator, or small claims — entirely in your browser, never uploaded.",
-};
+  path: "/noise-log",
+});
 
 export default function NoiseLogPage() {
   const pageUrl = `${SITE_CONFIG.siteUrl}/noise-log`;

@@ -2,13 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { AudioLines, ArrowRight, Layers, TrendingDown } from "lucide-react";
 import SolutionsParallax from "@/components/SolutionsParallax";
+import { buildMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Noise Solutions Guide | NoisyApartment",
+export const metadata: Metadata = buildMetadata({
+  title: "Noise Solutions Guide",
   description:
     "Bridging 1950s architectural wisdom and modern acoustic science to help you build a quieter home.",
-};
+  path: "/solutions",
+});
 
 export default function SolutionsPage() {
   return (

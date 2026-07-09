@@ -5,12 +5,14 @@ import NoiseLawLookup from "@/components/NoiseLawLookup";
 import BreadcrumbListSchema from "@/components/schema/BreadcrumbListSchema";
 import SoftwareApplicationSchema from "@/components/schema/SoftwareApplicationSchema";
 import { SITE_CONFIG } from "@/config/site";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "US Noise Ordinances & Tenant Quiet-Hours Laws by State & City | NoisyApartment",
+export const metadata: Metadata = buildMetadata({
+  title: "US Noise Ordinances & Tenant Quiet-Hours Laws by State & City",
   description:
     "Look up quiet hours, decibel limits, and tenant quiet-enjoyment rights for your state and city, with citations to the actual ordinance or statute.",
-};
+  path: "/noise-laws",
+});
 
 export default function NoiseLawsHubPage() {
   const states = getAllStates();

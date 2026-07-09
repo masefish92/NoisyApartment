@@ -7,6 +7,7 @@ import SourceLink from "@/components/SourceLink";
 import LastVerified from "@/components/LastVerified";
 import BreadcrumbListSchema from "@/components/schema/BreadcrumbListSchema";
 import { SITE_CONFIG } from "@/config/site";
+import { buildMetadata } from "@/lib/seo";
 
 export async function generateStaticParams() {
   return getAllStates().map((state) => ({ state: state.stateSlug }));
@@ -20,10 +21,13 @@ export async function generateMetadata({
   const { state: slug } = await params;
   const state = getState(slug);
   if (!state) return {};
-  return {
-    title: `${state.state} Noise Laws & Tenant Rights (Quiet Hours + Habitability) | NoisyApartment`,
-    description: state.impliedWarrantyOfHabitability.summary,
-  };
+  return buildMetadata({
+    title: `${state.state} Noise Laws & Tenant Rights (Quiet Hours + Habitability)`,
+    description:
+      state.impliedWarrantyOfHabitability?.summary ??
+      `Tenant rights, quiet-enjoyment protections, and how to document a noise complaint in ${state.state} — plus free tools to log incidents and write a complaint letter.`,
+    path: `/noise-laws/${state.stateSlug}`,
+  });
 }
 
 function LegalField({ label, children }: { label: string; children: React.ReactNode }) {

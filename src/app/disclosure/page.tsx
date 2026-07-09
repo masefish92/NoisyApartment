@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Disclosure | NoisyApartment",
+export const metadata: Metadata = buildMetadata({
+  title: "Disclosure",
   description:
     "How NoisyApartment is funded: advertising, affiliate links, and our editorial policy.",
-};
+  path: "/disclosure",
+});
 
 export default function DisclosurePage() {
   return (

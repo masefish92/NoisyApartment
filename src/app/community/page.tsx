@@ -6,13 +6,15 @@ import LetterGenerator from "@/components/LetterGenerator";
 import BreadcrumbListSchema from "@/components/schema/BreadcrumbListSchema";
 import SoftwareApplicationSchema from "@/components/schema/SoftwareApplicationSchema";
 import { SITE_CONFIG } from "@/config/site";
+import { buildMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Tenant Rights & Legal Guide | NoisyApartment",
+export const metadata: Metadata = buildMetadata({
+  title: "Tenant Rights & Legal Guide",
   description:
     "A primer on tenant laws, quiet-enjoyment rights, and how to document a noise complaint — plus free tools to diagnose your problem, check your state, and write a letter.",
-};
+  path: "/community",
+});
 
 const LEGAL_ITEMS = [
   {

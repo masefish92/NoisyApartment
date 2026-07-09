@@ -1,14 +1,18 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo";
+import PersonSchema from "@/components/schema/PersonSchema";
 
-export const metadata: Metadata = {
-  title: "About | NoisyApartment",
+export const metadata: Metadata = buildMetadata({
+  title: "About",
   description:
     "Who writes NoisyApartment's guides, and how we research and test what we recommend.",
-};
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (
     <div className="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop py-section-gap">
+      <PersonSchema />
       <h1 className="font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-10">
         About NoisyApartment
       </h1>

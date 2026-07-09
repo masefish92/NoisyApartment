@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 
 const SITE_NAME = "NoisyApartment";
 const BASE_URL = "https://noisyapartment.org";
-// TODO: replace with a real default social-share image once one exists.
-const DEFAULT_OG_IMAGE = `${BASE_URL}/og-default.png`;
+// TODO: replace with a purpose-built social-share image once one exists —
+// this is a real existing asset (not a 404), reused as an interim default.
+const DEFAULT_OG_IMAGE = `${BASE_URL}/images/hero-poster.jpg`;
 
 type BuildMetadataInput = {
   title: string;
