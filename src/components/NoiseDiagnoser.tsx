@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 
 type GuideLink = {
   label: string;
@@ -31,7 +32,7 @@ const GUIDE_LINKS: Record<string, GuideLink> = {
   },
   letter: {
     label: "Write a complaint letter",
-    href: "/community#letter",
+    href: "/tools/complaint-letter-generator",
   },
   // TODO: no dedicated guide yet — the pillar's "barking dog" cluster
   // article hasn't been written. This category page already exists and
@@ -104,7 +105,11 @@ const TREE: Record<string, TreeNode> = {
 };
 
 export default function NoiseDiagnoser() {
-  const [node, setNode] = useState("start");
+  const searchParams = useSearchParams();
+  const requestedStart = searchParams.get("start");
+  const initialNode = requestedStart && requestedStart in TREE ? requestedStart : "start";
+
+  const [node, setNode] = useState(initialNode);
   const [path, setPath] = useState<string[]>([]);
   const [result, setResult] = useState<string[] | null>(null);
 

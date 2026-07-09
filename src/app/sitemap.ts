@@ -16,6 +16,8 @@ const STATIC_ROUTES = [
   "/solutions",
   "/noise-laws",
   "/noise-log",
+  "/tools/noise-diagnoser",
+  "/tools/complaint-letter-generator",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

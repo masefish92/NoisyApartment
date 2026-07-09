@@ -191,7 +191,17 @@ export default async function CityNoiseLawPage({
         </p>
       )}
 
-      {/* TODO: link to escalation pathway when Feature 2 ships */}
+      <p className="mt-6 font-body-md text-sm text-on-surface-variant border-t border-outline-variant pt-6">
+        Ready to escalate? Document what&apos;s happening with a{" "}
+        <Link href="/noise-log" className="text-primary underline">
+          noise log
+        </Link>{" "}
+        and use the{" "}
+        <Link href="/tools/complaint-letter-generator" className="text-primary underline">
+          complaint letter generator
+        </Link>{" "}
+        to put it in writing.
+      </p>
     </div>
   );
 }

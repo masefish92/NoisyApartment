@@ -5,7 +5,7 @@ type SoftwareApplicationSchemaProps = {
   applicationCategory?: string;
 };
 
-/** For the free, client-side interactive tools on /community. */
+/** For the site's free, client-side interactive tools (Diagnoser, Letter Generator, Noise Log, Noise Law Lookup). */
 export default function SoftwareApplicationSchema({
   name,
   description,

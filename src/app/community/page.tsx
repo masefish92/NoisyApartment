@@ -1,10 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, FileText, Gavel, Volume2 } from "lucide-react";
-import NoiseDiagnoser from "@/components/NoiseDiagnoser";
 import DecibelReference from "@/components/DecibelReference";
-import LetterGenerator from "@/components/LetterGenerator";
 import BreadcrumbListSchema from "@/components/schema/BreadcrumbListSchema";
-import SoftwareApplicationSchema from "@/components/schema/SoftwareApplicationSchema";
 import { SITE_CONFIG } from "@/config/site";
 import { buildMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
@@ -54,16 +51,6 @@ export default function CommunityPage() {
           { name: "Community", url: pageUrl },
         ]}
       />
-      <SoftwareApplicationSchema
-        name="Noise Diagnoser"
-        description="A short decision tree that routes visitors to the right noise-fighting guide based on where their noise problem is coming from."
-        url={`${pageUrl}#diagnose`}
-      />
-      <SoftwareApplicationSchema
-        name="Noise Complaint Letter Generator"
-        description="Builds a ready-to-send noise complaint letter — a friendly neighbor note, a formal landlord complaint, or a written demand — entirely in the browser."
-        url={`${pageUrl}#letter`}
-      />
       {/* Hero */}
       <section className="py-section-gap">
         <div className="max-w-3xl">
@@ -80,19 +67,24 @@ export default function CommunityPage() {
 
       {/* Noise Diagnoser */}
       <section className="mb-section-gap" id="diagnose">
-        <div className="mb-8 max-w-2xl">
+        <div className="bg-surface-container-low border border-outline-variant p-8 max-w-2xl">
           <p className="font-label-sm text-label-sm uppercase tracking-widest text-secondary mb-4">
             Free Tool
           </p>
           <h2 className="font-headline-md text-headline-md text-primary mb-4">
             Not Sure Where to Start?
           </h2>
-          <p className="font-body-md text-body-md text-on-surface-variant">
+          <p className="font-body-md text-body-md text-on-surface-variant mb-6">
             Answer a couple of quick questions and we&apos;ll point you to the
             right guides for your specific noise problem.
           </p>
+          <Link
+            href="/tools/noise-diagnoser"
+            className="inline-flex items-center gap-2 bg-primary text-on-primary px-6 py-3 rounded-lg font-label-sm text-label-sm uppercase tracking-widest hover:bg-primary-container transition-all"
+          >
+            Diagnose Your Noise Problem <ArrowRight size={16} />
+          </Link>
         </div>
-        <NoiseDiagnoser />
       </section>
 
       {/* Know Your Rights */}
@@ -179,20 +171,25 @@ export default function CommunityPage() {
 
       {/* Letter Generator */}
       <section className="mb-section-gap" id="letter">
-        <div className="mb-8 max-w-2xl">
+        <div className="bg-surface-container-low border border-outline-variant p-8 max-w-2xl">
           <p className="font-label-sm text-label-sm uppercase tracking-widest text-secondary mb-4">
             Free Tool
           </p>
           <h2 className="font-headline-md text-headline-md text-primary mb-4">
             Noise Complaint Letter Generator
           </h2>
-          <p className="font-body-md text-body-md text-on-surface-variant">
+          <p className="font-body-md text-body-md text-on-surface-variant mb-6">
             Build a ready-to-send letter — a friendly neighbor note, a formal
             landlord complaint, or a written demand. Everything is assembled
             in your browser; nothing is stored or sent.
           </p>
+          <Link
+            href="/tools/complaint-letter-generator"
+            className="inline-flex items-center gap-2 bg-primary text-on-primary px-6 py-3 rounded-lg font-label-sm text-label-sm uppercase tracking-widest hover:bg-primary-container transition-all"
+          >
+            Open the Letter Generator <ArrowRight size={16} />
+          </Link>
         </div>
-        <LetterGenerator />
       </section>
 
       {/* Noise Log Tool */}

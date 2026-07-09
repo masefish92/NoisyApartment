@@ -18,6 +18,14 @@ const SOURCE_CATEGORIES = getCategoriesByGroup("source");
 const ROOM_CATEGORIES = getCategoriesByGroup("room");
 const RESOURCE_CATEGORIES = getCategoriesByGroup("resource");
 
+// node ids must match the top-level keys of TREE in src/components/NoiseDiagnoser.tsx
+const DIAGNOSER_CHIPS = [
+  { node: "above", label: "Above me (ceiling)" },
+  { node: "wall", label: "Through a wall" },
+  { node: "outside", label: "Outside / street / hallway" },
+  { node: "unsure", label: "Not sure" },
+];
+
 export default function HomePage() {
   const featuredArticles = getFeaturedArticles(3);
 
@@ -67,6 +75,30 @@ export default function HomePage() {
       <div className="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
         <div className="section-divider" />
       </div>
+
+      {/* Diagnoser CTA */}
+      <section className="py-section-gap bg-surface-container-low">
+        <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop max-w-3xl">
+          <h2 className="font-headline-md text-headline-md text-primary mb-4">
+            Not Sure Where to Start?
+          </h2>
+          <p className="font-body-md text-body-md text-on-surface-variant mb-8">
+            Answer a couple of quick questions and we&apos;ll point you to the
+            right guides for your specific noise problem.
+          </p>
+          <div className="flex flex-wrap gap-3">
+            {DIAGNOSER_CHIPS.map((chip) => (
+              <Link
+                key={chip.node}
+                href={`/tools/noise-diagnoser?start=${chip.node}`}
+                className="rounded-full border border-outline-variant bg-background px-4 py-2 font-label-sm text-label-sm uppercase tracking-widest text-primary hover:border-primary transition-colors"
+              >
+                {chip.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* Problem-based navigation */}
       <section className="py-section-gap">
