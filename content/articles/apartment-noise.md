@@ -26,8 +26,6 @@ Diagnose yours first. The rest of your strategy flows from it.
 **Neighbor noise**
 
 - [Noisy upstairs neighbors / stomping](/blog/noisy-upstairs-neighbors-stomping)
-- Loud neighbors through the wall — coming soon
-- Barking dog next door — coming soon
 - [How to write a noise complaint letter](/blog/noise-complaint-letter-landlord-template)
 - [Quiet hours & tenant rights](/community#rights)
 

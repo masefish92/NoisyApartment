@@ -30,7 +30,7 @@ A noisy neighbor who slams doors sometimes doesn't clear this bar. A neighbor ru
 ## What to do before you even consider breaking the lease
 
 1. **Keep a dated noise log.** Time, duration, and description of every incident. Our [printable noise log](/community#noise-log) is built for exactly this.
-2. **Notify the landlord in writing**, not just a phone call or hallway conversation. Use our [noise complaint letter template](/blog/noise-complaint-letter-landlord-template) — writing "in writing" is what makes this all defensible later.
+2. **Notify the landlord in writing**, not just a phone call or hallway conversation. Use our [noise complaint letter template](/blog/noise-complaint-letter-landlord-template), or build one instantly with our [complaint letter generator](/tools/complaint-letter-generator) — writing "in writing" is what makes this all defensible later.
 3. **Give them a reasonable amount of time to respond.** What's reasonable varies, but a single letter followed by breaking the lease three days later is a weak position.
 4. **Follow up in writing again** if nothing changes, referencing your first letter and its date.
 5. **Check your state and local ordinances.** Some states have specific tenant remedies for unaddressed nuisance or quiet-enjoyment violations, including limited rent withholding or lease termination rights. Use our [state-by-state tenant rights lookup](/community#state-rights) as a starting point, then verify specifics with a local tenant rights organization or attorney.

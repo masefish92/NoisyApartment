@@ -135,6 +135,14 @@ export default async function ArticlePage({
             <div className="prose-article" dangerouslySetInnerHTML={{ __html: secondHalf }} />
           )}
 
+          <p className="mt-16 font-body-md text-sm text-on-surface-variant">
+            Part of our{" "}
+            <Link href="/guides/apartment-noise" className="text-primary underline">
+              complete guide to apartment noise
+            </Link>
+            .
+          </p>
+
           <RelatedArticles articles={related} />
         </div>
       </div>

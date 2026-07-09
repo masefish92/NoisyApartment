@@ -71,7 +71,7 @@ Recommended: see our [best earplugs for sleeping guide](/blog/best-earplugs-for-
 
 If footsteps are constant, at all hours, or clearly excessive, you may have grounds beyond DIY:
 
-- **Document everything.** Date, time, duration, and a short description. A simple log is your single most powerful tool if this escalates.
+- **Document everything.** Date, time, duration, and a short description. Our [noise log](/noise-log) is your single most powerful tool if this escalates.
 - **Check your lease and [local tenant rights](/community#rights)** for quiet-hours language.
 - **Report in writing** to your landlord or property manager — a paper trail matters far more than a phone complaint. Our [noise complaint letter template](/blog/noise-complaint-letter-landlord-template) walks through exactly how.
 

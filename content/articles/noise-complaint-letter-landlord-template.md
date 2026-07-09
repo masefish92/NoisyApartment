@@ -16,7 +16,7 @@ pillar: false
 
 A verbal complaint disappears. A written complaint creates a **paper trail** — and a paper trail is what actually forces a landlord to act, because it establishes that they were notified. If the situation ever reaches mediation, a lease dispute, or small claims, your documentation is the whole game.
 
-This page gives you a template you can copy, plus the three things that make a noise letter effective instead of ignorable.
+This page gives you a template you can copy, plus the three things that make a noise letter effective instead of ignorable. Prefer to fill in a form instead of editing brackets by hand? Our [complaint letter generator](/tools/complaint-letter-generator) builds the same kind of letter for you.
 
 ## The 3 things that make a noise letter work
 
@@ -49,7 +49,7 @@ This page gives you a template you can copy, plus the three things that make a n
 
 ## Before you send it
 
-- **Keep a noise log first.** Even a week of dated entries makes the letter far stronger.
+- **Keep a [noise log](/noise-log) first.** Even a week of dated entries makes the letter far stronger.
 - **Send it in a trackable way** — email (keeps a timestamp) or certified mail for serious cases.
 - **Keep a copy.** Always.
 
