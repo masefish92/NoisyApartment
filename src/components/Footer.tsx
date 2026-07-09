@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Globe } from "lucide-react";
 import ShareButton from "@/components/ShareButton";
 
 export default function Footer() {
@@ -54,13 +53,6 @@ export default function Footer() {
         </div>
         <div className="flex gap-4">
           <ShareButton />
-          <Link
-            className="w-10 h-10 border border-outline flex items-center justify-center hover:bg-secondary-container transition-colors"
-            href="/"
-            aria-label="Go to homepage"
-          >
-            <Globe size={18} className="text-tertiary" />
-          </Link>
         </div>
       </div>
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pb-8">

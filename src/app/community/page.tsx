@@ -68,8 +68,7 @@ export default function CommunityPage() {
       <section className="py-section-gap">
         <div className="max-w-3xl">
           <h1 className="font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-6">
-            Sounder Minds, <br />
-            Shared Silence.
+            Tenant Rights, Noise Laws &amp; Free Complaint Tools
           </h1>
           <p className="font-body-lg text-body-lg text-on-surface-variant mb-base">
             A primer on tenant rights and legal strategy for noise disputes.

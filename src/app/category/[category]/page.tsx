@@ -55,7 +55,7 @@ export default async function CategoryPage({
 
       {articles.length === 0 ? (
         <p className="font-body-md text-on-surface-variant border border-outline-variant p-8 text-center">
-          Guides for this topic are coming soon.
+          Guides for this topic are on the way.
         </p>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-gutter">

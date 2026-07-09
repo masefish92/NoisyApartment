@@ -120,7 +120,7 @@ export default async function StateNoiseLawPage({
         </h2>
         {cities.length === 0 ? (
           <p className="font-body-md text-on-surface-variant border border-outline-variant p-8 text-center">
-            City-level detail for {state.state} is coming soon.
+            City-level detail for {state.state} is on the way.
           </p>
         ) : (
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">

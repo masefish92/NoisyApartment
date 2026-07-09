@@ -57,7 +57,7 @@ export default function NoiseLawsHubPage() {
         </p>
         {states.length === 0 ? (
           <p className="font-body-md text-on-surface-variant border border-outline-variant p-8 text-center max-w-xl">
-            State data is being added — check back soon.
+            State data is being added.
           </p>
         ) : (
           <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 max-w-3xl">

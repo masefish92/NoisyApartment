@@ -8,7 +8,9 @@ import HeaderSearch from "@/components/HeaderSearch";
 
 const NAV_LINKS = [
   { href: "/guides/apartment-noise", label: "Guides" },
-  { href: "/community", label: "Community" },
+  { href: "/noise-laws", label: "Noise Laws" },
+  { href: "/community", label: "Tenant Rights & Tools" },
+  { href: "/about", label: "About" },
 ];
 
 export default function Header() {

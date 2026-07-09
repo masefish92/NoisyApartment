@@ -68,26 +68,6 @@ export default function HomePage() {
         <div className="section-divider" />
       </div>
 
-      {/* Addressing the Hum */}
-      <section className="py-section-gap bg-surface-container-low">
-        <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop max-w-3xl">
-          <h2 className="font-headline-md text-headline-md text-tertiary mb-6 uppercase tracking-wider">
-            Addressing the Hum
-          </h2>
-          <p className="font-body-md text-body-md text-on-surface-variant mb-4">
-            Urban living brings a constant rhythmic vibration—the distant
-            siren, the hum of HVAC, the neighbor&apos;s heavy footsteps. These
-            aren&apos;t just noises; they are disruptions to your sleep,
-            focus, and peace of mind.
-          </p>
-          <p className="font-body-md text-body-md text-on-surface-variant">
-            We publish free, practical guides that identify exactly where
-            noise is getting into your space — and how to stop it, room by
-            room, without spending a fortune.
-          </p>
-        </div>
-      </section>
-
       {/* Problem-based navigation */}
       <section className="py-section-gap">
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
@@ -130,7 +110,7 @@ export default function HomePage() {
               By Room
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
-              {ROOM_CATEGORIES.map((category) => (
+              {[...ROOM_CATEGORIES, ...RESOURCE_CATEGORIES].map((category) => (
                 <Link
                   key={category.slug}
                   href={`/category/${category.slug}`}
@@ -151,35 +131,6 @@ export default function HomePage() {
               ))}
             </div>
           </div>
-
-          {RESOURCE_CATEGORIES.length > 0 && (
-            <div className="mt-16">
-              <h3 className="font-label-sm text-label-sm uppercase tracking-widest text-secondary mb-6">
-                Tools &amp; Resources
-              </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {RESOURCE_CATEGORIES.map((category) => (
-                  <Link
-                    key={category.slug}
-                    href={`/category/${category.slug}`}
-                    className="group flex flex-col justify-between border border-outline-variant bg-background p-6 hover:border-primary transition-colors"
-                  >
-                    <div>
-                      <h4 className="font-headline-md text-headline-md text-[18px] text-primary mb-2">
-                        {category.label}
-                      </h4>
-                      <p className="font-body-md text-sm text-on-surface-variant">
-                        {category.description}
-                      </p>
-                    </div>
-                    <span className="mt-4 inline-flex items-center gap-2 font-label-sm text-label-sm text-secondary group-hover:text-primary transition-colors">
-                      See Guides <ArrowRight size={14} />
-                    </span>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          )}
         </div>
       </section>
 
@@ -200,7 +151,7 @@ export default function HomePage() {
 
           {featuredArticles.length === 0 ? (
             <p className="font-body-md text-on-surface-variant border border-outline-variant bg-background p-12 text-center">
-              New guides are on the way — check back soon.
+              New guides are on the way.
             </p>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

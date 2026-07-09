@@ -36,7 +36,7 @@ export default async function ApartmentNoisePillarPage() {
           The Complete Guide to Apartment Noise
         </h1>
         <p className="font-body-lg text-body-lg text-on-surface-variant">
-          This hub page is reserved for our pillar guide — content coming soon.
+          This hub page is reserved for our pillar guide, which is being finalized.
         </p>
       </div>
     );
