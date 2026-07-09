@@ -7,9 +7,9 @@ import { buildMetadata } from "@/lib/seo";
 import HeroVideo from "@/components/HeroVideo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Solve Your Apartment Noise Problem — Free",
+  title: "Noisy Apartment? Fixes, Tenant Rights & Renter-Safe Soundproofing",
   description:
-    "Free, practical guides for renters and condo owners dealing with noisy neighbors, thin walls, and street noise — organized by noise source and by room.",
+    "Living in a noisy apartment? Free guides to soundproof without losing your deposit, plus noise laws by state and a complaint letter generator.",
   path: "/",
 });
 
@@ -27,12 +27,13 @@ export default function HomePage() {
       <HeroVideo>
         <div className="max-w-xl space-y-8 py-16">
           <h1 className="font-display-lg text-display-lg-mobile md:text-display-lg text-background max-w-xl">
-            Solve Your Apartment Noise Problem — Free
+            Fix Your Noisy Apartment — Without Losing Your Deposit
           </h1>
           <p className="font-body-lg text-body-lg text-background/85 max-w-md">
-            Practical, research-backed guides for renters and condo owners
-            dealing with noisy neighbors, thin walls, and street noise. No
-            products to buy — just fixes that work.
+            A noisy apartment doesn&apos;t mean you&apos;re stuck. Practical,
+            research-backed guides for renters and condo owners dealing with
+            noisy neighbors, thin walls, and street noise. No products to
+            buy — just fixes that work.
           </p>
 
           <div>
