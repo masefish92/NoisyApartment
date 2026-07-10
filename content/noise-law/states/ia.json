@@ -3,6 +3,39 @@
   "state": "Iowa",
   "stateSlug": "ia",
   "abbr": "IA",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Iowa's Uniform Residential Landlord and Tenant Law requires landlords to comply with building and housing codes materially affecting health and safety, make all repairs necessary to keep the unit in a fit and habitable condition, keep common areas clean and safe, maintain electrical, plumbing, sanitary, heating, ventilating, and air-conditioning systems (and elevators) in good working order, provide trash-collection receptacles and arrange for removal, and supply running water, reasonable hot water, and reasonable heat at all times (with narrow exceptions for units not required by code to have these, or where the tenant controls a direct utility connection). For a single-family residence, the landlord and tenant may agree in writing that the tenant handle trash removal, hot water/heat provisioning, and specified repairs, but only if the agreement is entered into in good faith; similar tenant-performs-repairs arrangements are allowed for other unit types under stricter conditions (separate signed writing, adequate consideration, no reduction of the landlord's duties to other tenants).",
+    "statuteName": "Iowa Uniform Residential Landlord and Tenant Law",
+    "statuteCitation": "Iowa Code § 562A.15",
+    "sourceUrl": "https://www.legis.iowa.gov/docs/code/562A.15.pdf"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Iowa recognizes an implied covenant of quiet enjoyment in every residential lease as a matter of common law — it protects a tenant's right to use and possess the premises without substantial interference from the landlord (or people under the landlord's control), separate from Chapter 562A's statutory maintenance duties, and is not itself a standalone statute. Chapter 562A does codify a related but distinct protection: a landlord generally has no right to enter the unit except with the tenant's consent, in an emergency, or by court order, must give at least 24 hours' notice of intent to enter and enter only at reasonable times, and may not abuse the right of access or use it to harass the tenant.",
+    "statuteCitation": "Iowa Code § 562A.19 (entry-notice component only; the broader covenant of quiet enjoyment is common-law, not codified)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before a tenant can terminate the rental agreement over a landlord's material breach of the rental agreement, or a violation of the habitability duty (Iowa Code 562A.15) that materially affects health and safety, the tenant must deliver written notice to the landlord specifying the acts or omissions constituting the breach, stating the agreement will terminate on a date at least seven days after the landlord receives the notice unless the breach is remedied within that seven-day window. If the landlord adequately fixes the problem before the date stated in the notice, the agreement does not terminate. Separately, and regardless of whether the tenant elects to terminate, the tenant may recover damages and injunctive relief for the landlord's noncompliance (with reasonable attorney fees if the noncompliance was willful), unless the landlord shows it exercised due diligence and the failure to remedy was due to circumstances beyond its control.",
+    "statuteCitation": "Iowa Code § 562A.21"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Iowa's statutory self-help remedy is narrower than a general repair-and-deduct or court rent-escrow system: if a landlord deliberately or negligently fails to supply running water, hot water, heat, or other essential services required by the rental agreement or by Iowa Code 562A.15, the tenant may give written notice of the breach and then either (1) procure reasonable amounts of the missing service during the landlord's noncompliance and deduct the actual, reasonable cost from rent, (2) recover damages based on the diminished fair rental value of the unit, or (3) recover rent already paid for the noncompliance period on a pro rata basis. This remedy is limited to failures to supply water, hot water, heat, or essential services — it is not available for habitability problems generally — and a tenant who uses it cannot also pursue the general noncompliance remedy (termination, damages, injunctive relief under 562A.21) for that same breach. Iowa's statute does not provide for depositing rent in escrow with a court."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "Iowa Code § 562A.15 — Landlord to maintain fit premises", "url": "https://www.legis.iowa.gov/docs/code/562A.15.pdf" },
+    { "label": "Iowa Code § 562A.19 — Access", "url": "https://www.legis.iowa.gov/docs/code/562A.19.pdf" },
+    { "label": "Iowa Code § 562A.21 — Noncompliance by the landlord, in general", "url": "https://www.legis.iowa.gov/docs/code/562A.21.pdf" },
+    { "label": "Iowa Code § 562A.23 — Wrongful failure to supply heat, water, hot water or essential services", "url": "https://www.legis.iowa.gov/docs/code/562A.23.pdf" },
+    { "label": "Iowa Code Chapter 562A — Uniform Residential Landlord and Tenant Law (full chapter)", "url": "https://www.legis.iowa.gov/docs/ico/chapter/562A.pdf" },
+    { "label": "Center for Agricultural Law and Taxation (Iowa State University) — Leases and the Covenant of Quiet Enjoyment", "url": "https://www.calt.iastate.edu/article/leases-and-covenant-%E2%80%9Cquiet-enjoyment%E2%80%9D" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: several secondary/AI-summarizer sources (not primary law) asserted that Iowa Code 562A.21 provides a 'rent escrow' remedy for tenants. I read the actual current text of 562A.21 directly from legis.iowa.gov and it contains no escrow mechanism at all -- only termination-after-notice, damages, and injunctive relief. Treated those secondary claims as unreliable and excluded escrow language from the public summary accordingly. Worth a second look if a future pass finds a different escrow-specific section elsewhere in Iowa Code (e.g. small claims/forcible entry chapters) that this research did not surface.",
+    "TODO_VERIFY: the CALT article and search results reference an Iowa Supreme Court case on quiet enjoyment/sublease default (cited in secondary sources as Duck Creek Tire Service, Inc. v. Goodyear Corners, L.C.) -- I did not independently pull and read the actual opinion text, so it is not cited by name in the public summary. The general common-law recognition of the covenant in Iowa leases is corroborated by the CALT (Iowa State University) article, which is a more reliable secondary source than the generic AI-search summaries."
+  ]
 }

@@ -3,6 +3,39 @@
   "state": "New Mexico",
   "stateSlug": "nm",
   "abbr": "NM",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "New Mexico imposes habitability duties on landlords through the Uniform Owner-Resident Relations Act rather than a general common-law implied warranty. The owner must substantially comply with applicable minimum housing codes materially affecting health and safety; make repairs and do whatever is necessary to keep the premises in a safe condition; keep common areas safe; maintain electrical, plumbing, sanitary, heating, ventilating, and air-conditioning systems and any elevators in good and safe working order; provide and arrange removal of trash receptacles; and supply running water, a reasonable amount of hot water at all times, and reasonable heat (with narrow exceptions where the building isn't required by law to have these or the resident has an exclusive, separately metered utility connection).",
+    "statuteName": "Uniform Owner-Resident Relations Act",
+    "statuteCitation": "NMSA 1978 § 47-8-20",
+    "sourceUrl": "https://law.justia.com/codes/new-mexico/chapter-47/article-8/section-47-8-20/"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "New Mexico's landlord-tenant statute uses \"quiet enjoyment\" as an operative term tied to the owner's right of entry rather than a broadly elaborated separate doctrine: an owner may enter only after giving the resident 24 hours' written notice of intent to enter, the purpose, and the date and time frame (with exceptions for emergencies, resident-requested repairs, and certain utility/inspection visits). If the owner makes an unlawful entry, a lawful entry in an unreasonable manner, or repeated otherwise-lawful entry demands that have the effect of unreasonably interfering with the resident's quiet enjoyment of the dwelling unit, the resident may obtain injunctive relief to stop the conduct or terminate the rental agreement, and may recover damages either way.",
+    "statuteCitation": "NMSA 1978 § 47-8-24 (entry notice at (A); quiet-enjoyment/unreasonable-interference remedy at (F))"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before a resident can terminate the rental agreement over the owner's failure to meet its obligations, the resident must deliver written notice specifying the acts or omissions constituting the breach. For noncompliance materially affecting health and safety, the notice must state that the agreement will terminate on a date not less than seven days after the owner receives it unless the owner makes a reasonable attempt to remedy the breach within those seven days; if the owner does make that attempt, the agreement does not terminate. Separately, to pursue rent abatement for a repair problem, the resident must give the owner written notice of the condition needing repair, and abatement rights only begin if the owner fails to remedy it within seven days of that notice.",
+    "statuteCitation": "NMSA 1978 §§ 47-8-27.1, 47-8-27.2"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": false,
+    "summary": "New Mexico's Uniform Owner-Resident Relations Act does not give tenants a self-help repair-and-deduct remedy or a procedure to escrow rent with a court over habitability problems. Instead, once the seven-day notice-and-cure window lapses, the statutory remedy is rent abatement: one-third of the pro-rata daily rent for each day the condition remains unremedied, or 100% of the daily rent if the dwelling is uninhabitable and the resident does not live there during that period. As an alternative to abating, the resident may instead terminate the rental agreement and recover damages, but may not use both remedies for the same violation in the same rental period."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "NMSA 1978, Uniform Owner-Resident Relations Act, Chapter 47 Article 8 (full annotated text, compiled and published by the New Mexico Real Estate Commission / NM Regulation and Licensing Department)", "url": "https://www.rld.nm.gov/wp-content/uploads/2021/06/00-2019-NM-UORRA-CHAPTER-47-for-web-publication.pdf" },
+    { "label": "NMSA 1978 § 47-8-20 — Obligations of owner", "url": "https://law.justia.com/codes/new-mexico/chapter-47/article-8/section-47-8-20/" },
+    { "label": "NMSA 1978 § 47-8-24 — Right of entry", "url": "https://law.justia.com/codes/new-mexico/chapter-47/article-8/section-47-8-24/" },
+    { "label": "NMSA 1978 § 47-8-27.1 — Breach of agreement by owner and relief by resident", "url": "https://law.justia.com/codes/new-mexico/chapter-47/article-8/section-47-8-27-1/" },
+    { "label": "NMSA 1978 § 47-8-27.2 — Abatement", "url": "https://law.justia.com/codes/new-mexico/chapter-47/article-8/section-47-8-27-2/" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: this pass could not directly load nmonesource.com or nmlegis.gov (the state's own statute-hosting sites returned errors/were not fetchable); the section text was confirmed instead against a 2019 Uniform Owner-Resident Relations Act compilation PDF published by the NM Real Estate Commission via rld.nm.gov, cross-checked against law.justia.com's per-section pages. Recommend a direct nmonesource.com pull before the next update to rule out post-2019 amendments to 47-8-20, 47-8-24, 47-8-27.1, or 47-8-27.2.",
+    "TODO_VERIFY: New Mexico case law (T.W.I.W., Inc. v. Rhudy, 96 N.M. 354, 630 P.2d 753 (1981)) held there was no independent common-law implied warranty of habitability in New Mexico prior to the legislature adopting 47-8-20; treat the habitability duty as statutory rather than also common-law absent further research finding a later case recognizing an independent common-law doctrine.",
+    "TODO_VERIFY: did not find New Mexico case law establishing a general, freestanding common-law covenant of quiet enjoyment outside the entry-related context codified at 47-8-24(F); the public summary is deliberately limited to what that statute confirms."
+  ]
 }

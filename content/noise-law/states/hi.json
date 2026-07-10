@@ -3,6 +3,39 @@
   "state": "Hawaii",
   "stateSlug": "hi",
   "abbr": "HI",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Hawaii's Residential Landlord-Tenant Code requires the landlord, at all times during the tenancy, to: comply with all applicable building and housing laws materially affecting health and safety; keep common areas of a multi-dwelling-unit premises in a clean and safe condition; make all repairs and arrangements necessary to put and keep the premises in a habitable condition; maintain all electrical, plumbing, and other landlord-supplied facilities and appliances in good working order (reasonable wear and tear excepted); and, except for single-family residences, provide trash-removal receptacles and running water. Before initial occupancy the landlord must also inventory the premises' condition in a signed written record, which is presumed correct in any later dispute.",
+    "statuteName": "Hawaii Residential Landlord-Tenant Code",
+    "statuteCitation": "HRS 521-42(a)",
+    "sourceUrl": "https://www.capitol.hawaii.gov/hrscurrent/vol12_ch0501-0588/HRS0521/HRS_0521-0042.htm"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Hawaii's code refers to tenants' quiet-enjoyment rights directly: HRS 521-3(d) recognizes \"the rights of other occupants to quiet enjoyment\" as an interest a condominium association can step in to protect against a disruptive tenant. More broadly, the code codifies the substance of the doctrine in HRS 521-63(a): if any condition within the premises deprives the tenant of a substantial part of the benefit and enjoyment of the tenant's bargain under the rental agreement, the tenant may give the landlord written notice and terminate the rental agreement if the condition isn't remedied within one week (no notice is required at all if the condition makes the unit uninhabitable or poses an imminent health/safety threat). Entry by the landlord is governed separately: HRS 521-53 requires at least two days' notice before entry (barring emergency) and bars the landlord from abusing that access or using it to harass the tenant.",
+    "statuteCitation": "HRS 521-3(d); HRS 521-63(a); HRS 521-53(b) (entry-notice, a related but distinct protection)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before using the repair-and-deduct remedy, a tenant must give the landlord written notice of the defective condition under HRS 521-64. The landlord then has: 5 business days to commence repairs after notification (from the tenant, the Dept. of Health, or another government agency) of a health-or-safety-code violation; 3 business days to commence repairs to electrical, plumbing, or other facilities or major appliances necessary for sanitary and habitable living conditions, after oral or written notice; and 12 business days to commence repairs for any other defective condition in material noncompliance with the landlord's habitability duties or the rental agreement, after written notice. In every case the repairs must be completed in good faith as soon as possible, and a landlord who can't start on time for reasons beyond their control must tell the tenant why and set a reasonable tentative start date. Separately, to terminate the rental agreement over a substantial interference with the tenant's use of the premises (HRS 521-63), the tenant must give written notice and the landlord gets one week to fix it, except no notice is required if the condition renders the unit uninhabitable or poses an imminent health/safety threat.",
+    "statuteCitation": "HRS 521-64(a), (c); HRS 521-63(a)"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "If the landlord misses the applicable repair deadline, HRS 521-64 lets the tenant do or arrange the repair themselves and deduct the cost from rent after submitting receipts to the landlord: up to $500 for a health-or-safety violation (or $500, or one month's rent if greater, if the tenant first submits two competing written estimates and gives the landlord 5 business days to substitute a worker or materials), and up to $500 for other defective conditions handled under the 3- or 12-business-day tracks. At the initial written notice, the tenant must list every condition of noncompliance they know or should know of, or be barred from later requiring the landlord to correct an unlisted one for six months; total repair costs chargeable to the landlord under this remedy are capped at three months' rent per six-month period. Separately, HRS 521-78 lets a court order any disputed rent deposited into a court-held rent trust fund while a rent-payment dispute is litigated (including one where the tenant is asserting a habitability defense), rather than the tenant simply withholding rent unilaterally.",
+    "statuteCitation": "HRS 521-64(b), (d), (e); HRS 521-78"
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "HRS Chapter 521 — Residential Landlord-Tenant Code, full official text (Hawaii State Legislature)", "url": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0521.pdf" },
+    { "label": "HRS 521-42 — Landlord to supply and maintain fit premises (capitol.hawaii.gov)", "url": "https://www.capitol.hawaii.gov/hrscurrent/vol12_ch0501-0588/HRS0521/HRS_0521-0042.htm" },
+    { "label": "HRS 521-64 — Tenant's remedy of repair and deduction for minor defects (Justia mirror)", "url": "https://law.justia.com/codes/hawaii/title-28/chapter-521/section-521-64/" },
+    { "label": "HRS 521-63 — Tenant's remedy of termination at any time; unlawful removal or exclusion (Justia mirror)", "url": "https://law.justia.com/codes/hawaii/title-28/chapter-521/section-521-63/" },
+    { "label": "Hawaii DCCA Office of Consumer Protection — HRS Chapter 521 overview", "url": "https://cca.hawaii.gov/ocp/hrs-chapter-521/" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: Did not confirm an independent, named common-law 'covenant of quiet enjoyment' Hawaii case (separate from the statutory hooks in HRS 521-3(d) and 521-63) — the only common-law doctrine case notes found in the official text were about retaliatory eviction (59 H. 104, 577 P.2d 326). Before asserting Hawaii recognizes a distinct common-law covenant beyond the statute, do a targeted Hawaii case-law search.",
+    "TODO_VERIFY: Did not independently verify whether HRS 521-64's business-day repair deadlines have been amended since the officially reprinted chapter text sourced here (dated to the legislature's session-law compilation); recommend confirming against the current-year capitol.hawaii.gov HRS0521 pages directly if precise up-to-the-day currency matters."
+  ]
 }

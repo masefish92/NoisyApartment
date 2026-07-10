@@ -28,7 +28,7 @@ See the `StateNoiseLaw` and `CityNoiseLaw` types in `src/lib/noise-law.ts`
 for the authoritative shape. Every entry needs `lastVerified` (ISO date)
 and a non-empty `sources` array.
 
-## State legal research status (30 of 50 verified)
+## State legal research status (35 of 50 verified)
 
 Every state has a page (all 50 got honest `verified: false` stubs in an
 earlier pass so no state page 404s or shows invented numbers). This list
@@ -47,12 +47,12 @@ first five verified states) are listed separately below.
 - [ ] Delaware
 - [x] Florida
 - [x] Georgia
-- [ ] Hawaii
+- [x] Hawaii
 - [ ] Idaho
 - [x] Illinois
 - [x] Indiana
-- [ ] Iowa
-- [ ] Kansas
+- [x] Iowa
+- [x] Kansas
 - [x] Kentucky
 - [x] Louisiana
 - [ ] Maine
@@ -63,11 +63,11 @@ first five verified states) are listed separately below.
 - [ ] Mississippi
 - [x] Missouri
 - [ ] Montana
-- [ ] Nebraska
+- [x] Nebraska
 - [x] Nevada
 - [ ] New Hampshire
 - [x] New Jersey
-- [ ] New Mexico
+- [x] New Mexico
 - [x] New York
 - [x] North Carolina
 - [ ] North Dakota

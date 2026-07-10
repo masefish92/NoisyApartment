@@ -3,6 +3,43 @@
   "state": "Nebraska",
   "stateSlug": "ne",
   "abbr": "NE",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Nebraska's Uniform Residential Landlord and Tenant Act requires landlords to substantially comply with applicable minimum housing codes materially affecting health and safety, make repairs necessary to keep the unit in a fit and habitable condition, keep common areas clean and safe, maintain electrical, plumbing, sanitary, heating, ventilating, air-conditioning, and other supplied facilities and appliances (including elevators) in good and safe working order, provide trash receptacles and arrange for removal, and supply running water, reasonable hot water, and reasonable heat at all times. For single-family rentals, some of these duties can be shifted to the tenant only by a separate written agreement supported by adequate consideration; in multi-unit buildings such an agreement also can't diminish the obligations owed to other tenants.",
+    "statuteName": "Nebraska Uniform Residential Landlord and Tenant Act",
+    "statuteCitation": "Neb. Rev. Stat. § 76-1419",
+    "sourceUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=76-1419"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Nebraska recognizes an implied covenant of quiet enjoyment as a matter of common-law property doctrine, protecting a tenant's possession from substantial interference by the landlord — separate from the statutory habitability duties and not a right to literal silence. The Uniform Residential Landlord and Tenant Act codifies a closely related protection: a landlord generally may not enter a rented dwelling unit without giving the tenant at least 24 hours' written notice of the intended purpose and a reasonable window for entry, may not enter outside reasonable times, and may not abuse the right of access or use it to harass the tenant. A tenant subjected to unlawful entry, an unreasonable-manner entry, or repeated harassing demands for entry can get injunctive relief or terminate the rental agreement, plus actual damages and reasonable attorney's fees.",
+    "statuteCitation": "Neb. Rev. Stat. §§ 76-1423 (entry/access notice), 76-1430 (unlawful ouster, exclusion, or diminution of service), 76-1438 (remedies for abuse of access or entry) — the broader covenant itself is common-law"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "If a landlord materially fails to comply with the rental agreement or breaches the duty to maintain fit premises in a way that materially affects health and safety, the tenant must deliver written notice specifying the acts or omissions constituting the breach before terminating; the rental agreement then terminates on a date at least 30 days after the tenant's notice unless the landlord remedies the breach within 14 days (this cure period doesn't apply, and the tenant may terminate on 14 days' notice with no chance to cure, if substantially the same breach recurred within the preceding six months). The tenant can also sue for damages and injunctive relief for the same noncompliance, with attorney's fees available if the landlord's breach was willful. The Act imposes a mirror-image process running the other direction: a landlord seeking to terminate for a tenant's material lease violation or a habitability-code violation the tenant caused must likewise give written notice, with the same 14-day cure / 30-day termination structure.",
+    "statuteCitation": "Neb. Rev. Stat. §§ 76-1425 (tenant's notice to landlord), 76-1431 (landlord's notice to tenant)"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Nebraska's repair-and-deduct remedy is limited to essential services: if a landlord deliberately or negligently fails to supply running water, hot water, heat, or other essential services after written notice, the tenant may procure a reasonable amount of that service and deduct its actual, reasonable cost from rent, recover damages for the diminished rental value, or get substitute housing and be excused from rent for the outage period (with the cost of substitute housing recoverable up to one month's rent, plus attorney's fees, if the landlord's failure was deliberate). Separately, Nebraska has a rent-escrow-style mechanism tied to eviction defense rather than a free-standing repair-and-deduct for all habitability issues: if a landlord sues a tenant who is still in possession for nonpayment of rent, the tenant may raise the landlord's noncompliance with the Act as a defense or counterclaim, and the court can order the tenant to pay accrued and accruing rent into court pending the outcome; if the tenant's claim fully offsets the rent owed, judgment for possession goes to the tenant.",
+    "statuteCitation": "Neb. Rev. Stat. §§ 76-1427 (essential-services repair-and-deduct), 76-1428 (landlord's noncompliance as defense; rent paid into court)"
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "Neb. Rev. Stat. § 76-1419 — Landlord to maintain fit premises", "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=76-1419" },
+    { "label": "Neb. Rev. Stat. § 76-1423 — Access (landlord entry notice)", "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=76-1423" },
+    { "label": "Neb. Rev. Stat. § 76-1425 — Noncompliance by landlord", "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=76-1425" },
+    { "label": "Neb. Rev. Stat. § 76-1427 — Wrongful failure to supply heat, water, hot water, or essential services", "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=76-1427" },
+    { "label": "Neb. Rev. Stat. § 76-1428 — Landlord's noncompliance as defense to action for possession", "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=76-1428" },
+    { "label": "Neb. Rev. Stat. § 76-1430 — Tenant's remedies for landlord's unlawful ouster, exclusion, or diminution of service", "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=76-1430" },
+    { "label": "Neb. Rev. Stat. § 76-1431 — Noncompliance; failure to pay rent; effect", "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=76-1431" },
+    { "label": "Neb. Rev. Stat. § 76-1438 — Landlord and tenant remedies for abuse of access or entry", "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=76-1438" },
+    { "label": "Nebraska Real Estate Commission — Uniform Residential Landlord and Tenant Act table of contents", "url": "https://nrec.nebraska.gov/legal/landlordacttoc.html" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: could not locate a specific, confirmed Nebraska appellate case citation naming/applying the common-law covenant of quiet enjoyment to residential leases (searched but only found general property-law secondary sources and the unrelated deed-covenant statute at Neb. Rev. Stat. 76-208, which concerns title covenants in conveyances, not landlord-tenant leases) — the quiet-enjoyment summary is written to only claim what's broadly true of common-law jurisdictions plus the confirmed statutory entry-notice/harassment provisions, not a specific case holding.",
+    "TODO_VERIFY: did not independently confirm the exact 'adequate consideration' / separate-signed-agreement mechanics for shifting single-family vs. multi-unit maintenance duties under 76-1419 beyond the statute's own summarized text pulled via web fetch — recommend a direct full-text read of 76-1419 before treating that carve-out description as exhaustive."
+  ]
 }

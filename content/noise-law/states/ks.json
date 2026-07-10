@@ -3,6 +3,45 @@
   "state": "Kansas",
   "stateSlug": "ks",
   "abbr": "KS",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Kansas's Residential Landlord and Tenant Act (KSA 58-2540 et seq., enacted 1975) is a single statewide law — unlike Kentucky's URLTA, it is not limited to cities or counties over a population threshold. Its only carve-outs (KSA 58-2541) are narrow categories of occupancy: institutional residence (medical, educational, correctional, etc.), contract-for-deed purchasers, fraternal/social-organization housing, transient hotel/motel stays, employer-conditioned employee housing, condo/co-op ownership, and agricultural-use leases. Everyone else renting a dwelling in Kansas is covered. KSA 58-2553 requires the landlord to comply with health-and-safety building/housing codes, make all repairs necessary to keep the unit fit and habitable, keep common areas clean and safe, keep electrical, plumbing, heating, and A/C systems in good working order, provide trash/garbage receptacles, and supply running water, reasonable hot water, and reasonable heat — except when prevented by an act of God, a utility failure, or other conditions beyond the landlord's control. This statutory duty substantially codifies the common-law implied warranty of habitability the Kansas Supreme Court first recognized in Steele v. Latimer (1974).",
+    "statuteName": "Kansas Residential Landlord and Tenant Act",
+    "statuteCitation": "KSA 58-2553 (landlord's maintenance duties); KSA 58-2540 and 58-2541 (statewide scope and exemptions)",
+    "sourceUrl": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_025_0053.html"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Kansas recognizes an implied covenant of quiet enjoyment as a matter of common law rather than a standalone statute. In Steele v. Latimer, 214 Kan. 329, 521 P.2d 304 (1974), the Kansas Supreme Court affirmed a tenant's award of damages for the landlord's breach of the implied covenant of quiet enjoyment after the landlord failed to repair a broken water main — a doctrine about substantial interference with a tenant's possession and use of the premises, not a literal right to silence or a noise-specific rule. That same case is the origin point of Kansas's implied warranty of habitability, which the 1975 Residential Landlord and Tenant Act later substantially codified.",
+    "statuteCitation": "Common law; Steele v. Latimer, 214 Kan. 329, 521 P.2d 304 (Kan. 1974)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before a tenant can terminate a lease over the landlord's material noncompliance with the rental agreement, or noncompliance with the KSA 58-2553 maintenance duties that materially affects health and safety, KSA 58-2559 requires the tenant to deliver written notice to the landlord specifying the acts or omissions constituting the breach and stating that the rental agreement will terminate on a periodic rent-paying date not less than 30 days after the landlord receives the notice. If the breach is remediable and the landlord adequately initiates a good-faith effort to remedy it within 14 days of receiving the notice, the agreement does not terminate. A tenant cannot use this notice-and-terminate remedy for a condition caused by the tenant or their guests, pets, or household. Separately, KSA 58-2559(b) allows a tenant to recover damages and injunctive relief for the landlord's noncompliance without going through this notice-and-cure process at all.",
+    "statuteCitation": "KSA 58-2559"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": false,
+    "summary": "Kansas's Residential Landlord and Tenant Act does not give a tenant a self-help right to repair a habitability problem and unilaterally deduct the cost from rent, and it does not let a tenant proactively escrow rent with a court to force repairs. The only tenant-performed-repair mechanism in the Act is a voluntary written agreement between landlord and tenant (KSA 58-2553(b)-(c)) covering specific tasks like minor repairs or upkeep in exchange for a rent adjustment — that requires the landlord's consent and is not a remedy a tenant can invoke on their own when a landlord refuses to fix something. A related but different mechanism exists only inside landlord-initiated litigation: if a landlord sues for possession over nonpayment of rent while the tenant remains in possession, KSA 58-2561 lets the court order the tenant to pay accruing rent into the court registry while the case is pending, and requires the tenant to raise any damages recoverable under the rental agreement or the Act (such as a KSA 58-2553 maintenance breach) as a counterclaim in that action or lose the claim. A Kansas tenant's main proactive options for an unrepaired habitability problem are the KSA 58-2559 notice-and-terminate procedure or a lawsuit for damages/injunctive relief — not withholding, deducting, or escrowing rent on their own initiative."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "KSA 58-2540 — Title of act", "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_025_0040.html" },
+    { "label": "KSA 58-2541 — Arrangements not subject to act (exemptions, no population threshold)", "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_025_0041.html" },
+    { "label": "KSA 58-2553 — Duties of landlord; agreement that tenant perform landlord's duties; limitations", "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_025_0053.html" },
+    { "label": "KSA 58-2559 — Material noncompliance by landlord; notice; termination; remedies", "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_025_0059.html" },
+    { "label": "KSA 58-2560 — Failure by landlord to deliver possession; remedies", "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_025_0060.html" },
+    { "label": "KSA 58-2561 — Counterclaim by tenant; payment of rent into court", "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_025_0061.html" },
+    { "label": "KSA 58-2563 — Unlawful removal or exclusion of tenant; diminished services; damages", "url": "https://ksrevisor.gov/statutes/chapters/ch58/058_025_0063.html" },
+    { "label": "Kansas Legislature Revisor of Statutes — Chapter 58, Article 25 (Landlords and Tenants) index", "url": "https://ksrevisor.gov/statutes/ksa_ch58.html" },
+    { "label": "Steele v. Latimer, 214 Kan. 329, 521 P.2d 304 (1974) — case summary (implied warranty of habitability and quiet enjoyment origin)", "url": "https://law.justia.com/cases/kansas/supreme-court/1974/47-141-1.html" },
+    { "label": "Kansas Legal Services — Tenant Issues and Rights for Kansas Renters (secondary confirmation of notice/cure process and no self-help repair-and-deduct)", "url": "https://www.kansaslegalservices.org/page/1934/tenant-issues-and-rights-kansas-renters" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: the Steele v. Latimer case text itself (214 Kan. 329, 521 P.2d 304) was confirmed via WebSearch summaries of the case and a Justia case page, but the Justia page returned HTTP 403 on direct fetch, so the exact holding language quoted in the summary should be reconfirmed against a full-text case reporter (e.g. CourtListener or a law-library copy) before treating it as beyond dispute.",
+    "TODO_VERIFY: several SEO/content-mill sites (e.g. tenantscreeningbackgroundcheck.com, a generisonline.com blog citing a 'Nelson v. Anderson (2010)' case, and one claiming KSA 58-2550 covers quiet enjoyment) make claims that directly contradict the statute text read from ksrevisor.gov — KSA 58-2550 is actually the security-deposit statute, not quiet enjoyment, and no 'Nelson v. Anderson' Kansas case could be independently verified; these sources were NOT relied on for this file's summaries, but flagging in case future research encounters the same fabricated-looking citations.",
+    "TODO_VERIFY: multiple secondary sources (blogs) assert KSA 58-2561 provides a repair-and-deduct remedy; the actual text read directly from ksrevisor.gov shows 58-2561 is about tenant counterclaims and court-ordered payment of rent into court during a nonpayment action, not a repair-and-deduct mechanism. This file's rentEscrowOrRepairDeduct summary is based on the direct statute read, not those secondary sources, but a licensed-attorney double-check would be prudent given how consistently the secondary sources get this wrong.",
+    "TODO_VERIFY: confirmed via direct read of KSA 58-2540 and 58-2541 (official ksrevisor.gov text) that there is no population-based or city-size limitation on the Act's applicability, unlike Kentucky's local-option URLTA — this appears to be a straightforward statewide law, but if a future update finds a home-rule city ordinance that opts out or modifies terms, that would need to be layered in separately."
+  ]
 }
