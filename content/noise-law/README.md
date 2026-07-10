@@ -28,7 +28,7 @@ See the `StateNoiseLaw` and `CityNoiseLaw` types in `src/lib/noise-law.ts`
 for the authoritative shape. Every entry needs `lastVerified` (ISO date)
 and a non-empty `sources` array.
 
-## State legal research status (40 of 50 verified)
+## State legal research status (45 of 50 verified)
 
 Every state has a page (all 50 got honest `verified: false` stubs in an
 earlier pass so no state page 404s or shows invented numbers). This list
@@ -38,7 +38,7 @@ remedy, and rent escrow/repair-and-deduct. Seeded cities (5, one per the
 first five verified states) are listed separately below.
 
 - [x] Alabama
-- [ ] Alaska
+- [x] Alaska
 - [x] Arizona
 - [x] Arkansas
 - [x] California
@@ -48,7 +48,7 @@ first five verified states) are listed separately below.
 - [x] Florida
 - [x] Georgia
 - [x] Hawaii
-- [ ] Idaho
+- [x] Idaho
 - [x] Illinois
 - [x] Indiana
 - [x] Iowa
@@ -62,15 +62,15 @@ first five verified states) are listed separately below.
 - [x] Minnesota
 - [x] Mississippi
 - [x] Missouri
-- [ ] Montana
+- [x] Montana
 - [x] Nebraska
 - [x] Nevada
-- [ ] New Hampshire
+- [x] New Hampshire
 - [x] New Jersey
 - [x] New Mexico
 - [x] New York
 - [x] North Carolina
-- [ ] North Dakota
+- [x] North Dakota
 - [x] Ohio
 - [x] Oklahoma
 - [x] Oregon

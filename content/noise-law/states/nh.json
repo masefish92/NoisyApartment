@@ -3,6 +3,40 @@
   "state": "New Hampshire",
   "stateSlug": "nh",
   "abbr": "NH",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "New Hampshire recognizes an implied warranty of habitability by case law (Kline v. Burns, 1971), which the legislature reinforced with statutory standards of fitness for health and safety. Rental housing must comply with the state's minimum housing standards under RSA 48-A and any applicable local codes, ordinances, or bylaws — covering basic sanitation, structural soundness, and essential services. This duty is treated as an obligation the landlord owes regardless of the lease, and a landlord may not willfully interrupt utilities or services being supplied to the tenant.",
+    "statuteName": "New Hampshire Revised Statutes — Standards of Fitness / Defenses to Violations of Fitness",
+    "statuteCitation": "RSA 48-A; RSA 540:13-d",
+    "sourceUrl": "https://gc.nh.gov/rsa/html/lv/540/540-13-d.htm"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "New Hampshire protects a tenant's quiet enjoyment both at common law and by statute. RSA 540-A:2 states that no landlord shall willfully violate a tenant's right to quiet enjoyment of the tenancy or attempt to circumvent lawful eviction procedures. RSA 540-A:3 backs this up by barring self-help eviction (the landlord may deny a tenant access only through proper judicial process), barring willful interruption or termination of utility service (except temporary repairs or emergencies), and barring entry without the tenant's prior consent except for emergency repairs.",
+    "statuteCitation": "RSA 540-A:2; RSA 540-A:3"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "New Hampshire eviction begins with a written notice to quit that must state the reason with specificity (RSA 540:2, 540:3). For most residential terminations 30 days' notice is required; for nonpayment of rent and certain serious grounds, 7 days' notice is sufficient, and a nonpayment notice must tell the tenant they can avoid eviction by paying the arrearage plus liquidated damages. On the habitability side, a tenant who wants to raise substandard conditions must first give the landlord written notice of the offending conditions while current on rent; the landlord then has 14 days to correct the violation (or, in an emergency, as promptly as conditions require) before the defense under RSA 540:13-d applies.",
+    "statuteCitation": "RSA 540:2; RSA 540:3; RSA 540:13-d"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "New Hampshire does not have a classic 'repair-and-deduct' statute. Instead, its habitability remedy is a defense to eviction with rent paid into court. Under RSA 540:13-d, a landlord cannot win a possession action for nonpayment when the premises are in substantial violation of the standards of fitness, provided the tenant proves (by clear and convincing evidence) that they gave written notice while current on rent, the landlord failed to correct the violation within 14 days, and the tenant did not cause the condition. When this defense is raised, the court requires the tenant to pay any withheld and accruing rent into court; if the landlord fixes the problem the court apportions those funds (fair rental value to the landlord, the remainder to the tenant as damages for breach of the warranty of habitability), and if the landlord does not fix it, judgment is entered for the tenant and the deposited money is refunded.",
+    "statuteCitation": "RSA 540:13-d"
+  },
+  "lastVerified": "2026-07-10",
+  "sources": [
+    { "label": "RSA 540:13-d — Defenses to Violations of Fitness", "url": "https://gc.nh.gov/rsa/html/lv/540/540-13-d.htm" },
+    { "label": "RSA 540-A:2 — General Prohibition (quiet enjoyment)", "url": "https://gc.nh.gov/rsa/html/LV/540-A/540-A-2.htm" },
+    { "label": "RSA 540-A:3 — Prohibited practices (utilities, self-help, entry)", "url": "https://gc.nh.gov/rsa/html/lv/540-a/540-a-3.htm" },
+    { "label": "RSA 540:2 — Termination of Tenancy", "url": "https://gc.nh.gov/rsa/html/lv/540/540-2.htm" },
+    { "label": "RSA 540:3 — Notice to Quit", "url": "https://gc.nh.gov/rsa/html/lv/540/540-3.htm" },
+    { "label": "RSA Chapter 540 — Actions Against Tenants", "url": "https://gc.nh.gov/rsa/html/lv/540/540-mrg.htm" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: RSA 540-A:4 remedy amounts (secondary sources describe statutory damages of at least $1,000 per day for continuing violations plus costs/attorney's fees) were not independently confirmed against the primary RSA 540-A:4 text — kept out of the public summaries. Confirm exact figure and mechanics before citing a dollar amount.",
+    "TODO_VERIFY: RSA 48-A minimum housing standards were cited from the 540:13-d cross-reference; the full chapter text was not read line-by-line. The general habitability characterization is safe, but read RSA 48-A directly before adding any specific enumerated fitness standard as a quote."
+  ]
 }

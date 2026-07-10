@@ -3,6 +3,39 @@
   "state": "Montana",
   "stateSlug": "mt",
   "abbr": "MT",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Under Montana's Residential Landlord and Tenant Act of 1977, a landlord must keep the rental in a fit and habitable condition. Core duties include complying with applicable building and housing codes materially affecting health and safety; making all repairs needed to keep the premises fit and habitable; keeping common areas clean and safe; maintaining electrical, plumbing, sanitary, heating, ventilating, air-conditioning, and other supplied facilities and appliances in good and safe working order; providing and arranging removal of garbage and waste; and supplying running water, reasonable amounts of hot water at all times, and reasonable heat between October 1 and May 1. The landlord must also install and verify carbon monoxide and smoke detectors. This duty is set by statute and generally cannot be waived by the lease.",
+    "statuteName": "Montana Residential Landlord and Tenant Act of 1977",
+    "statuteCitation": "MCA § 70-24-303",
+    "sourceUrl": "https://mca.legmt.gov/bills/mca/title_0700/chapter_0240/part_0030/section_0030/0700-0240-0030-0030.html"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Montana recognizes a tenant's right to quiet enjoyment — peaceful possession and use of the rental free from substantial interference by the landlord. This is a possession-and-use doctrine, not a guarantee of literal silence. Montana's landlord-tenant statute codifies related pieces: a landlord may not enter without giving at least 24 hours' notice and may enter only at reasonable times (except in emergencies), and may not abuse the right of access or use it to harass the tenant (MCA § 70-24-312). Separately, a landlord who unlawfully removes or excludes a tenant, or willfully interrupts essential services, is liable to the tenant (MCA § 70-24-411).",
+    "statuteCitation": "MCA § 70-24-312 (entry-notice component); MCA § 70-24-411 (unlawful ouster / interruption); the broader covenant is common-law"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before using most statutory remedies, a tenant must deliver the landlord written notice specifying the acts or omissions that constitute the noncompliance or the failure to maintain the premises. For ordinary material noncompliance affecting health and safety, the landlord has 14 days to remedy the condition; if not remedied, the rental agreement terminates on a date at least 30 days after the notice is received. For conditions involving an emergency or that materially affect health and safety, the landlord must act within 3 working days after receiving written notice.",
+    "statuteCitation": "MCA § 70-24-406"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Montana gives tenants a repair-and-deduct remedy. If the landlord fails to remedy a condition after written notice and a reasonable time (or fails to make emergency repairs), the tenant may have the repair made by a qualified person and deduct the actual and reasonable cost from rent, provided the cost does not exceed one month's rent (MCA § 70-24-406). Separately, if the landlord purposely or negligently fails to supply an essential service such as heat, running water, hot water, electricity, or gas, the tenant may — after written notice — procure reasonable amounts of the essential service and deduct the actual, reasonable cost from rent, recover damages based on the reduction in the dwelling's fair rental value, or obtain substitute housing and be excused from paying rent during the failure (MCA § 70-24-408). Where a landlord unlawfully interrupts essential services or excludes the tenant, the tenant may recover possession or terminate and recover up to 3 months' rent or treble damages, whichever is greater (MCA § 70-24-411). Montana's statute provides these self-help remedies rather than a court rent-escrow deposit procedure."
+  },
+  "lastVerified": "2026-07-10",
+  "sources": [
+    { "label": "MCA § 70-24-303 — Landlord to maintain premises", "url": "https://mca.legmt.gov/bills/mca/title_0700/chapter_0240/part_0030/section_0030/0700-0240-0030-0030.html" },
+    { "label": "MCA § 70-24-312 — Landlord's right of entry; 24-hour notice", "url": "https://mca.legmt.gov/bills/mca/title_0700/chapter_0240/part_0030/section_0120/0700-0240-0030-0120.html" },
+    { "label": "MCA § 70-24-406 — Failure to maintain; tenant remedies, notice, repair-and-deduct", "url": "https://mca.legmt.gov/bills/mca/title_0700/chapter_0240/part_0040/section_0060/0700-0240-0040-0060.html" },
+    { "label": "MCA § 70-24-408 — Failure to supply essential services; tenant remedies", "url": "https://mca.legmt.gov/bills/mca/title_0700/chapter_0240/part_0040/section_0080/0700-0240-0040-0080.html" },
+    { "label": "MCA § 70-24-411 — Unlawful ouster or interruption of essential services", "url": "https://mca.legmt.gov/bills/mca/title_0700/chapter_0240/part_0040/section_0110/0700-0240-0040-0110.html" },
+    { "label": "Montana Residential Landlord and Tenant Act of 1977 — Title 70, Ch. 24, Part 3 index", "url": "https://mca.legmt.gov/bills/mca/title_0700/chapter_0240/part_0030/sections_index.html" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: MCA § 70-24-406 and § 70-24-408 URLs (section _0060 and _0080) were reached via the current mca.legmt.gov host after a 301 redirect from archive.legmt.gov; section text confirmed by content but exact part/section path numbering for 406/408 was inferred from Part 4 structure — recommend a direct click-through from the Part 4 sections_index before treating those two deep-link URLs as canonical (the section NUMBERS 70-24-406/408/411 themselves are confirmed).",
+    "TODO_VERIFY: A secondary source (montanalawhelp.org summary) attributed quiet enjoyment to MCA § 70-24-305, but a direct read of § 70-24-305 shows it governs subletting/transfer of premises, not quiet enjoyment — that phantom citation was deliberately NOT used. Montana's quiet-enjoyment right rests on common law plus the entry (312) and ouster (411) statutes."
+  ]
 }

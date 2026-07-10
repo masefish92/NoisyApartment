@@ -3,6 +3,39 @@
   "state": "Idaho",
   "stateSlug": "id",
   "abbr": "ID",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Idaho is a comparatively landlord-friendly state that has not adopted the Uniform Residential Landlord and Tenant Act and has no broad, court-created implied warranty of habitability like most states. Instead, Idaho's protections are the narrower statutory duties in Idaho Code § 6-320, which lets a tenant sue a landlord for damages and specific performance for a limited list of failures: failure to provide reasonable waterproofing and weather protection of roof and exterior walls; failure to maintain electrical, plumbing, heating, ventilating, cooling, or sanitary facilities supplied at the start of the tenancy in good working order; maintaining the premises in a manner hazardous to the health or safety of the tenant; failure to return a security deposit as required by law; any other breach of the rental agreement that materially affects the health and safety of the tenant; and failure to install an approved smoke detector. The Idaho Supreme Court in Worden v. Ordway (1983) declined to create a broader common-law warranty, holding that the legislature had already acted in this area by enacting § 6-320 as Idaho's statutory version of the implied warranty; the statute does not apply to agricultural leases of five acres or more.",
+    "statuteName": "Idaho Code § 6-320 (Action for damages and specific performance by tenant)",
+    "statuteCitation": "Idaho Code § 6-320",
+    "sourceUrl": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-320/"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Idaho recognizes an implied covenant of quiet enjoyment in every lease as a matter of common law — the tenant's right to use and possess the rental without substantial, unreasonable interference by the landlord. It protects possession and beneficial use, not literal silence. To make out a breach, Idaho follows the traditional rule that there must be an eviction, either actual or constructive: acts by the landlord (or under the landlord's authority) that actually and materially interfere with the tenant's possession or enjoyment, such that the tenant is effectively forced to leave. Idaho has no statute requiring advance notice before a landlord enters, so entry disputes are analyzed under this common-law covenant and constructive-eviction doctrine rather than an entry-notice statute.",
+    "statuteCitation": "Common law (implied covenant of quiet enjoyment / constructive eviction); no Idaho entry-notice statute"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before suing under Idaho Code § 6-320, a tenant must serve the landlord with written notice specifying each failure or breach relied on. If, within three (3) days after service of that notice, the landlord has not performed or cured the listed items, the tenant may commence the § 6-320 action for damages and specific performance. For smoke detectors specifically, the notice is by certified mail and the landlord has 72 hours to install a working detector before the tenant's self-help option (below) applies.",
+    "statuteCitation": "Idaho Code § 6-320"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": false,
+    "summary": "Idaho generally provides no rent-escrow system and no broad repair-and-deduct self-help remedy. If a landlord fails to make required repairs, the tenant's route is a lawsuit under Idaho Code § 6-320 for damages and specific performance after giving the required three-day written notice — not withholding rent, depositing rent with a court, or unilaterally repairing and deducting. Withholding rent instead of suing exposes the tenant to eviction. The one narrow statutory exception is smoke detectors: if the landlord fails to install a working detector within 72 hours of certified-mail notice, the tenant may install one and deduct the cost from the next month's rent. No comparable deduct remedy exists for other habitability problems.",
+    "statuteCitation": "Idaho Code § 6-320"
+  },
+  "lastVerified": "2026-07-10",
+  "sources": [
+    { "label": "Idaho Code § 6-320 — Action for damages and specific performance by tenant (Idaho Legislature)", "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-320/" },
+    { "label": "Idaho Code § 6-321 — Security deposits (Idaho Legislature)", "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-321/" },
+    { "label": "Idaho Code Title 6, Chapter 3 — index (Idaho Legislature)", "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/" },
+    { "label": "Idaho Office of Attorney General — Landlord and Tenant Manual", "url": "https://www.ag.idaho.gov/content/uploads/2025/08/LandlordTenant.pdf" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: Worden v. Ordway, 105 Idaho 719 (1983) — citation and holding (that Idaho declines to recognize a broad common-law implied warranty because § 6-320 is the legislature's statutory version) come from search-surfaced summaries and secondary law-firm sources, not a direct read of the primary opinion (Idaho Reports / Pacific Reporter). Pull the full opinion before quoting it precisely. The covenant-of-quiet-enjoyment 'actual or constructive eviction' language is likewise from secondary summaries of Idaho case law, not a directly-read primary opinion.",
+    "TODO_VERIFY: Full verbatim text of § 6-320 (exact enumerated subsections and the agricultural five-acre exclusion) was read via the legislature.idaho.gov page through an automated fetch/summary; recommend a direct human read of the section to confirm subsection lettering before citing specific paragraphs like § 6-320(a)(4).",
+    "TODO_VERIFY: Did not read the Idaho AG Landlord and Tenant Manual PDF in full — included as a secondary official source only."
+  ]
 }

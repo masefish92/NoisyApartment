@@ -3,6 +3,38 @@
   "state": "North Dakota",
   "stateSlug": "nd",
   "abbr": "ND",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "North Dakota requires landlords of residential dwellings to comply with building and housing codes materially affecting health and safety, make all repairs and do whatever is necessary to put and keep the premises in a fit and habitable condition, keep common areas clean and safe, maintain electrical, plumbing, heating, ventilating, air-conditioning, and other facilities in good and safe working order, provide receptacles and arrange for waste removal, and supply running water and reasonable amounts of hot water at all times and reasonable heat (subject to limited exceptions). A landlord and tenant may agree in writing that the tenant perform some of these duties, but such agreements cannot diminish obligations owed to other tenants.",
+    "statuteName": "North Dakota Century Code, Leasing of Real Property",
+    "statuteCitation": "N.D.C.C. 47-16-13.1",
+    "sourceUrl": "https://ndlegis.gov/cencode/t47c16.pdf"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "North Dakota recognizes a tenant's right to quiet enjoyment and possession of the rented premises, protecting against substantial interference with use rather than guaranteeing literal silence. The statute codifies the entry-notice side of this directly: a landlord may enter only at reasonable times and in a reasonable manner and generally must first notify the tenant and obtain consent (which cannot be unreasonably withheld), except in an emergency or where the landlord reasonably believes the premises are abandoned. A landlord may not abuse the right of access or use it to harass or intimidate the tenant.",
+    "statuteCitation": "N.D.C.C. 47-16-07.3 (landlord entry/access; the broader covenant of quiet enjoyment also arises at common law)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "A tenant must give the landlord notice of the needed repairs or of the dilapidations the landlord ought to repair. For the statutory habitability duties, in case of noncompliance a reasonable time must be allowed to remedy the condition; North Dakota does not fix a specific number of days, so what is reasonable depends on the severity of the condition and the circumstances. Only after that notice and a reasonable time to repair may the tenant use the remedies below.",
+    "statuteCitation": "N.D.C.C. 47-16-13 and 47-16-13.1"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "If within a reasonable time after the tenant's notice of dilapidations the landlord neglects to make repairs, North Dakota law lets the tenant either repair the premises and deduct the expense from the rent, recover that expense in any other lawful manner from the landlord, or vacate the premises and be discharged from further rent. The statute does not authorize simply withholding rent without repairing, and North Dakota has no court rent-escrow deposit mechanism for repair disputes. The current repair-and-deduct statute states no dollar or one-month-rent cap on the amount.",
+    "statuteCitation": "N.D.C.C. 47-16-13"
+  },
+  "lastVerified": "2026-07-10",
+  "sources": [
+    { "label": "N.D.C.C. Chapter 47-16 — Leasing of Real Property (official ndlegis.gov PDF)", "url": "https://ndlegis.gov/cencode/t47c16.pdf" },
+    { "label": "N.D.C.C. 47-16-13.1 — Landlord obligations / maintenance of premises (FindLaw)", "url": "https://codes.findlaw.com/nd/title-47-property/nd-cent-code-sect-47-16-13-1/" },
+    { "label": "N.D.C.C. 47-16-13 — When lessee may repair or vacate premises (FindLaw)", "url": "https://codes.findlaw.com/nd/title-47-property/nd-cent-code-sect-47-16-13/" },
+    { "label": "N.D.C.C. 47-16-07.3 — When landlord may enter apartment (FindLaw)", "url": "https://codes.findlaw.com/nd/title-47-property/nd-cent-code-sect-47-16-07-3/" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: task brief mentioned a historical one-month's-rent cap on repair-and-deduct; the current text of N.D.C.C. 47-16-13 as read via FindLaw and the ndlegis.gov chapter PDF states no monetary cap, so no cap was asserted on the public page. Confirm against a full primary read of 47-16-13 if a cap is ever added back.",
+    "TODO_VERIFY: covenant of quiet enjoyment is framed as common-law plus the statutory entry-notice provision (47-16-07.3); some secondary sources describe quiet enjoyment as purely statutory, but no standalone 'quiet enjoyment' statute section was confirmed in Chapter 47-16."
+  ]
 }

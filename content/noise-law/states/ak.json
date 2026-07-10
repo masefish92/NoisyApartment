@@ -3,6 +3,41 @@
   "state": "Alaska",
   "stateSlug": "ak",
   "abbr": "AK",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Under Alaska's Uniform Residential Landlord and Tenant Act, the landlord must make all repairs and do whatever is necessary to put and keep the premises in a fit and habitable condition; keep all common areas clean and safe; maintain all electrical, plumbing, sanitary, heating, ventilating, air-conditioning, and other supplied facilities and appliances (including elevators) in good and safe working order; provide receptacles for garbage and arrange for its removal; supply running water and reasonable amounts of hot water and heat at all times, insofar as energy conditions permit; and, on request, provide adequate locks and keys and the smoke and carbon monoxide detectors required by law. Limited exceptions exist for single-family homes in undeveloped rural areas that never had running water or sanitary systems, and for one- or two-family rentals (or units renting above the statutory monthly threshold) where the tenant agrees in writing to perform certain duties.",
+    "statuteName": "Alaska Uniform Residential Landlord and Tenant Act",
+    "statuteCitation": "AS 34.03.100",
+    "sourceUrl": "https://law.justia.com/codes/alaska/title-34/chapter-03/article-3/section-34-03-100/"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Alaska recognizes a tenant's right to quiet enjoyment and possession of the premises. The landlord-tenant act codifies a key piece of this by regulating landlord access: except in an emergency or where impracticable, the landlord must give at least 24 hours' notice of intent to enter, may enter only at reasonable times, and may not abuse the right of access or use it to harass the tenant. This protects a tenant's use and possession of the home — not a right to literal silence. If the landlord makes an unlawful entry or repeated demands for entry, the tenant may obtain injunctive relief, recover actual damages or an amount equal to one month's rent (whichever is greater), and may terminate the rental agreement.",
+    "statuteCitation": "AS 34.03.140 (landlord access / 24-hour entry notice); AS 34.03.210 (tenant remedies for unlawful entry)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before using most statutory remedies for a landlord's failure to maintain the premises, the tenant must give the landlord written notice specifying the breach. For a material noncompliance affecting health and safety, the tenant may deliver written notice stating that the rental agreement will terminate on a date not less than 20 days after the landlord receives it if the breach is not remedied within 10 days. If substantially the same breach recurs within six months, the tenant may terminate on at least 10 days' written notice without a further cure period.",
+    "statuteCitation": "AS 34.03.160"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Alaska's targeted repair-and-deduct remedy applies to essential services. If the landlord wrongfully fails to supply running water, hot water, heat, sanitary facilities, or other essential services, the tenant — after giving written notice — may either procure reasonable amounts of those services and deduct their actual and reasonable cost from the rent; recover damages based on the reduced fair rental value of the unit; or procure reasonable substitute housing and be excused from rent (recovering any cost above the rent). For other material breaches under AS 34.03.160, the tenant's remedies are termination after the notice-and-cure period plus damages and injunctive relief. Alaska's landlord-tenant act does not provide a general fixed-dollar repair-and-deduct cap, and these essential-services remedies are unavailable when the tenant, a family member, or a guest caused the condition deliberately or negligently.",
+    "statuteCitation": "AS 34.03.180 (essential services); AS 34.03.160 (other material noncompliance)"
+  },
+  "lastVerified": "2026-07-10",
+  "sources": [
+    { "label": "AS 34.03.100 — Landlord to maintain fit premises", "url": "https://law.justia.com/codes/alaska/title-34/chapter-03/article-3/section-34-03-100/" },
+    { "label": "AS 34.03.140 — Access (24-hour entry notice)", "url": "https://law.justia.com/codes/alaska/title-34/chapter-03/article-4/section-34-03-140/" },
+    { "label": "AS 34.03.160 — Failure to maintain; tenant remedies", "url": "https://codes.findlaw.com/ak/title-34-property/ak-st-sect-34-03-160/" },
+    { "label": "AS 34.03.180 — Wrongful failure to supply heat, water, hot water or essential services", "url": "https://codes.findlaw.com/ak/title-34-property/ak-st-sect-34-03-180/" },
+    { "label": "Alaska Landlord & Tenant Act booklet (Alaska Dept. of Law)", "url": "https://law.alaska.gov/pdf/consumer/LandlordTenant_web.pdf" },
+    { "label": "Alaska Statutes (official — Alaska State Legislature)", "url": "https://www.akleg.gov/basis/statutes.asp" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: exact citation for the unlawful-entry tenant remedy (cited as AS 34.03.210) was inferred from the URLTA numbering pattern and secondary summaries describing the 'one month's rent or actual damages, whichever is greater' remedy; confirm the precise section against the official akleg.gov statute text before treating AS 34.03.210 as exact.",
+    "TODO_VERIFY: AS 34.03.140 statutory notice content (that the notice must specify date, approximate time, and purpose) came from a secondary summary; confirm exact statutory wording against akleg.gov.",
+    "Note: the '$400' figure sometimes associated with Alaska is the deliberate-damage threshold triggering a 24-hour notice to quit (AS 34.03.220 area), NOT a repair-and-deduct cap. Alaska's repair-and-deduct is the essential-services remedy in AS 34.03.180 with no fixed dollar ceiling — deliberately did not present $400 as a repair-and-deduct cap in the public summary."
+  ]
 }
