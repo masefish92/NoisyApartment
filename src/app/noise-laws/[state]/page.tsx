@@ -21,13 +21,20 @@ export async function generateMetadata({
   const { state: slug } = await params;
   const state = getState(slug);
   if (!state) return {};
-  return buildMetadata({
+  const metadata = buildMetadata({
     title: `${state.state} Noise Laws & Tenant Rights (Quiet Hours + Habitability)`,
     description:
       state.impliedWarrantyOfHabitability?.summary ??
       `Tenant rights, quiet-enjoyment protections, and how to document a noise complaint in ${state.state} — plus free tools to log incidents and write a complaint letter.`,
     path: `/noise-laws/${state.stateSlug}`,
   });
+  // Unresearched states render generic guidance instead of citations — keep
+  // them crawlable (so internal links still pass through) but out of the
+  // index until real statute research backs the page.
+  if (!state.verified) {
+    metadata.robots = { index: false, follow: true };
+  }
+  return metadata;
 }
 
 function LegalField({ label, children }: { label: string; children: React.ReactNode }) {

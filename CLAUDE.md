@@ -22,11 +22,12 @@ npm run seo:audit          # crawls the LIVE deployed site + audits the repo, wr
 npm run seo:fix            # dry-run: prints reversible auto-fixes for repo-audit findings
 npm run seo:fix:apply      # same, but actually writes the fixes
 npm run schema:validate    # crawls the LIVE deployed site's sitemap, validates every JSON-LD block
+npm run indexnow:ping      # crawls the LIVE sitemap, POSTs every URL to api.indexnow.org (Bing/Yandex)
 ```
 
 There is no test suite in this repo. Verification has been done manually: `npm run build` (confirms static generation succeeds, including with zero markdown content), `npm run lint` / `tsc --noEmit`, and a temporary `npm install -D playwright` for headless-browser visual checks — uninstall it again afterward rather than leaving it as a permanent dependency.
 
-`seo:audit` and `schema:validate` fetch `https://noisyapartment.org` over HTTP (via its sitemap), not the local dev server — they check what's actually live, so run them after a deploy, not instead of `npm run build`.
+`seo:audit`, `schema:validate`, and `indexnow:ping` all fetch `https://noisyapartment.org` over HTTP (via its sitemap), not the local dev server — they check/act on what's actually live, so run them after a deploy, not instead of `npm run build`. `indexnow:ping` also depends on the key file at `public/<key>.txt` matching the `INDEXNOW_KEY` constant in `scripts/indexnow-ping.mjs` — keep both in sync if the key is ever rotated.
 
 ## Architecture
 
@@ -87,7 +88,7 @@ The site originally had a full e-commerce catalogue (`src/app/shop/page.tsx`, `P
 - `/community` — forum-style board (`ForumBoard.tsx`, client-side only, not persisted) plus a "Know Your Rights" tenant-law primer section.
 - `/solutions` — longer-form "how acoustics work" explainer with a mouse-parallax effect (`SolutionsParallax.tsx`).
 - `/search` — server-rendered keyword search over cluster articles (title/description/keyword/category match), not a client-side or third-party search index.
-- `/about`, `/disclosure` — E-E-A-T and FTC-disclosure trust pages. Both still contain `[TODO]`-marked placeholder text (author bio/credentials, legal contact) — do not treat that as real content or remove the markers without replacing them with actual verified information.
+- `/about`, `/disclosure` — E-E-A-T and FTC-disclosure trust pages. `/about` has a real author bio/credentials section, a research-methodology section, and a corrections/feedback contact; `PersonSchema` renders there too. `/disclosure` covers advertising, affiliate links, editorial independence, and contact.
 
 ### SEO audit tooling (`scripts/seo-audit/`)
 

@@ -38,6 +38,9 @@ export async function generateMetadata({
     description: article.description,
     path: `/blog/${article.slug}`,
     ogImage: image?.startsWith("http") ? image : image ? `${SITE_CONFIG.siteUrl}${image}` : undefined,
+    type: "article",
+    publishedTime: article.publishDate,
+    modifiedTime: article.updatedDate ?? article.publishDate,
   });
 }
 

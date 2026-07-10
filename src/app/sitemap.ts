@@ -23,7 +23,11 @@ const STATIC_ROUTES = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const articleRoutes = getClusterArticles().map((article) => `/blog/${article.slug}`);
   const categoryRoutes = CATEGORIES.map((category) => `/category/${category.slug}`);
-  const stateRoutes = getAllStates().map((state) => `/noise-laws/${state.stateSlug}`);
+  // Unverified states render noindex (see [state]/page.tsx) — omit them here too
+  // so the sitemap never advertises a page Google's been told not to index.
+  const stateRoutes = getAllStates()
+    .filter((state) => state.verified)
+    .map((state) => `/noise-laws/${state.stateSlug}`);
   const cityRoutes = getAllCities().map(
     (city) => `/noise-laws/${city.stateSlug}/${city.citySlug}`
   );
