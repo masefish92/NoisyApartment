@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { AudioLines, ArrowRight, Layers, TrendingDown } from "lucide-react";
+import { AudioLines, Layers, TrendingDown } from "lucide-react";
 import SolutionsParallax from "@/components/SolutionsParallax";
 import { buildMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
@@ -144,7 +144,7 @@ export default function SolutionsPage() {
               </p>
               <div className="mt-6">
                 <Link
-                  href="/shop"
+                  href="/guides/apartment-noise"
                   className="font-label-sm text-label-sm text-secondary uppercase border-b-2 border-secondary"
                 >
                   View Guide
@@ -221,68 +221,6 @@ export default function SolutionsPage() {
                 Read the Complete Guide
               </Link>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Furniture as a Filter */}
-      <section className="py-section-gap border-t border-outline-variant bg-surface-container-high -mx-margin-mobile md:-mx-margin-desktop px-margin-mobile md:px-margin-desktop">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-section-gap items-center">
-          <div className="relative">
-            <div className="relative aspect-square border border-outline-variant hard-shadow overflow-hidden">
-              <Image
-                fill
-                className="object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiJ6qo-CUf2bKZsNZAoScgcxuiq9ZqKdoCtxbivQ8IvPO0Zs4nzMZ8BhaoSQMhzsRFKNpRjSRoeh6WpzpQP2R81gO0z_iU9fTUiQ_haF7YuRSY_-JiGMVBDo-vZ5wOkwu5eX5d_ueVLv7yxo2wn1KQj1zzQ9qrs4gkda6x3z1BlMXAue3BIPZwhmXuBbCRw_2zu9bF-l4dnjNz70X1thb4ksRTcU3YZcc0j4ZDKSGf_C_nP8ReC0mq"
-                alt="A walnut bookshelf filled with books and ceramic art pieces."
-              />
-            </div>
-            <div className="absolute -bottom-8 -right-8 w-40 h-40 md:w-48 md:h-48 bg-secondary-container p-6 border border-outline hidden md:flex flex-col justify-center">
-              <p className="font-headline-md text-headline-md text-on-secondary-fixed">
-                75%
-              </p>
-              <p className="font-label-sm text-label-sm uppercase leading-tight">
-                Reduction in wall echo
-              </p>
-            </div>
-          </div>
-          <div>
-            <p className="font-label-sm text-label-sm text-secondary uppercase tracking-widest mb-4">
-              Phase Three
-            </p>
-            <h2 className="font-display-lg text-display-lg text-primary mb-8">
-              Furniture as <br />a Filter
-            </h2>
-            <div className="space-y-8">
-              <div className="border-l-4 border-primary pl-6">
-                <h4 className="font-headline-md text-headline-md text-tertiary mb-2">
-                  The Library Effect
-                </h4>
-                <p className="font-body-md text-body-md text-on-surface-variant">
-                  A floor-to-ceiling bookshelf is the ultimate organic
-                  diffuser. The varying depths and materials of book spines
-                  scatter sound waves, killing &ldquo;slap back&rdquo; echoes
-                  instantly.
-                </p>
-              </div>
-              <div className="border-l-4 border-secondary pl-6">
-                <h4 className="font-headline-md text-headline-md text-tertiary mb-2">
-                  Woven Dampening
-                </h4>
-                <p className="font-body-md text-body-md text-on-surface-variant">
-                  Rugs are the &ldquo;shock absorbers&rdquo; of your floor. A
-                  high-pile wool rug with a thick felt pad underneath can
-                  absorb up to 30% of ambient room noise.
-                </p>
-              </div>
-            </div>
-            <Link
-              href="/shop"
-              className="mt-12 inline-flex bg-primary text-white px-10 py-4 rounded-lg font-label-sm text-label-sm uppercase hover:bg-primary-container transition-all items-center gap-4"
-            >
-              Shop The Quiet Collection
-              <ArrowRight size={18} />
-            </Link>
           </div>
         </div>
       </section>

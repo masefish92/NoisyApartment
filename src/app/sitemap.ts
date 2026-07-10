@@ -5,8 +5,8 @@ import { getAllStates, getAllCities } from "@/lib/noise-law";
 
 const BASE_URL = "https://noisyapartment.org";
 
-// Deliberately excludes /search and /shop: both are unlisted from nav, and
-// /shop's ?q= param history makes it a poor canonical-indexing candidate.
+// Deliberately excludes /search (unlisted from nav, low-value for indexing).
+// /shop no longer exists — it 301-redirects to / via next.config.ts.
 const STATIC_ROUTES = [
   "",
   "/guides/apartment-noise",

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { Montserrat, Merriweather } from "next/font/google";
-import { CartProvider } from "@/components/CartContext";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import OrganizationSchema from "@/components/schema/OrganizationSchema";
@@ -54,11 +53,9 @@ export default function RootLayout({
         )}
         <OrganizationSchema />
         <WebSiteSchema />
-        <CartProvider>
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </CartProvider>
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
       </body>
     </html>
   );

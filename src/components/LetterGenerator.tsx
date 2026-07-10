@@ -193,7 +193,7 @@ export default function LetterGenerator() {
     const params = new URLSearchParams(window.location.search);
     const summary = params.get("logSummary");
     if (summary) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time read of a URL param unavailable during SSR, matches CartContext.tsx's pattern.
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time read of a URL param unavailable during SSR.
       setLogAttached(true);
       setLogSummary(summary);
     }
