@@ -3,6 +3,39 @@
   "state": "Oregon",
   "stateSlug": "or",
   "abbr": "OR",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Oregon's Residential Landlord and Tenant Act requires a landlord to maintain the dwelling unit in a habitable condition at all times during the tenancy. A unit is considered unhabitable if it substantially lacks things like effective weatherproofing of the roof and exterior walls, plumbing maintained in good working order, a water supply capable of producing hot and cold running water plus approved sewage disposal, adequate heating facilities, code-compliant electrical wiring and lighting, structurally sound floors/walls/ceilings/stairways, working smoke alarms and (where applicable) carbon monoxide alarms, working locks on entrance doors, and clean, sanitary conditions free of pest infestation. Landlord and tenant may agree in writing that the tenant will perform specified repairs or maintenance, but only if entered into in good faith and not as a way to evade the landlord's own obligations.",
+    "statuteName": "Oregon Residential Landlord and Tenant Act",
+    "statuteCitation": "ORS 90.320",
+    "sourceUrl": "https://oregon.public.law/statutes/ors_90.320"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Oregon recognizes an implied covenant of quiet enjoyment as a matter of common law running with every residential lease, protecting a tenant's possession from substantial interference by the landlord — separate from any statutory 'quiet hours' or noise-decibel rule. Oregon's landlord-tenant statutes give this real teeth: a landlord who unlawfully removes or excludes a tenant, or who willfully diminishes essential services (heat, running water, hot water, electricity) to force a tenant out, is liable for injunctive relief and for damages equal to whichever is greater of two months' rent or twice the tenant's actual damages, and the tenant does not have to terminate the lease or move out first to recover that money. Separately, ORS 90.322 requires the landlord to give at least 24 hours' written notice before entering the unit (with narrow emergency exceptions) and to enter only at reasonable times — a related but distinct statutory protection of the tenant's possession.",
+    "statuteCitation": "ORS 90.375 (unlawful ouster/exclusion, willful diminution of services); ORS 90.322 (entry notice, related protection)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before a tenant can terminate the rental agreement over a landlord's material noncompliance with the lease or with the habitability duty under ORS 90.320, the tenant must give the landlord written notice specifying the acts or omissions constituting the breach. The rental agreement then terminates on a date at least 30 days after the notice is delivered if the landlord hasn't fixed the problem within 7 days (for a failure of an essential service) or within 30 days (for everything else); week-to-week tenancies have a shorter timeline. If the same violation recurs within 6 months, the tenant can shorten the cure period and terminate on at least 14 days' notice (7 days for week-to-week tenancies). Separately, the tenant may seek damages and injunctive relief for a landlord's noncompliance without necessarily terminating the lease.",
+    "statuteCitation": "ORS 90.360"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Oregon does not have a court rent-escrow deposit system, but it gives tenants two self-help repair-and-deduct remedies. Under ORS 90.365, if a landlord fails to supply an essential service (heat, running water, hot or cold water, electricity, etc.) after written notice, the tenant may procure a reasonable amount of that service and deduct the actual, reasonable cost from rent, recover damages based on the reduced rental value of the unit, or — if the failure makes the unit unsafe or unfit to live in — procure substitute housing and be excused from paying rent for that period. Under ORS 90.368, for a 'minor habitability defect' (one that can reasonably be repaired for $300 or less, such as a leaky faucet or faulty light switch, but excluding mold, radon, asbestos, and lead paint), a tenant who gives written notice of intent to repair, naming a repair date at least 7 days out, may have the defect fixed by a qualified repair person (the tenant may not personally do the work) if the landlord doesn't act, and deduct the actual cost — capped at $300 — from a later rent payment; this remedy can't be reused for the same recurrence of the same defect."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "ORS 90.320 – Landlord to maintain premises in habitable condition", "url": "https://oregon.public.law/statutes/ors_90.320" },
+    { "label": "ORS 90.360 – Effect of landlord noncompliance with rental agreement or habitability obligation", "url": "https://oregon.public.law/statutes/ors_90.360" },
+    { "label": "ORS 90.365 – Failure of landlord to supply essential services; remedies", "url": "https://oregon.public.law/statutes/ors_90.365" },
+    { "label": "ORS 90.368 – Repair of minor habitability defect", "url": "https://oregon.public.law/statutes/ors_90.368" },
+    { "label": "ORS 90.375 – Effect of unlawful ouster or exclusion; willful diminution of services", "url": "https://oregon.public.law/statutes/ors_90.375" },
+    { "label": "ORS Chapter 90 – Residential Landlord and Tenant (official chapter index)", "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors090.html" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: the $300 minor-habitability-defect cap in ORS 90.368 was cross-checked across oregon.public.law, Justia, FindLaw, and oregonlaws.org (all agree), but the official oregonlegislature.gov HTML page could not be fetched deep enough in this pass to quote it directly from the primary source — recommend a direct read of the current oregonlegislature.gov text of 90.368 before treating the $300 figure as certain to be unamended.",
+    "TODO_VERIFY: ORS 90.322 entry-notice details (24-hour standard, reasonable-time requirement, emergency exceptions) were not independently re-confirmed against the full statute text in this pass — cited here only as a cross-reference alongside the quiet-enjoyment discussion, not as the main sourced claim."
+  ]
 }

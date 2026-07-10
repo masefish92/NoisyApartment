@@ -3,6 +3,39 @@
   "state": "Connecticut",
   "stateSlug": "ct",
   "abbr": "CT",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Connecticut law requires landlords to comply with applicable building and housing codes materially affecting health and safety, make all repairs necessary to put and keep the premises in a fit and habitable condition, keep common areas clean and safe, maintain electrical, plumbing, sanitary, heating, ventilating, and other supplied facilities and appliances in good working order, provide trash receptacles and arrange for removal, and supply running water, reasonable hot water, and reasonable heat at all times (with narrow exceptions, e.g. units with tenant-controlled heat systems). This duty does not apply where the tenant or someone on the premises with the tenant's consent intentionally caused the unfit condition, and a stricter municipal ordinance or code provision controls over this statute's baseline.",
+    "statuteName": "Connecticut General Statutes, Title 47a, Chapter 830 (Rights and Responsibilities of Landlord and Tenant)",
+    "statuteCitation": "CGS Sec. 47a-7",
+    "sourceUrl": "https://www.cga.ct.gov/current/pub/chap_830.htm"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Connecticut recognizes an implied covenant of quiet enjoyment as a matter of common law, not a standalone statute — it protects a tenant's possession and use of the premises from substantial interference by the landlord, not a right to literal silence. Separately, Connecticut's landlord-tenant statute codifies a related but distinct protection: a landlord may not enter a rented unit without the tenant's consent except in narrow situations (emergency, court order, abandonment, or as otherwise permitted by statute), must give reasonable written or oral notice of intent to enter, may only enter at reasonable times, and may not abuse the entry right or use it to harass the tenant.",
+    "statuteCitation": "Common-law doctrine; entry-notice component codified at CGS Sec. 47a-16"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before a landlord can evict a tenant for a lease violation (other than nonpayment of rent or a serious nuisance, which follow a separate notice-to-quit process), Connecticut law requires the landlord to deliver written notice specifying the acts or omissions that constitute the breach and stating that the rental agreement will terminate on a date not less than 15 days after the tenant receives the notice. If the breach is one that can be fixed by repair or payment of damages, the rental agreement does not terminate if the tenant adequately remedies it within that 15-day window — though the landlord can still terminate if substantially the same violation recurs within six months. Separately, before a tenant can bring a court action to enforce a landlord's habitability duties and pay rent into court (see below), the tenant must first complain to the municipal housing or health code enforcement agency and wait at least 21 days before filing suit.",
+    "statuteCitation": "CGS Sec. 47a-15 (landlord's notice to tenant before termination); CGS Sec. 47a-14h(b) (21-day agency-complaint waiting period before a tenant's rent-escrow action)"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Connecticut has both a repair-and-deduct remedy and a formal rent-escrow procedure. If a landlord fails to supply an essential service (heat, running water, hot water, electricity, gas, etc.) after the tenant gives notice, the tenant may procure the service themselves and deduct the reasonable cost from rent, or, if the landlord doesn't restore it within 48 hours, secure substitute housing with rent abating for that period. Separately, if a landlord fails to meet the broader habitability duties under Sec. 47a-7, a tenant who has first complained to the local code enforcement agency and waited at least 21 days may file a court action and pay rent into the clerk of the court rather than to the landlord; this blocks a nonpayment eviction, and the court can order the escrowed funds used for repairs, refunded, or otherwise distributed once the violations are resolved. This rent-escrow action is unavailable if the landlord has already served a valid notice to quit for nonpayment (or, for other grounds, one served before the tenant's agency complaint)."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "CGS Sec. 47a-7 — Landlord's responsibilities", "url": "https://www.cga.ct.gov/current/pub/chap_830.htm" },
+    { "label": "CGS Sec. 47a-13 — Failure of landlord to supply essential services; tenant's remedies", "url": "https://www.cga.ct.gov/current/pub/chap_830.htm" },
+    { "label": "CGS Sec. 47a-14h — Action by individual tenant to enforce landlord's responsibilities; payment of rent into court", "url": "https://www.cga.ct.gov/current/pub/chap_830.htm" },
+    { "label": "CGS Sec. 47a-15 — Noncompliance by tenant; remedy of breach by tenant; landlord's remedies", "url": "https://www.cga.ct.gov/current/pub/chap_830.htm" },
+    { "label": "CGS Sec. 47a-16 — When landlord may enter rented unit", "url": "https://www.cga.ct.gov/current/pub/chap_830.htm" },
+    { "label": "Chapter 830 — Rights and Responsibilities of Landlord and Tenant (full chapter, official CGA site)", "url": "https://www.cga.ct.gov/current/pub/chap_830.htm" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: could not independently confirm a specific leading Connecticut case citation for the common-law covenant of quiet enjoyment (a secondary source mentioned 'Gordon v. N.F. McCarthy Co.' but I could not verify that citation against a primary reporter/case database) — recommend confirming a citable case before naming one publicly.",
+    "TODO_VERIFY: CGS Sec. 47a-14h references additional cross-sections (47a-7a, 47a-20, 47a-68, and subsection (a) of Sec. 21-82 for mobile manufactured home parks) that were not individually pulled and read in full — the summary above covers the core Sec. 47a-7 habitability-enforcement path only."
+  ]
 }

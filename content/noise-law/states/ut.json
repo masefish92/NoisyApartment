@@ -3,6 +3,38 @@
   "state": "Utah",
   "stateSlug": "ut",
   "abbr": "UT",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Utah does not have the broad, court-created implied warranty of habitability found in most states. Instead it has a narrower statutory duty under the Utah Fit Premises Act: an owner may not rent a unit unless it is safe, sanitary, and fit for human occupancy, in accordance with local ordinances and local board-of-health rules, and every unit must have working electrical systems, heating, plumbing, and hot and cold water. Owners must also keep common areas safe and sanitary, keep any air-conditioning system that exists in operable condition, and maintain other appliances or facilities only if they were specifically contracted for in the rental agreement. The Act expressly does not apply to breakage, malfunctions, or conditions that do not materially affect the physical health or safety of the ordinary renter, and any duty under the Act can be reallocated to a different party by explicit written agreement.",
+    "statuteName": "Utah Fit Premises Act",
+    "statuteCitation": "Utah Code §§ 57-22-3, 57-22-4",
+    "sourceUrl": "https://le.utah.gov/xcode/Title57/Chapter22/57-22.html"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Utah recognizes an implied covenant of quiet possession and enjoyment as a common-law lease doctrine, tied to the doctrine of constructive eviction: if a landlord's conduct or failure to act substantially and materially impairs a tenant's beneficial use of the premises, the tenant may treat that as a constructive eviction. The Utah Supreme Court applied this doctrine to a noise/disturbance dispute between a commercial tenant and an adjoining tenant in Reid v. Mutual of Omaha Ins. Co., though it found the trial court's rejection of the constructive-eviction claim on those facts was supported by the evidence. Separately, the Fit Premises Act itself only codifies a renter-to-renter version of this idea — a renter may not 'interfere with the peaceful enjoyment of the residential rental unit of another renter' — which is a duty tenants owe each other, not a general statutory quiet-enjoyment covenant running from landlord to tenant.",
+    "statuteCitation": "Common law (Reid v. Mutual of Omaha Ins. Co., 776 P.2d 896 (Utah 1989)); renter-to-renter duty codified at Utah Code § 57-22-5(2)(b)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before a Utah tenant can use either statutory remedy for a 'deficient condition' (rent abatement or repair-and-deduct), the tenant must give the owner written notice that: describes each deficient condition; states the corrective period the owner has to fix it — 3 calendar days for a failure to meet a 'standard of habitability' (the core duties in Utah Code §§ 57-22-3(1) and 57-22-4(1)(a) and (b)(i)-(iii)), or 10 calendar days for other requirements imposed by the rental agreement; states which of the two renter remedies the tenant is electing if the owner doesn't take substantial corrective action in time; and gives the owner permission to enter to make repairs. Notice must be served as provided in Utah Code § 78B-6-805 or as specified in the rental agreement. Separately, for a 'dangerous condition' posing a substantial risk of imminent loss of life or significant physical harm, a tenant can notify the owner by any reasonable means, and the owner must commence remedial action within 24 hours and diligently pursue it to completion.",
+    "statuteCitation": "Utah Code § 57-22-6(2)-(3)"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Utah does provide a repair-and-deduct remedy, but it is narrow and conditional, and there is no court-administered rent-escrow system comparable to some other states. After sending a compliant written notice of deficient condition (see notice-to-remedy above) and electing the 'repair and deduct' remedy specifically — as opposed to the alternative 'rent abatement' remedy, which instead terminates the lease and requires the tenant to move out — a tenant whose owner fails to take substantial corrective action within the corrective period may personally have the condition corrected and deduct the amount paid from future rent, capped at an amount equal to two months' rent. The tenant must keep receipts and give the owner copies within 5 calendar days after the start of the next rental period. A tenant who is not in full compliance with their own duties under Utah Code § 57-22-5 is not entitled to either remedy at all. This repair-and-deduct process was added to Utah Code § 57-22-6 by a 2023 amendment; older secondary sources describing Utah as having no repair-and-deduct remedy predate that change.",
+    "statuteCitation": "Utah Code § 57-22-6(4)"
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "Utah Code Chapter 57-22 — Utah Fit Premises Act (chapter index)", "url": "https://le.utah.gov/xcode/Title57/Chapter22/57-22.html" },
+    { "label": "Utah Code Chapter 57-22 full text PDF (57-22-1 through 57-22-7, current through 2026 General Session)", "url": "https://le.utah.gov/xcode/title57/chapter22/C57-22_1800010118000101.pdf" },
+    { "label": "Reid v. Mutual of Omaha Ins. Co., 776 P.2d 896 (Utah 1989) — Justia case page", "url": "https://law.justia.com/cases/utah/supreme-court/1989/19678.html" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: Reid v. Mutual of Omaha Ins. Co., 776 P.2d 896 (Utah 1989) — could not directly fetch the full opinion text (law.justia.com returned HTTP 403 to automated fetch); the quoted language about the lease's covenant of quiet possession and enjoyment, and the constructive-eviction discussion, come from search-engine-surfaced excerpts of that page plus secondary case-brief summaries (Quimbee, Casebriefs), not a direct read of the primary opinion. Recommend pulling the actual Pacific Reporter text (776 P.2d 896) before treating the quote/holding as precisely stated. Also note this was a commercial lease dispute, not residential, though the doctrine is described generally.",
+    "TODO_VERIFY: Utah Code § 78B-6-805 (notice-service mechanics referenced by 57-22-6(2)(b)(v)) was not independently pulled and read in full — only its cross-reference from 57-22-6 was confirmed from the primary chapter PDF.",
+    "TODO_VERIFY: did not confirm whether any city/county in Utah has adopted supplemental habitability or notice ordinances beyond what Utah Code § 57-22-7 allows (counties/municipalities may not adopt rules inconsistent with the Fit Premises Act, but administrative remedies for local-ordinance violations are permitted) — worth checking for Salt Lake City specifically if a seeded city page is ever added for Utah."
+  ]
 }

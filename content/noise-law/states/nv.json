@@ -3,6 +3,41 @@
   "state": "Nevada",
   "stateSlug": "nv",
   "abbr": "NV",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Nevada law requires a landlord to maintain the dwelling unit in a habitable condition at all times during the tenancy. A unit is not habitable if it violates housing or health codes affecting health, safety, sanitation, or fitness for habitation, or if it substantially lacks effective weatherproofing, working plumbing and an approved hot-and-cold water supply connected to approved sewage disposal, garbage removal arrangements, floors/walls/ceilings/stairways/railings in good repair, and any heating, ventilating, air-conditioning, or elevator facilities the landlord supplies or is required to supply. A landlord also cannot charge a tenant a fee for repairs or maintenance that are the landlord's own duty, unless the damage was caused by the tenant's own deliberate or negligent act.",
+    "statuteName": "Nevada Landlord and Tenant: Dwellings (NRS Chapter 118A)",
+    "statuteCitation": "NRS 118A.290",
+    "sourceUrl": "https://www.leg.state.nv.us/NRS/NRS-118A.html#NRS118ASec290"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Nevada recognizes an implied covenant of quiet enjoyment as a matter of common law, not a specific 'noise' or 'quiet hours' rule — it protects a tenant's possession from substantial interference by the landlord. The Nevada Supreme Court has held that a tenant proves breach of the covenant of quiet enjoyment by proving constructive eviction: the landlord acted or failed to act in a way that rendered all or a substantial part of the premises unfit for occupancy, and the tenant vacated within a reasonable time after giving the landlord notice and an opportunity to cure. Separately, NRS 118A.330 requires a landlord to give at least 24 hours' notice before entering a unit (except in an emergency) and to enter only at reasonable times — a statutory piece related to a tenant's possessory rights but distinct from the broader common-law covenant.",
+    "statuteCitation": "Winchell v. Schiff, 124 Nev. 938, 947, 193 P.3d 946, 952 (2008) (common-law covenant/constructive eviction); NRS 118A.330 (entry-notice component only)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "For a general habitability failure, a tenant must give the landlord written notice specifying each failure and requesting that the landlord remedy it. The landlord then has 14 days after receiving the notice to fix the problem before the tenant can use the statutory remedies below. A shorter, emergency-style timeline applies when the landlord fails to supply an essential item or service the landlord is required to provide (heat, air conditioning, running water, hot water, electricity, gas, or a functioning door lock): after written notice, the landlord must remedy the failure, or make a good-faith effort to, within 48 hours (excluding Saturday, Sunday, or a legal holiday), and prior notice isn't required at all if the landlord already admits knowledge of the problem or a government agency has already given the landlord written notice of the violation.",
+    "statuteCitation": "NRS 118A.355; NRS 118A.380"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Nevada doesn't use a court-administered rent-escrow deposit system; instead it gives tenants direct self-help remedies. If the landlord doesn't remedy a habitability failure within the 14-day notice period, the tenant may terminate the rental agreement, recover actual damages, apply to the court for relief, or withhold rent that becomes due (without incurring late fees) until the landlord remedies or makes a good-faith effort to remedy the problem. Separately, if the reasonable cost of the repair is less than $100 or one month's rent (whichever is greater), the tenant may, after 14 days' written notice (or more promptly in an emergency), have the repair done in a workmanlike manner and deduct the actual, reasonable cost from rent, itemized and documented — this repair-and-deduct amount is capped at $100 or one month's rent (whichever is greater) within any 12-month period. A similar deduct-and-procure remedy applies specifically to a landlord's failure to supply essential items or services after the 48-hour emergency notice period passes.",
+    "statuteCitation": "NRS 118A.355; NRS 118A.360; NRS 118A.380"
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "NRS 118A.290 — Habitability of dwelling unit", "url": "https://www.leg.state.nv.us/NRS/NRS-118A.html#NRS118ASec290" },
+    { "label": "NRS 118A.330 — Access; landlord's right of entry", "url": "https://www.leg.state.nv.us/NRS/NRS-118A.html#NRS118ASec330" },
+    { "label": "NRS 118A.355 — Failure of landlord to maintain dwelling unit in habitable condition; tenant remedies", "url": "https://www.leg.state.nv.us/NRS/NRS-118A.html#NRS118ASec355" },
+    { "label": "NRS 118A.360 — Repair-and-deduct remedy where cost of compliance is less than specified amount", "url": "https://www.leg.state.nv.us/NRS/NRS-118A.html#NRS118ASec360" },
+    { "label": "NRS 118A.380 — Failure of landlord to supply essential items or services", "url": "https://www.leg.state.nv.us/NRS/NRS-118A.html#NRS118ASec380" },
+    { "label": "NRS Chapter 118A — Landlord and Tenant: Dwellings (full chapter index)", "url": "https://www.leg.state.nv.us/nrs/nrs-118a.html" },
+    { "label": "Winchell v. Schiff, 124 Nev. 938, 193 P.3d 946 (2008) — covenant of quiet enjoyment / constructive eviction standard (secondary summary, case text not independently re-read in full)", "url": "https://www.casemine.com/judgement/us/599eef7eadd7b03d17139379" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: Winchell v. Schiff, 124 Nev. 938, 947, 193 P.3d 946, 952 (2008) and the related Pickett v. McCarran Mansion / Mason-McDuffie constructive-eviction elements were confirmed via secondary case-summary sources (casemine.com, law-firm blogs) rather than a direct read of the full opinion text on a primary case-law reporter — recommend pulling the actual opinion (e.g. via Nevada Supreme Court's own site or a legal database) before treating the four-element constructive-eviction test as precisely quoted.",
+    "TODO_VERIFY: did not find a Nevada statute that creates a court-administered rent-escrow deposit mechanism analogous to Ohio's R.C. 5321.07 — Nevada's remedies appear to be rent withholding (NRS 118A.355) and repair-and-deduct (NRS 118A.360, NRS 118A.380) rather than depositing rent with a court clerk. Flagging in case a court-escrow provision exists elsewhere in NRS 118A that wasn't surfaced by this research pass."
+  ]
 }

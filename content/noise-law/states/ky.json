@@ -3,6 +3,43 @@
   "state": "Kentucky",
   "stateSlug": "ky",
   "abbr": "KY",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Kentucky does not have a single, statewide landlord-tenant code. Kentucky's Uniform Residential Landlord and Tenant Act (URLTA) is a local-option law: it only applies in the specific cities and counties that have adopted it by ordinance, currently including Louisville/Jefferson County, Lexington/Fayette County, Campbell County, Oldham County, Pulaski County, and a number of smaller Northern Kentucky cities. In those URLTA jurisdictions, landlords have a statutory duty to comply with health-and-safety building/housing codes, make repairs needed to keep the unit fit and habitable, keep common areas clean and safe, keep electrical/plumbing/heating/cooling systems in good working order, and supply running water, reasonable hot water, and reasonable heat (October 1 to May 1). Outside those adopting jurisdictions, Kentucky's Supreme Court has held there is no general common-law implied warranty of habitability — a landlord's repair obligations there are limited to whatever the lease itself promises plus applicable local building/housing codes.",
+    "statuteName": "Kentucky Uniform Residential Landlord and Tenant Act (local option)",
+    "statuteCitation": "KRS 383.500 (local adoption) and KRS 383.595 (maintenance obligations, in adopting jurisdictions only)",
+    "sourceUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=35736"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Kentucky recognizes an implied covenant of quiet enjoyment as a matter of common law, applicable statewide regardless of whether a locality has adopted URLTA. Kentucky courts have long allowed a tenant to treat a landlord's substantial interference with the tenant's beneficial use and enjoyment of the premises — historically applied to a landlord's failure to maintain the property as promised — as a constructive eviction, provided the tenant actually vacates because of that interference. This is a possession/use doctrine rooted in the lease relationship, not a literal 'right to quiet' or noise-specific rule.",
+    "statuteCitation": "Common law; see Cox v. Hardy, 371 S.W.2d 945 (Ky. 1963) (constructive eviction from substantial interference with beneficial enjoyment)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "This notice process only exists as a matter of statute in the cities/counties that have adopted URLTA. There, before a tenant can terminate the lease over a landlord's failure to maintain the unit, the tenant must deliver written notice to the landlord specifying the acts, omissions, or code violations that constitute the breach, stating that the rental agreement will terminate on a date not less than 30 days after the landlord receives the notice unless the breach is remedied within 14 days. If the landlord fixes the problem within that 14-day window, the tenant cannot terminate. Outside URLTA jurisdictions, there is no equivalent statutory notice-and-cure procedure for habitability problems; a tenant's main option is a lawsuit in circuit court seeking an injunction to enforce whatever the lease or local housing code requires.",
+    "statuteCitation": "KRS 383.625 (URLTA jurisdictions only)"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Kentucky law does not give tenants a court rent-escrow procedure. In URLTA-adopting jurisdictions only, a tenant whose landlord willfully and materially fails to comply with the lease or with the maintenance duties in KRS 383.595 (in a way that materially affects health and safety) can give written notice of intent to make the repair at the landlord's expense if the landlord doesn't act within 14 days; the tenant can then deduct the greater of $100 or one-half of one month's rent from rent owed, after providing the landlord an itemized statement and proof of payment (KRS 383.635). This repair-and-deduct remedy is unavailable if the tenant (or their family or guest) caused the condition. Outside URLTA jurisdictions, tenants have no statutory right to withhold, escrow, or deduct rent to force repairs."
+  },
+  "lastVerified": "2026-07-09",
+  "sources": [
+    { "label": "KRS 383.500 — Local governments authorized to adopt URLTA", "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=35717" },
+    { "label": "KRS 383.595 — Landlord's maintenance obligations and agreements", "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=35736" },
+    { "label": "KRS 383.625 — Noncompliance by landlord (notice, cure period, termination, damages)", "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=35742" },
+    { "label": "KRS Chapter 383 — Rental of Property, Forcible Entry and Detainer, URLTA", "url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=39159" },
+    { "label": "Legal Aid of the Bluegrass, \"Kentucky Landlord and Tenant Law\" training (URLTA vs. non-URLTA jurisdictions, adopting cities/counties list, KRS 383.625/383.635 summary)", "url": "https://www.uwgc.org/wp-content/uploads/2025/06/UWGC-KY-Landlord-Tenant-Law-Training.pdf" },
+    { "label": "Cox v. Hardy, 371 S.W.2d 945 (Ky. 1963) — constructive eviction / quiet enjoyment", "url": "https://law.justia.com/cases/kentucky/court-of-appeals/1963/371-s-w-2d-945-0.html" },
+    { "label": "Miles v. Shauntee, 664 S.W.2d 512 (Ky. 1983) — no common-law implied warranty of habitability; 1974 mandatory URLTA held unconstitutional as special legislation, leading to the current local-option statute", "url": "https://law.justia.com/cases/kentucky/supreme-court/1983/664-s-w-2d-512-1.html" },
+    { "label": "Justia — KRS 383.625, Noncompliance by landlord (secondary confirmation of statutory text)", "url": "https://law.justia.com/codes/kentucky/chapter-383/section-383-625/" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: could not directly load the live apps.legislature.ky.gov statute pages via automated fetch (requests returned no content/blocked); KRS 383.595 and 383.625 text was cross-confirmed via a Legal Aid of the Bluegrass attorney training deck (dated 2025, citing 2025 KY court caseload data) plus Justia's codification of the same sections, but a direct human read of the apps.legislature.ky.gov page text before next update would be good practice.",
+    "TODO_VERIFY: the list of URLTA-adopting cities/counties (Louisville/Jefferson, Lexington/Fayette, Campbell, Oldham, Pulaski counties; Barbourville, Bellevue, Bromley, Covington, Elsmere, Florence, Fort Thomas, Georgetown, Ludlow, Melbourne, Newport, Shelbyville, Silver Grove, Southgate, Taylor Mill, Walton, Woodlawn) comes from a 2025 Legal Aid of the Bluegrass training document, not a live, continuously-updated state registry — local ordinances adopting/repealing URLTA can change, so this list should be reconfirmed periodically rather than treated as permanently current.",
+    "TODO_VERIFY: could not find a Kentucky statute or case directly codifying 'quiet enjoyment' as a named cause of action outside the constructive-eviction framework in Cox v. Hardy; treat the covenantOfQuietEnjoyment summary as accurately describing that common-law doctrine, not a standalone 'quiet enjoyment' statute.",
+    "TODO_VERIFY: KRS 383.635 (repair-and-deduct) text was not independently loaded from apps.legislature.ky.gov directly — confirmed only via the Legal Aid of the Bluegrass training deck's citation and description; recommend a direct statute read to confirm the exact $100/half-month-rent figures before treating them as unquestionable."
+  ]
 }
