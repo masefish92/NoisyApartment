@@ -3,6 +3,40 @@
   "state": "Arkansas",
   "stateSlug": "ar",
   "abbr": "AR",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": false,
+    "summary": "Arkansas has historically been the most landlord-friendly state in the country and for decades was the only U.S. state whose courts refused to recognize any common-law implied warranty of habitability — the Arkansas Supreme Court reaffirmed the old 'caveat lessee' (tenant beware) rule and its general hostility to implied lease covenants in Propst v. McNeill (1998). That common-law position still stands: Arkansas courts have not adopted a broad, judicially-created warranty of habitability. What changed is statutory. Act 1052 of 2021 added a limited set of 'implied residential quality standards' to the Arkansas Residential Landlord-Tenant Act of 2007, effective for leases entered or renewed after November 1, 2021. Under that statute a landlord must provide, at the start of the tenancy, an available source of hot and cold running water, an available source of electricity, a source of potable drinking water, a functioning roof and building envelope, a functioning heating and air-conditioning system (to the extent one was previously provided), plumbing that conforms to applicable building codes, and a functioning sewage/plumbing system — subject to exceptions for acts of God and force majeure. This is a narrow statutory minimum, not the full habitability warranty found in most states, and the tenant's remedy for a breach is sharply limited (see below).",
+    "statuteName": "Arkansas Residential Landlord-Tenant Act of 2007, as amended by Act 1052 of 2021 (implied residential quality standards)",
+    "statuteCitation": "Ark. Code Ann. § 18-17-502; historical common-law rule in Propst v. McNeill, 332 Ark. 623, 967 S.W.2d 549 (1998)",
+    "sourceUrl": "https://codes.findlaw.com/ar/title-18-property/ar-code-sect-18-17-502/"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Arkansas recognizes an implied covenant of quiet enjoyment as a common-law lease doctrine — it is the one implied lease covenant Arkansas courts have long treated as dependent rather than independent, guaranteeing the tenant peaceful possession and use of the premises against substantial interference by the landlord or those claiming under the landlord. It protects possession and beneficial use, not literal silence. Note an important Arkansas-specific limitation: under Ark. Code Ann. § 18-16-509, a landlord (and the landlord's owners, agents, and attorneys) is granted immunity from civil liability for breach of an express or implied covenant of quiet enjoyment when exercising statutory eviction rights, so the covenant does not by itself defeat a lawful eviction.",
+    "statuteCitation": "Common-law doctrine (implied covenant of quiet enjoyment); eviction-context immunity codified at Ark. Code Ann. § 18-16-509"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "For the limited statutory quality standards added in 2021, a tenant who wants to invoke the remedy must first deliver written notice of the noncompliance to the landlord by certified mail (or another method allowed by the lease), specifying the problem. The landlord then has 30 calendar days after receiving the notice to remedy it. There is no separate general 'notice and cure' regime forcing repairs — this 30-day process only unlocks the tenant's narrow lease-termination remedy, and it applies only if the tenant is current on rent and the noncompliance was not caused or excused by the tenant.",
+    "statuteCitation": "Ark. Code Ann. § 18-17-502"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": false,
+    "summary": "Arkansas does not provide a repair-and-deduct remedy or a court-administered rent-escrow system, and this remains true after the 2021 changes. The implied-quality-standards statute is explicit that a tenant may not offset or withhold rent for any alleged or actual violation of those standards. If a landlord fails to fix a covered defect within 30 days of proper written notice, the tenant's sole statutory remedy is to terminate the lease without penalty and recover any refundable security deposit — the tenant cannot pay for repairs and subtract the cost from rent, cannot deposit rent with a court, and cannot legally remain in the unit while withholding rent. Withholding rent in Arkansas can expose a tenant to eviction and, uniquely among the states, to a criminal failure-to-vacate charge under Ark. Code Ann. § 18-16-101.",
+    "statuteCitation": "Ark. Code Ann. § 18-17-502 (no offset/withholding; sole remedy is termination); criminal failure-to-vacate statute at Ark. Code Ann. § 18-16-101"
+  },
+  "lastVerified": "2026-07-10",
+  "sources": [
+    { "label": "Ark. Code Ann. § 18-17-502 — Implied residential quality standards (FindLaw)", "url": "https://codes.findlaw.com/ar/title-18-property/ar-code-sect-18-17-502/" },
+    { "label": "Act 1052 of 2021 (Regular Session) full text — Arkansas General Assembly", "url": "https://arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2021R%2FPublic%2FACT1052.pdf" },
+    { "label": "Mitchell Williams law firm — 'Act 1052: An Update to Landlord-Tenant Law in Arkansas' (summary of the 2021 habitability standards)", "url": "https://www.mitchellwilliamslaw.com/act-1052-an-update-to-landlord-tenant-law-in-arkansas" },
+    { "label": "Encyclopedia of Arkansas — 'Landlord-Tenant Laws' (history, Propst v. McNeill, Act 1052)", "url": "https://encyclopediaofarkansas.net/entries/landlord-tenant-laws-8479/" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: Propst v. McNeill citation (332 Ark. 623, 967 S.W.2d 549 (1998)) and the exact year were taken from secondary sources and search-surfaced law-review excerpts, not a direct read of the primary opinion; one search summary referred to a 1996 date. Confirm the reporter citation and year against the Arkansas Reports/S.W.2d before treating the pin cite as exact. The substantive point (Arkansas courts declined to adopt an implied warranty of habitability and reaffirmed caveat lessee) is well corroborated.",
+    "TODO_VERIFY: full text of Ark. Code Ann. § 18-17-502 was read via FindLaw's reproduction, not directly from arkleg.state.ar.us (the official Justia/state pages returned HTTP 403 to automated fetch). The Act 1052 PDF on arkleg.state.ar.us is listed as a source but was not fetched line-by-line; recommend confirming the enumerated quality-standard subsections and the sewage/plumbing item directly against the primary code before any edits.",
+    "TODO_VERIFY: § 18-16-509 (landlord immunity from quiet-enjoyment liability during eviction) and § 18-16-101 (criminal failure-to-vacate) were identified from search results/secondary summaries and not read in full from the primary code — verify section numbers and current text before relying on precise wording.",
+    "TODO_VERIFY: confirm whether the 2021 standards apply to leases 'entered OR renewed after November 1, 2021' vs. only newly entered leases — sources phrase this slightly differently; the statute's transitional/applicability language should be read directly."
+  ]
 }

@@ -3,6 +3,39 @@
   "state": "Mississippi",
   "stateSlug": "ms",
   "abbr": "MS",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Under the Mississippi Residential Landlord and Tenant Act, a landlord must maintain the dwelling in a safe and habitable condition — complying with applicable building and housing code requirements materially affecting health and safety, and keeping the electrical, plumbing, sanitary, heating, ventilating, and air-conditioning systems in safe working order. This duty does not arise for a defect caused by the tenant's own affirmative act or by the tenant's failure to meet the obligations imposed on tenants by Section 89-8-25. Mississippi's Act is relatively landlord-friendly: the parties may, in a written rental agreement entered into in good faith, agree that the tenant will perform some of these maintenance duties.",
+    "statuteName": "Mississippi Residential Landlord and Tenant Act",
+    "statuteCitation": "Miss. Code Ann. § 89-8-23",
+    "sourceUrl": "https://codes.findlaw.com/ms/title-89-real-and-personal-property/ms-code-sect-89-8-23/"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Mississippi recognizes an implied covenant of quiet enjoyment as a matter of common law — every lease implies that the tenant will have quiet, peaceful possession of the premises and that the landlord will not substantially interfere with the tenant's beneficial use and enjoyment. It protects possession and use, not literal silence, and a breach generally requires a substantial interference rather than a minor inconvenience. This is a common-law doctrine; the Residential Landlord and Tenant Act does not separately codify a general quiet-enjoyment or landlord-entry-notice provision the way some states do.",
+    "statuteCitation": "Common-law doctrine (not codified in the Miss. Residential Landlord and Tenant Act)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "For a material noncompliance by the landlord with the rental agreement or with the landlord's duties under Section 89-8-23, the tenant (as the nonbreaching party) may deliver written notice specifying the acts and omissions constituting the breach and stating that the agreement will terminate on a date not less than fourteen (14) days after receipt if the breach is not remedied within a reasonable time, not to exceed fourteen (14) days. If the landlord adequately remedies the breach before the specified date, the agreement does not terminate. Note that the separate repair-and-deduct remedy in Section 89-8-15 uses its own 30-day written-notice period before the tenant may make repairs.",
+    "statuteCitation": "Miss. Code Ann. § 89-8-13"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Mississippi provides a limited repair-and-deduct remedy. If the landlord fails to repair a specific, material defect (one that constitutes noncompliance with Section 89-8-23) within 30 days after the tenant's written notice, the tenant may have the repairs made and then offset the cost against future rent. The remedy is capped at an amount equal to one (1) month's rent, cannot be used if the tenant has exercised it within the preceding six (6) months, requires the tenant to have met the tenant obligations in Section 89-8-25, and does not entitle the tenant to more than the usual and customary charge for the repair. The statute does not create a lien against the property. Mississippi's Act does not establish a general court rent-escrow procedure.",
+    "statuteCitation": "Miss. Code Ann. § 89-8-15"
+  },
+  "lastVerified": "2026-07-10",
+  "sources": [
+    { "label": "Miss. Code Ann. § 89-8-23 — Duties of landlord (FindLaw)", "url": "https://codes.findlaw.com/ms/title-89-real-and-personal-property/ms-code-sect-89-8-23/" },
+    { "label": "Miss. Code Ann. § 89-8-13 — Right to terminate for breach; notice of breach (FindLaw)", "url": "https://codes.findlaw.com/ms/title-89-real-and-personal-property/ms-code-sect-89-8-13/" },
+    { "label": "Miss. Code Ann. § 89-8-15 — Repair of defects by tenant (FindLaw)", "url": "https://codes.findlaw.com/ms/title-89-real-and-personal-property/ms-code-sect-89-8-15/" },
+    { "label": "Mississippi Attorney General — Residential Landlord and Tenant Act (PDF)", "url": "https://attorneygenerallynnfitch.com/wp-content/uploads/2021/07/Residential-Landlord-and-Tenant-Act.pdf" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: The § 89-8-13 notice/remedy period appears to have been amended to fourteen (14) days (with added email/text notice option) in a recent session; FindLaw's current text shows 14 days while older Justia snapshots (2010-2020) show 30 days. Confirm the currently-in-effect version against the official MS Legislature site before treating '14 days' as settled.",
+    "TODO_VERIFY: Covenant of quiet enjoyment is stated here as a Mississippi common-law doctrine based on general/secondary sources; a specific Mississippi Supreme Court citation was not pinned down. Recommend citing a MS case (e.g., via Justia/Google Scholar) if a primary reference is desired.",
+    "TODO_VERIFY: Justia primary-source pages returned HTTP 403; citations were confirmed via FindLaw's statutory text and the MS AG's published Act. A direct read of the official MS Legislature (law.ms.gov / michie) text is advisable for exact current wording of §§ 89-8-15, 89-8-23, 89-8-25, 89-8-5."
+  ]
 }

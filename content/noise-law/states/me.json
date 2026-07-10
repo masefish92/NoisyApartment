@@ -3,6 +3,36 @@
   "state": "Maine",
   "stateSlug": "me",
   "abbr": "ME",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Maine law reads an implied warranty and covenant of habitability into every written or oral residential rental agreement: the landlord is deemed to warrant that the dwelling unit is fit for human habitation, and this cannot be waived. A tenant whose unit has a condition that endangers or materially impairs health or safety — and that the tenant did not cause — may enforce the warranty in District or Superior Court after giving the landlord (or whoever collects the rent) written notice of the condition without unreasonable delay. The statute specifically treats failure to provide adequate heat as a breach where the landlord is obligated to supply heat, and it sets a benchmark that heating facilities be capable of maintaining at least 68 degrees Fahrenheit under stated conditions.",
+    "statuteName": "Implied warranty and covenant of habitability",
+    "statuteCitation": "14 M.R.S. § 6021",
+    "sourceUrl": "https://www.mainelegislature.org/legis/statutes/14/title14sec6021.html"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Maine recognizes a tenant's right to undisturbed possession and use of the rented premises. Section 6021 frames the landlord's core duty as an implied covenant of habitability, and Maine common law recognizes the covenant of quiet enjoyment protecting a tenant's possession from substantial interference — it protects use and possession, not literal silence. Maine also codifies a hard floor against landlord self-help: a landlord may not willfully interrupt utility service (water, heat, electricity, gas, telephone) except for repairs or emergencies, nor deny a tenant access to the premises other than through proper judicial process, with statutory damages for violations.",
+    "statuteCitation": "14 M.R.S. § 6021 (covenant of habitability); 14 M.R.S. § 6014 (utility interruption / self-help eviction; broader quiet enjoyment is common-law)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before enforcing the warranty of habitability, a tenant must give the landlord (or the person who customarily collects the rent) written notice of the condition without unreasonable delay. For the separate repair-and-deduct remedy, the tenant must notify the landlord in writing by certified mail, return receipt requested, of the intention to correct the condition, and the landlord then has 14 days to comply (or as promptly as conditions require in an emergency) before the tenant may proceed.",
+    "statuteCitation": "14 M.R.S. § 6021 (habitability notice); 14 M.R.S. § 6026 (14-day repair notice)"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Maine allows a limited repair-and-deduct remedy for dangerous conditions requiring minor repairs. Where the reasonable cost of compliance is less than $500 or an amount equal to one-half of the monthly rent, whichever is greater, the tenant may notify the landlord in writing by certified mail of the intent to correct the condition; if the landlord does not act within 14 days (or promptly in an emergency), the tenant may have the work done with due professional care and, after giving the landlord an itemized statement, deduct the actual and reasonable cost from the rent, up to that cap. This remedy does not apply to a unit that is part of a structure with no more than 5 dwelling units where one unit is occupied by the landlord. In buildings subject to a pending foreclosure action or judgment, the cost cap is raised to the equivalent of 2 months' rent."
+  },
+  "lastVerified": "2026-07-10",
+  "sources": [
+    { "label": "14 M.R.S. § 6021 — Implied warranty and covenant of habitability", "url": "https://www.mainelegislature.org/legis/statutes/14/title14sec6021.html" },
+    { "label": "14 M.R.S. § 6026 — Dangerous conditions requiring minor repairs (repair and deduct)", "url": "https://www.mainelegislature.org/legis/statutes/14/title14sec6026.html" },
+    { "label": "14 M.R.S. § 6014 — Illegal evictions / utility interruption", "url": "https://www.mainelegislature.org/legis/statutes/14/title14sec6014.html" },
+    { "label": "MRS Title 14, Chapter 710 — Rental Property (full chapter)", "url": "https://www.mainelegislature.org/legis/statutes/14/title14ch710.pdf" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: § 6021 also contains detailed rent-withholding/escrow, retaliation, and damages provisions beyond the notice/heat summary captured here; a full read of the section is recommended before describing rent-escrow mechanics in more detail. Covenant of quiet enjoyment is stated as common-law recognition (§ 6014 covers self-help/utility interruption specifically, not a general quiet-enjoyment codification) — not independently re-verified against a Maine appellate decision."
+  ]
 }

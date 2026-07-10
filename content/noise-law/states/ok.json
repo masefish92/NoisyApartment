@@ -3,6 +3,38 @@
   "state": "Oklahoma",
   "stateSlug": "ok",
   "abbr": "OK",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Oklahoma's Residential Landlord and Tenant Act requires landlords to make all repairs and do whatever is necessary to put and keep the dwelling unit and premises in a fit and habitable condition. Specifically the landlord must comply with applicable building and housing codes materially affecting health and safety; keep all common areas clean, safe, and sanitary (except in a single-family residence); maintain in good and safe working order all electrical, plumbing, sanitary, heating, ventilating, and air-conditioning facilities and appliances the landlord supplies; and, except for one- or two-family residences, provide receptacles for waste removal and arrange for frequent removal. These duties apply throughout the tenancy.",
+    "statuteName": "Oklahoma Residential Landlord and Tenant Act",
+    "statuteCitation": "41 O.S. § 118",
+    "sourceUrl": "https://law.justia.com/codes/oklahoma/title-41/section-41-118/"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Oklahoma recognizes an implied covenant of quiet enjoyment protecting a tenant's possession and use of the premises from substantial interference — it is not a right to literal silence. The Landlord and Tenant Act codifies one concrete piece of this in its entry rules: except in an emergency or where impracticable, a landlord must give the tenant at least one day's notice before entering, may enter only at reasonable times, and may not abuse the right of access or use it to harass the tenant. The broader covenant against interference with possession is a common-law doctrine.",
+    "statuteCitation": "41 O.S. § 128 (entry-notice component; broader covenant is common-law)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "For a material noncompliance by the landlord with the rental agreement or with the Section 118 habitability duties that materially affects health or safety, the tenant delivers written notice specifying the acts and omissions constituting the breach and stating that the rental agreement will terminate on a date not less than thirty (30) days after receipt if the breach is not remedied within fourteen (14) days. Landlords have a parallel notice-and-cure process for tenant lease violations.",
+    "statuteCitation": "41 O.S. § 121"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Oklahoma allows a limited repair-and-deduct remedy. Where a breach materially affecting health or safety is remediable by repairs whose reasonable cost is equal to or less than one month's rent, the tenant may give written notice of intent to correct the condition at the landlord's expense; if the landlord does not remedy within fourteen (14) days, the tenant may have the work done and deduct the actual and reasonable cost from rent. Separately, if the landlord willfully or negligently fails to supply an essential service such as heat, running water, hot water, electricity, or gas, the tenant may (among other options) procure reasonable amounts of the service and deduct the cost from rent, recover damages based on the diminished rental value, obtain substitute housing while excused from rent during the noncompliance, or terminate. The repair-and-deduct cap was raised to one month's rent by a 2022 amendment (effective November 1, 2022).",
+    "statuteCitation": "41 O.S. § 121"
+  },
+  "lastVerified": "2026-07-10",
+  "sources": [
+    { "label": "41 O.S. § 118 — Duties of landlord and tenant (habitability)", "url": "https://law.justia.com/codes/oklahoma/title-41/section-41-118/" },
+    { "label": "41 O.S. § 121 — Landlord's breach; deductions from rent for repairs; essential services (OSCN official text)", "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=71770" },
+    { "label": "41 O.S. § 128 — Landlord entry; notice; abuse of right of entry", "url": "https://law.justia.com/codes/oklahoma/title-41/section-41-128/" },
+    { "label": "Oklahoma Statutes Title 41 — Landlord and Tenant (full title, OSCN)", "url": "https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST41&level=1" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: covenant of quiet enjoyment in Oklahoma is treated as common-law here; located statutory entry-notice codification at 41 O.S. 128 but did not locate a single OK appellate case citation squarely naming the 'covenant of quiet enjoyment' — recommend confirming a controlling Oklahoma case before adding one.",
+    "TODO_VERIFY: section 121 exact text confirmed via OSCN DeliverDocument (CiteID 71770) fetch summary and Justia; recommend a direct full read of the current OSCN 121 text to confirm the essential-services option list and the one-month-rent repair cap wording verbatim before quoting."
+  ]
 }

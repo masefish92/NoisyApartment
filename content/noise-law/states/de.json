@@ -3,6 +3,38 @@
   "state": "Delaware",
   "stateSlug": "de",
   "abbr": "DE",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Under Delaware's Residential Landlord-Tenant Code, a landlord must comply with all applicable state and local building, housing, and health codes and must provide a rental unit that does not endanger the health, welfare, or safety of the tenants and that is fit for the purpose for which it is rented. The landlord must keep common areas clean and sanitary, make all repairs necessary to keep the unit in as good a condition as it was (or should have been) at the start of the tenancy, and maintain all electrical, plumbing, and other supplied facilities in good working order. These are statutory obligations that apply regardless of the lease.",
+    "statuteName": "Delaware Residential Landlord-Tenant Code — Landlord Obligations and Tenant Remedies",
+    "statuteCitation": "25 Del. C. § 5305",
+    "sourceUrl": "https://delcode.delaware.gov/title25/c053/index.html"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Delaware recognizes a tenant's right to quiet enjoyment and possession of the leased premises. The Code obligates the landlord to supply the rental unit and possession at the beginning of the term (25 Del. C. § 5303), and § 5306 gives a tenant a remedy when any condition deprives the tenant of a substantial part of the benefit or enjoyment of the bargain — the tenant may give written notice and, if the landlord does not remedy the condition within 15 days, terminate the rental agreement (immediately if the condition makes the premises uninhabitable or poses an imminent threat to health or safety). This protects possession and use, not a right to literal silence.",
+    "statuteCitation": "25 Del. C. §§ 5303, 5306 (common-law covenant of quiet enjoyment plus the statutory substantial-deprivation remedy)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Delaware requires the tenant to give the landlord written notice of the defect or noncompliance before using most remedies. For a condition that deprives the tenant of a substantial part of the benefit of the bargain, the landlord has 15 days after receiving the notice to remedy it before the tenant may terminate (25 Del. C. § 5306). For the repair-and-deduct remedy, the landlord must, after written notice, either fail to remedy the problem within 30 days or fail to initiate reasonable corrective measures (such as getting an estimate) within 10 days before the tenant may act (25 Del. C. § 5307).",
+    "statuteCitation": "25 Del. C. §§ 5306, 5307"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Delaware allows a limited repair-and-deduct remedy. If the landlord fails to repair or maintain the premises as required and, after written notice from the tenant, does not remedy the failure within 30 days or does not initiate reasonable corrective measures within 10 days, the tenant may have the necessary work done in a professional manner and deduct from the rent a reasonable sum not exceeding $400 or one-half of one month's rent, whichever is less, after submitting copies of receipts covering at least the amount deducted. A tenant may not use this remedy for conditions the tenant caused, and a tenant who is delinquent on rent may not use it. Separately, when an essential service (heat, running water, hot water, or electricity) fails, § 5308 lets the tenant recover the reasonable cost of substitute service or withhold rent on a per-diem basis after notice.",
+    "statuteCitation": "25 Del. C. §§ 5307, 5308"
+  },
+  "lastVerified": "2026-07-10",
+  "sources": [
+    { "label": "25 Del. C. Chapter 53 — Landlord Obligations and Tenant Remedies (delcode.delaware.gov)", "url": "https://delcode.delaware.gov/title25/c053/index.html" },
+    { "label": "25 Del. C. § 5305 — Landlord obligations relating to the rental unit", "url": "https://law.justia.com/codes/delaware/title-25/chapter-53/section-5305/" },
+    { "label": "25 Del. C. § 5307 — Tenant's remedies; repair and deduction from rent", "url": "https://law.justia.com/codes/delaware/title-25/chapter-53/section-5307/" },
+    { "label": "State of Delaware Landlord-Tenant Code (official PDF, Delaware General Assembly)", "url": "https://legis.delaware.gov/docs/default-source/publications/landlordtenantcode2022.pdf?sfvrsn=f7228938_4" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: § 5308 essential-services per-diem withholding fraction (secondary sources cite 2/3 per-diem rent) not confirmed word-for-word against primary text; the summary avoids stating a specific fraction. Confirm exact mechanics against delcode § 5308 before adding a number.",
+    "TODO_VERIFY: covenant of quiet enjoyment is characterized as common-law plus the § 5306 substantial-deprivation remedy and § 5303 possession duty; Delaware does not use the literal phrase 'covenant of quiet enjoyment' in a single dedicated section (§ 5512 references it only for certain single-room rentals). Framing verified as reasonable but confirm if a cleaner citation is desired."
+  ]
 }
