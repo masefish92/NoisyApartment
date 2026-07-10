@@ -3,6 +3,39 @@
   "state": "Rhode Island",
   "stateSlug": "ri",
   "abbr": "RI",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Under Rhode Island's Residential Landlord and Tenant Act, a landlord must comply with applicable building and housing codes affecting health and safety, make all repairs and do whatever is necessary to keep the premises fit and habitable, keep common areas clean and safe, and maintain electrical, plumbing, sanitary, heating, ventilating, air-conditioning, and other facilities in good and safe working order. The landlord must also provide waste receptacles and arrange trash removal, and must supply reasonable heat between October 1 and May 1 (except where the building isn't equipped to produce heat or the unit's heat is under the tenant's own control). These duties apply throughout the tenancy and generally cannot be waived.",
+    "statuteName": "Rhode Island Residential Landlord and Tenant Act",
+    "statuteCitation": "R.I. Gen. Laws § 34-18-22",
+    "sourceUrl": "https://webserver.rilegislature.gov/Statutes/TITLE34/34-18/34-18-22.htm"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Rhode Island recognizes a tenant's right to quiet enjoyment and possession as a matter of common law, separate from the statutory habitability duties — it protects a tenant's use and possession of the unit from substantial interference, not a right to literal silence. The landlord-tenant statute reinforces this by limiting the landlord's own entry: the landlord may enter only at reasonable times and generally must give at least two (2) days' notice of intent to enter, may not abuse the right of access, and may not use access to harass the tenant (emergencies and certain extended tenant absences excepted).",
+    "statuteCitation": "R.I. Gen. Laws § 34-18-26 (entry-notice component; the broader covenant of quiet enjoyment is common-law)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "For a landlord's noncompliance with the rental agreement or with the § 34-18-22 habitability duties materially affecting health and safety, the tenant must deliver written notice specifying the acts and omissions constituting the breach and stating that the agreement will terminate on a date not less than thirty (30) days after receipt if the breach is not remedied within twenty (20) days. If the landlord adequately remedies the breach before the specified date, the agreement does not terminate. The tenant may also recover actual damages and obtain injunctive relief, plus reasonable attorney's fees if the landlord's noncompliance is willful.",
+    "statuteCitation": "R.I. Gen. Laws § 34-18-28"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Rhode Island allows a limited repair-and-deduct remedy: if the landlord fails to comply with certain habitability duties under § 34-18-22 and the reasonable cost of compliance is less than five hundred dollars ($500) in the aggregate per year, the tenant may have the repairs done in a skilled manner in compliance with applicable codes and deduct the actual and reasonable cost from rent. The tenant must first notify the landlord in writing of the intent to correct the condition at the landlord's expense, and the landlord must have failed to comply within twenty (20) days (or, in an emergency, cannot be reached or fails to act as promptly as conditions require). Repairs for damage caused by the tenant, the tenant's household, or the tenant's guests are excluded, and the tenant must give the landlord an itemized statement of the cost.",
+    "statuteCitation": "R.I. Gen. Laws § 34-18-30"
+  },
+  "lastVerified": "2026-07-10",
+  "sources": [
+    { "label": "R.I. Gen. Laws § 34-18-22 — Landlord to maintain premises", "url": "https://webserver.rilegislature.gov/Statutes/TITLE34/34-18/34-18-22.htm" },
+    { "label": "R.I. Gen. Laws § 34-18-26 — Landlord's right of access / entry notice", "url": "https://webserver.rilegislature.gov/Statutes/TITLE34/34-18/34-18-26.htm" },
+    { "label": "R.I. Gen. Laws § 34-18-28 — Noncompliance by the landlord in general", "url": "https://webserver.rilegislature.gov/Statutes/TITLE34/34-18/34-18-28.htm" },
+    { "label": "R.I. Gen. Laws § 34-18-30 — Self-help for minor defects (repair and deduct)", "url": "https://webserver.rilegislature.gov/Statutes/TITLE34/34-18/34-18-30.htm" },
+    { "label": "R.I. Gen. Laws Chapter 34-18 — Residential Landlord and Tenant Act (index)", "url": "https://webserver.rilegislature.gov/Statutes/TITLE34/34-18/INDEX.htm" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: § 34-18-30 repair-and-deduct applies to specific § 34-18-22 subsections (secondary sources cite subsections (a)(1),(2),(4),(5),(6)); the primary-source fetch confirmed the $500/year cap, 20-day notice, emergency clause, itemized-statement, and tenant-caused-damage exclusion but did not itemize which habitability subsections are covered — recommend a full read of § 34-18-30 before describing the covered-subsection list precisely.",
+    "TODO_VERIFY: Rhode Island has no separate court rent-escrow deposit mechanism confirmed here; the tenant remedy is the § 34-18-30 repair-and-deduct plus § 34-18-28 damages/termination. Confirm there is no distinct escrow statute (e.g., in the eviction/nonpayment provisions) before stating none exists."
+  ]
 }

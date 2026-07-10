@@ -3,6 +3,40 @@
   "state": "South Dakota",
   "stateSlug": "sd",
   "abbr": "SD",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "South Dakota has not adopted the Uniform Residential Landlord and Tenant Act and is comparatively landlord-friendly, but it does impose a statutory habitability duty. Under SDCL 43-32-8, during the term of the lease the lessor must keep the premises and all common areas in reasonable repair and fit for human habitation, and must keep all electrical, plumbing, and heating systems of the premises in good working order — except where the disrepair results from the lessee's own negligent, willful, or malicious conduct. This duty cannot be waived or modified by the parties, though the landlord and tenant may agree that the tenant will perform specified repairs or maintenance in lieu of rent. The statute does not spell out an exhaustive code-compliance checklist the way URLTA states do; the core standard is 'reasonable repair,' 'fit for human habitation,' and working electrical/plumbing/heating systems.",
+    "statuteName": "South Dakota Codified Laws, Lease of Real Property",
+    "statuteCitation": "SDCL 43-32-8",
+    "sourceUrl": "https://sdlegislature.gov/Statutes/43-32-8"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "South Dakota expressly codifies quiet enjoyment. Under SDCL 43-32-6, a lessor must deliver the leased premises to the lessee and secure the lessee's quiet enjoyment of them against all lawful claimants. The same section adds a specific residential remedy: if the lessor unlawfully removes or excludes the tenant from the premises, or willfully diminishes services by interrupting or causing the interruption of electric, gas, water, or other essential service, the tenant may sue for injunctive relief, recover possession by suit, or terminate the rental agreement — and in any case may recover damages equal to two months' rent plus the return of any advance rent and deposit. This is a possession-and-use protection (against eviction-type interference and utility shutoffs), not a guarantee of literal silence from neighbors.",
+    "statuteCitation": "SDCL 43-32-6"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Yes. Before a South Dakota tenant can use the repair remedies in SDCL 43-32-9, the tenant must first give the lessor notice of the conditions requiring repair to make the premises fit for human habitation or to place them in good and safe working order. The landlord then has a 'reasonable time' to make the repairs the landlord ought to make; only if the landlord neglects to do so within that reasonable time may the tenant act. The statute does not fix a set number of days — the period is whatever is reasonable given the nature and urgency of the condition. For the rent-withholding/escrow option specifically (repairs costing more than one month's rent), the tenant's notice must be in writing and must state the specific reason for the withholding.",
+    "statuteCitation": "SDCL 43-32-9"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Yes, but the remedies are limited and tenant-driven rather than court-administered. Under SDCL 43-32-9, once the landlord has had notice and a reasonable time to repair and has neglected to do so, the tenant has three options: (1) repair the condition themselves and deduct the expense from rent (or otherwise recover it from the lessor); (2) vacate the premises and be discharged from further rent and lease obligations; or (3) where the cost of necessary repairs exceeds one month's rent, after written notice stating the specific reason, withhold rent and immediately deposit it into a separate bank or savings-and-loan account used only to fund the repairs — providing the landlord written evidence of the deposit — holding it until the landlord makes the repairs (at which point the tenant releases the deposit to the landlord) or until enough has accumulated for the tenant to have the repairs made and paid for. There is no formal court-clerk rent-escrow system as in some other states; the tenant self-administers the account. The plain text of the current statute caps nothing on the simple repair-and-deduct option and uses the 'one month's rent' figure only as the threshold above which the escrow-account procedure applies.",
+    "statuteCitation": "SDCL 43-32-9"
+  },
+  "lastVerified": "2026-07-10",
+  "sources": [
+    { "label": "SDCL 43-32-6 — Obligations of lessor of real property; tenant's remedies (quiet enjoyment)", "url": "https://sdlegislature.gov/Statutes/43-32-6" },
+    { "label": "SDCL 43-32-8 — Lessor to keep premises in repair and fit for habitation", "url": "https://sdlegislature.gov/Statutes/43-32-8" },
+    { "label": "SDCL 43-32-9 — Failure of lessor to repair premises; lessee's remedies (repair-and-deduct / escrow)", "url": "https://sdlegislature.gov/Statutes/43-32-9" },
+    { "label": "SDCL Chapter 43-32 — Lease of Real Property (full chapter)", "url": "https://sdlegislature.gov/Statutes/43-32" },
+    { "label": "South Dakota Consumer Protection — Landlord/Tenant statutes (Chapter 43-32) reference PDF", "url": "https://consumer.sd.gov/docs/LLTen_Statutes43-32.pdf" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: The caveat in the task brief described SDCL 43-32-9 repair-and-deduct as 'historically capped at one month's rent / two months in a 12-month period.' The current statute text as fetched from sdlegislature.gov does NOT contain that dollar cap on the simple repair-and-deduct option — the 'one month's rent' figure appears only as the threshold that triggers the separate rent-withholding/escrow-account procedure. Public summary fields were written to match the current text, not the historical caveat. Recommend a direct read of the official codified section to confirm no per-year aggregate cap exists in a subsection not surfaced by the fetch.",
+    "TODO_VERIFY: Statute text for 43-32-6, 43-32-8, and 43-32-9 was retrieved via the sdlegislature.gov HTML API endpoint (www.sdlegislature.gov/api/Statutes/{section}.html) and cross-checked against Justia/consumer.sd.gov secondary summaries; the interactive sdlegislature.gov/Statutes/{section} pages require JavaScript and could not be rendered directly. One fetched line contained an obvious OCR-style typo ('tessee' for 'lessee'), so treat the quoted wording as substantively accurate but confirm exact punctuation against the official PDF before quoting verbatim.",
+    "TODO_VERIFY: Did not confirm whether South Dakota case law further develops the SDCL 43-32-6 quiet-enjoyment covenant into a constructive-eviction noise doctrine; summary treats it as a possession/use protection based on the statutory text only."
+  ]
 }

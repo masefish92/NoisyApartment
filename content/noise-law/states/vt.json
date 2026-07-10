@@ -3,6 +3,40 @@
   "state": "Vermont",
   "stateSlug": "vt",
   "abbr": "VT",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Vermont's Residential Rental Agreements Act builds an implied warranty of habitability into every residential lease: the landlord covenants to deliver and to maintain, throughout the tenancy, premises that are safe, clean, and fit for human habitation and that comply with applicable building, housing, and health regulations. The warranty specifically requires heating facilities capable of safely providing a reasonable amount of heat, an adequate supply of running hot and cold water, and — where the landlord provides heat — a reasonable amount of heat at all times. A tenant cannot waive these protections; any lease clause purporting to do so is void as contrary to public policy.",
+    "statuteName": "Vermont Residential Rental Agreements Act",
+    "statuteCitation": "9 V.S.A. § 4457",
+    "sourceUrl": "https://legislature.vermont.gov/statutes/section/09/137/04457"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Vermont protects a tenant's right to possession and use of the rented premises. The statute does not use the phrase 'quiet enjoyment' as a labeled section, but 9 V.S.A. § 4463 (Illegal evictions) bars a landlord from denying a tenant access to and possession of the premises, or interrupting or terminating utility service, except through proper judicial process — effectively prohibiting self-help lockouts and utility shutoffs. Separately, 9 V.S.A. § 4460 limits landlord entry to reasonable purposes between 9:00 a.m. and 9:00 p.m. on at least 48 hours' notice (except in an emergency involving imminent danger to person or property), protecting the tenant's undisturbed use of the unit.",
+    "statuteCitation": "9 V.S.A. § 4463 (illegal evictions / self-help ban); 9 V.S.A. § 4460 (landlord entry, 48-hour notice)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Before using the statutory remedies, a tenant must give the landlord actual notice of the noncompliance (notice from a governmental entity or a qualified independent inspector also suffices), and the landlord must then fail to make repairs within a reasonable time. For the rent-withholding remedy the noncompliance must materially affect health and safety; for repair-and-deduct on a minor defect, the trigger is the landlord's failure to repair within 30 days of notice. Remedies are unavailable where the tenant, or someone on the premises with the tenant's consent, negligently or deliberately caused the condition.",
+    "statuteCitation": "9 V.S.A. § 4458; 9 V.S.A. § 4459"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "Vermont gives tenants two self-help remedies after notice and a reasonable time to repair. Under 9 V.S.A. § 4458, if the landlord fails to make repairs within a reasonable time and the noncompliance materially affects health and safety, the tenant may withhold payment of rent for the period of the noncompliance (Vermont uses rent withholding rather than a court-clerk escrow deposit as the primary mechanism). Under 9 V.S.A. § 4459, if the landlord fails within 30 days of notice to repair a minor defect, the tenant may repair it and deduct the actual and reasonable cost from the rent, capped at one-half of one month's rent, after giving the landlord actual notice of the cost. Both remedies are barred where the tenant (or a person there with the tenant's consent) negligently or deliberately caused the problem.",
+    "statuteCitation": "9 V.S.A. § 4458 (rent withholding); 9 V.S.A. § 4459 (repair and deduct)"
+  },
+  "lastVerified": "2026-07-10",
+  "sources": [
+    { "label": "9 V.S.A. § 4457 — Landlord obligations; habitability", "url": "https://legislature.vermont.gov/statutes/section/09/137/04457" },
+    { "label": "9 V.S.A. § 4458 — Habitability; tenant remedy (rent withholding)", "url": "https://legislature.vermont.gov/statutes/section/09/137/04458" },
+    { "label": "9 V.S.A. § 4459 — Repair and deduct", "url": "https://legislature.vermont.gov/statutes/section/09/137/04459" },
+    { "label": "9 V.S.A. § 4460 — Access (landlord entry, 48-hour notice)", "url": "https://legislature.vermont.gov/statutes/section/09/137/04460" },
+    { "label": "9 V.S.A. § 4463 — Illegal evictions", "url": "https://legislature.vermont.gov/statutes/section/09/137/04463" },
+    { "label": "Chapter 137 — Residential Rental Agreements", "url": "https://legislature.vermont.gov/statutes/chapter/09/137" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: statute text was confirmed via WebSearch summaries of legislature.vermont.gov and Justia because the legislature.vermont.gov TLS cert failed WebFetch verification and Justia returned 403. Section numbers (4457/4458/4459/4460/4463) and the one-half-month repair-and-deduct cap and 30-day minor-defect timeline are consistent across multiple sources, but a direct read of the primary pages is recommended to lock the exact statutory wording.",
+    "TODO_VERIFY: task brief cited § 4456 for landlord access/entry, but § 4456 is 'Tenant obligations'; landlord entry / 48-hour notice is actually § 4460. Adjusted citations accordingly — confirm on primary source."
+  ]
 }

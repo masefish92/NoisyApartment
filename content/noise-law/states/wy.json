@@ -3,6 +3,38 @@
   "state": "Wyoming",
   "stateSlug": "wy",
   "abbr": "WY",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "Wyoming has no broad, court-created implied warranty of habitability; historically it was one of the most landlord-friendly states, with essentially no statutory tenant-habitability protection until the Residential Rental Property Act took effect in 2011. That Act now imposes a limited statutory duty: an owner may not rent a unit unless it is reasonably safe, sanitary, and fit for human occupancy, and must maintain common areas in a sanitary and reasonably safe condition, maintain electrical systems, plumbing, and heating, and supply hot and cold running water. Other appliances and facilities are the owner's responsibility only if specifically contracted for in the rental agreement. The protections are narrow, and any duty under the Act can be reassigned to a different party or modified by explicit written agreement signed by both parties.",
+    "statuteName": "Wyoming Residential Rental Property Act",
+    "statuteCitation": "W.S. 1-21-1203",
+    "sourceUrl": "https://www.wyoleg.gov/NXT/gateway.dll/Statutes/2021%20Titles/2/54/66"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "Wyoming recognizes an implied covenant of quiet enjoyment as a common-law lease doctrine — every lease is understood to guarantee the tenant quiet and peaceful possession of the premises, and the doctrine is enforced through constructive eviction: if a landlord's conduct or failure to act substantially and materially impairs the tenant's beneficial use of the premises, that can amount to a constructive eviction. This is a possession-and-use protection, not a right to literal silence, and a breach generally requires more than minor inconvenience — the interference must reach an essential aspect of the tenancy. The covenant here is common-law rather than statutory; the Residential Rental Property Act does not codify a general landlord-to-tenant quiet-enjoyment covenant.",
+    "statuteCitation": "Common law (implied covenant of quiet enjoyment; enforced via constructive-eviction doctrine)"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "Wyoming's process is notice-driven and runs through the courts. A renter who is current on all payments and has reasonable cause, supported by evidence, to believe the unit fails the Act's health-and-safety standards must first notify the owner in writing; within a reasonable time the owner must either begin correcting the condition or notify the renter in writing that the owner disputes the claim. If a reasonable time passes with no correction and no dispute, the renter serves a second, formal 'notice to repair or correct condition' on the owner by certified mail, demanding that the condition be corrected within three (3) days. Only after that three-day period elapses without the owner commencing corrective action may the renter pursue the judicial remedies below.",
+    "statuteCitation": "W.S. 1-21-1203; W.S. 1-21-1206"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": false,
+    "summary": "Wyoming does not provide a self-help repair-and-deduct remedy or a court-administered rent-escrow system. Unlike many states, a Wyoming tenant generally cannot lawfully withhold rent, deposit it with the court, or pay for repairs and subtract the cost from rent. Instead, after giving the required notices and waiting out the three-day period, the tenant's remedy is judicial: filing a civil action in circuit court, where the court may award damages (including rent improperly collected while the unit was unfit), order the owner to make repairs, or terminate the rental agreement. This makes Wyoming's tenant remedies comparatively limited and court-dependent.",
+    "statuteCitation": "W.S. 1-21-1206"
+  },
+  "lastVerified": "2026-07-10",
+  "sources": [
+    { "label": "W.S. Title 1, Ch. 21, Art. 12 — Residential Rental Property (official wyoleg.gov statute text)", "url": "https://www.wyoleg.gov/NXT/gateway.dll/Statutes/2021%20Titles/2/54/66" },
+    { "label": "W.S. 1-21-1206 — Renter's remedies; notice to owner; judicial remedy (Justia mirror)", "url": "https://law.justia.com/codes/wyoming/title-1/chapter-21/article-12/section-1-21-1206/" },
+    { "label": "Wyoming Judicial Branch — Landlord/Tenant self-help materials", "url": "https://www.wyocourts.gov/" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: exact section numbers 1-21-1203 (owner duties) and 1-21-1206 (renter's remedies) and the three-day/certified-mail second-notice mechanics were confirmed against the official wyoleg.gov Article 12 page and cross-checked against Justia mirrors, but the precise statutory wording of the intermediate 'reasonable time' standard in 1-21-1203/1-21-1206 was paraphrased from those sources rather than block-quoted — recommend a direct line-by-line read of the full Article 12 text (1-21-1201 through 1-21-1211) before treating any specific timeline phrasing as verbatim.",
+    "TODO_VERIFY: the covenant of quiet enjoyment for Wyoming is stated as common-law only; a specific controlling Wyoming Supreme Court citation was not pulled and verified. Confirm a primary Wyoming appellate case on constructive eviction / quiet enjoyment before adding a case citation to the public summary.",
+    "TODO_VERIFY: confirm the absence of any repair-and-deduct/rent-escrow provision by reading all of Article 12 in full; the no-self-help conclusion is based on the remedy structure of 1-21-1206 (judicial-only) and secondary summaries, not an explicit prohibiting section."
+  ]
 }

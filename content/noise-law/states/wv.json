@@ -3,6 +3,39 @@
   "state": "West Virginia",
   "stateSlug": "wv",
   "abbr": "WV",
-  "verified": false,
-  "sources": []
+  "verified": true,
+  "impliedWarrantyOfHabitability": {
+    "recognized": true,
+    "summary": "West Virginia has not adopted the Uniform Residential Landlord and Tenant Act. Its implied warranty of habitability comes from two overlapping sources. First, in Teller v. McCoy, 162 W. Va. 367, 253 S.E.2d 114 (1978), the West Virginia Supreme Court of Appeals held that every written or oral lease of residential premises contains an implied warranty that the landlord will deliver the dwelling in a fit and habitable condition at the start of the tenancy and maintain it in that condition throughout, treated the covenant to pay rent as dependent on the premises being habitable, and held that this warranty cannot be waived as against public policy. Second, the statutory duties at W. Va. Code § 37-6-30 require the landlord to deliver and maintain the dwelling and surrounding premises in a fit and habitable condition; comply with applicable health, safety, fire, and housing codes; keep common areas of multiple-unit buildings clean, safe, and in repair; make all repairs necessary to keep the unit fit and habitable; maintain electrical, plumbing, sanitary, heating, ventilating, and air-conditioning facilities in good and safe working order; provide waste-disposal conveniences in multiple-unit buildings; and supply running water, reasonable hot water at all times, and reasonable heat from October 1 through April 30. These duties do not apply where the defective condition was caused by the tenant, a family member, or a guest, and the statute expressly does not require a landlord to make repairs while the tenant is in arrears on rent.",
+    "statuteName": "W. Va. Code § 37-6-30 (statutory landlord duties), supplemented by the case-law warranty from Teller v. McCoy",
+    "statuteCitation": "W. Va. Code § 37-6-30; Teller v. McCoy, 162 W. Va. 367, 253 S.E.2d 114 (1978)",
+    "sourceUrl": "https://code.wvlegislature.gov/37-6-30/"
+  },
+  "covenantOfQuietEnjoyment": {
+    "recognized": true,
+    "summary": "West Virginia recognizes the covenant of quiet enjoyment both at common law and by statute. W. Va. Code § 36-4-14 provides that a lessor's covenant 'for the lessee's quiet enjoyment of his term,' or a covenant of like import, has the effect of a covenant that the tenant (paying rent and performing the tenant's covenants) shall peaceably possess and enjoy the demised premises for the term granted, without interruption or disturbance from any person whatever. This is a doctrine about protecting a tenant's possession and use of the premises from substantial interference, not a literal right to silence or a noise-specific rule.",
+    "statuteCitation": "W. Va. Code § 36-4-14; common law"
+  },
+  "noticeToRemedy": {
+    "required": true,
+    "summary": "A tenant must give the landlord notice of a defect or deficiency not already known to the landlord and allow a reasonable time to make the repair before invoking habitability remedies. Under Teller v. McCoy, a tenant has no viable habitability claim unless the landlord was given notice of the condition, and the landlord's failure to correct a condition that materially affects health and safety after such notice is what triggers the tenant's remedies. W. Va. Code § 37-6-30 imposes the underlying repair duties but does not itself set out a specific statutory notice-and-cure timeline, so the notice requirement and the 'reasonable time to repair' standard come from the case law.",
+    "statuteCitation": "Teller v. McCoy, 162 W. Va. 367, 253 S.E.2d 114 (1978); W. Va. Code § 37-6-30"
+  },
+  "rentEscrowOrRepairDeduct": {
+    "available": true,
+    "summary": "West Virginia does not have a classic statutory repair-and-deduct or court rent-escrow procedure like the URLTA states. Instead, the tenant's principal remedy is the case-law rent-withholding defense recognized in Teller v. McCoy: because the duty to pay rent is dependent on the premises being habitable, a landlord's breach of the implied warranty of habitability may be raised as a defense in the landlord's action for rent (including an eviction for nonpayment). A tenant who has given notice and a reasonable time to repair may, depending on the severity of the breach, vacate and terminate the obligation to pay rent, or remain in possession while continuing to pay rent and bring a separate action or counterclaim for damages (measured by the difference between the agreed rent and the fair rental value of the premises in their defective condition, plus damages for inconvenience). Note that § 37-6-30 relieves the landlord of the repair duty while the tenant is in arrears on rent, so a tenant who simply stops paying without a solid habitability basis risks eviction; the rent-withholding defense is best used with the advice of counsel or a local legal-aid organization.",
+    "statuteCitation": "Teller v. McCoy, 162 W. Va. 367, 253 S.E.2d 114 (1978)"
+  },
+  "lastVerified": "2026-07-10",
+  "sources": [
+    { "label": "W. Va. Code § 37-6-30 — Landlord to deliver premises; duty to maintain premises in fit and habitable condition (official WV Legislature)", "url": "https://code.wvlegislature.gov/37-6-30/" },
+    { "label": "W. Va. Code § 36-4-14 — Covenant for lessee's quiet enjoyment (official WV Legislature)", "url": "https://code.wvlegislature.gov/36-4-14/" },
+    { "label": "W. Va. Code Article 37-6 — Landlord and Tenant (official WV Legislature index)", "url": "https://code.wvlegislature.gov/37-6/" },
+    { "label": "Teller v. McCoy, 162 W. Va. 367, 253 S.E.2d 114 (1978) — Supreme Court of Appeals of West Virginia (Justia)", "url": "https://law.justia.com/cases/west-virginia/supreme-court/1979/cc900-3.html" }
+  ],
+  "internalNotes": [
+    "TODO_VERIFY: The exact text of § 37-6-30 was read via WebFetch of the official code.wvlegislature.gov page (confirmed: fit-and-habitable delivery/maintenance, code compliance, common-area upkeep, repairs, HVAC/plumbing/electrical good working order, waste disposal, running/hot water, reasonable heat Oct 1-Apr 30, tenant-fault carve-outs, and the no-repairs-while-in-arrears clause). Text of § 36-4-14 (quiet enjoyment) also confirmed via direct fetch of the official page.",
+    "TODO_VERIFY: The Teller v. McCoy holdings (implied warranty of habitability, rent-withholding as a defense in an action for rent under a mutually-dependent-covenants theory, non-waivability, notice-and-reasonable-time-to-repair prerequisite, and damages measured by difference between agreed rent and fair rental value) were confirmed via multiple secondary case briefs (Studicata) and WebSearch summaries. The primary Justia full-text opinion (law.justia.com/cases/west-virginia/supreme-court/1979/cc900-3.html) returned HTTP 403 on direct WebFetch, so the exact quoted holding language should be reconfirmed against a full-text reporter (CourtListener, Casemine, or a law library) before treating any specific quotation as beyond dispute. The citation 162 W. Va. 367, 253 S.E.2d 114 (1978) is consistently reported across sources.",
+    "TODO_VERIFY: West Virginia has no classic statutory repair-and-deduct or court rent-escrow statute; this was confirmed by the absence of such a provision in Article 37-6 and by secondary landlord-tenant guides. If a future update finds a municipal ordinance or a newer statutory amendment creating an escrow/deduct mechanism, layer it in separately."
+  ]
 }

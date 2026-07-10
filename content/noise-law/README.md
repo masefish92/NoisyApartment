@@ -28,14 +28,13 @@ See the `StateNoiseLaw` and `CityNoiseLaw` types in `src/lib/noise-law.ts`
 for the authoritative shape. Every entry needs `lastVerified` (ISO date)
 and a non-empty `sources` array.
 
-## State legal research status (45 of 50 verified)
+## State legal research status (50 of 50 verified)
 
-Every state has a page (all 50 got honest `verified: false` stubs in an
-earlier pass so no state page 404s or shows invented numbers). This list
-tracks which ones have real, citation-backed `verified: true` data for
+All 50 states now have real, citation-backed `verified: true` data for
 implied warranty of habitability, covenant of quiet enjoyment, notice-to-
-remedy, and rent escrow/repair-and-deduct. Seeded cities (5, one per the
-first five verified states) are listed separately below.
+remedy, and rent escrow/repair-and-deduct (every state also has a page, so
+no state page 404s or shows invented numbers). Seeded cities (5, one per
+the first five verified states) are listed separately below.
 
 - [x] Alabama
 - [x] Alaska
@@ -43,7 +42,7 @@ first five verified states) are listed separately below.
 - [x] Arkansas
 - [x] California
 - [x] Colorado
-- [ ] Connecticut
+- [x] Connecticut
 - [x] Delaware
 - [x] Florida
 - [x] Georgia
@@ -75,26 +74,28 @@ first five verified states) are listed separately below.
 - [x] Oklahoma
 - [x] Oregon
 - [x] Pennsylvania
-- [ ] Rhode Island
+- [x] Rhode Island
 - [x] South Carolina
-- [ ] South Dakota
+- [x] South Dakota
 - [x] Tennessee
 - [x] Texas
 - [x] Utah
-- [ ] Vermont
+- [x] Vermont
 - [x] Virginia
 - [x] Washington
-- [ ] West Virginia
+- [x] West Virginia
 - [x] Wisconsin
-- [ ] Wyoming
+- [x] Wyoming
 
 Seeded cities (state + city page both live): Washington (Seattle),
 California (Los Angeles), Texas (Austin), New York (New York City),
-Florida (Miami). The other 20 verified states currently have a state page
+Florida (Miami). The other 45 verified states currently have a state page
 only — no city-level page yet.
 
-This is a checklist for future research passes, not a promise that every
-unchecked entry is equally urgent — prioritize by traffic/renter population
-when picking up the next batch (e.g. Ohio-adjacent Midwest/Northeast states
-and Nevada/Arizona-adjacent Southwest states cover a lot of remaining
-renter population).
+State-level research is now complete for all 50 states. The natural next
+expansion is city-level pages (`content/noise-law/cities/...`) for
+high-renter-population metros beyond the 5 seeded ones — prioritize by
+traffic/renter population. Every state file also carries `internalNotes`
+with `TODO_VERIFY` flags from the research passes; grep `TODO_VERIFY`
+across `content/noise-law/` to find open items worth a primary-source
+recheck before treating specific citations as beyond dispute.
